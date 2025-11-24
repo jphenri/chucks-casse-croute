@@ -1,52 +1,37 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+<html lang="fr">
   <head>
-    <meta charset="utf-8" />
-    <title>
-      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% if site.description %}
-    <meta name="description" content="{{ site.description }}" />
-    {% endif %}
-
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/style.css' | relative_url }}"
-    />
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
     <header class="site-header">
+
+      <div class="lang-switch-top">
+        {% if page.url contains '/en/' %}
+          <a href="{{ '/' | relative_url }}">FR</a> · <span class="active">EN</span>
+        {% else %}
+          <span class="active">FR</span> · <a href="{{ '/en/' | relative_url }}">EN</a>
+        {% endif %}
+      </div>
+
       <div class="wrapper-header">
-        <a href="{{ '/' | relative_url }}" class="brand">
-          <img
-            src="{{ '/assets/images/logo.png' | relative_url }}"
-            alt="{{ site.title }}"
-            class="brand-logo"
-          />
+        <a class="brand" href="{{ site.baseurl }}/">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Chuck’s casse-croûte" class="brand-logo">
         </a>
-
-<nav class="site-nav">
-  <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
-  <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
-  <a class="page-link" href="{{ '/' | relative_url }}#histoire">Histoire</a>
-  <a class="page-link" href="{{ '/' | relative_url }}#avis">Avis</a>
-  <a class="page-link" href="{{ '/' | relative_url }}#contact">Contact</a>
-  <a class="page-link" href="{{ '/faq.html' | relative_url }}">FAQ</a>
-</nav>
-
+        <nav class="site-nav">
+          <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
+          <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
+        </nav>
       </div>
     </header>
 
-    <main class="wrapper">
+    <main>
       {{ content }}
     </main>
 
-<div class="social-links">
-  <a href="https://www.facebook.com/chuckscassecroute" target="_blank">
-    Facebook
-  </a>
-</div>
+
 
     <footer class="site-footer">
       <p>© {{ site.time | date: '%Y' }} Chuck’s casse-croûte — Site par J.P. Henri</p>
