@@ -358,3 +358,21 @@ img {
   }
 }
 
+/* ----------------------------------------------------
+   Limiter la taille des images sur desktop
+   ---------------------------------------------------- */
+
+@media (min-width: 769px) {
+  .card img,
+  .col img {
+    max-width: 420px;   /* taille idéale sur PC */
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+  }
+
+  .row {
+    align-items: flex-start;
+  }
+}
