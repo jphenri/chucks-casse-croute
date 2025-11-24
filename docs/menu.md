@@ -139,3 +139,13 @@ permalink: /menu.html
 <div class="text-center mt-2">
   <a href="{{ site.baseurl }}/" class="btn btn-outline">⬅ Retour à l’accueil</a>
 </div>
+ ---
+
+<footer class="site-footer">
+  <p>
+    © 2025 Chuck’s casse-croûte — Site créé par JP Henri ·
+    <a href="https://www.facebook.com/chuckscassecroute" target="_blank">
+      Facebook
+    </a>
+  </p>
+</footer>
