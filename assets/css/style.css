@@ -395,3 +395,24 @@ img {
     -webkit-overflow-scrolling: touch;
   }
 }
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fffdf9;
+  border-radius: 10px;
+}
+
+th {
+  background: #ffe8c8;
+  font-weight: 700;
+}
+
+td, th {
+  padding: .6rem .75rem;
+  border-bottom: 1px solid #f0e0c8;
+}
