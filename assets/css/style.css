@@ -23,28 +23,35 @@ body {
 }
 
 /* ----------------------------------------------------
-   HEADER / NAV
+   HEADER / NAV – logo à la place du texte
    ---------------------------------------------------- */
 
 .site-header {
-  background: #b71c1c;
-  color: #fff;
-  border-bottom: none;
+  background: #b71c1c !important;
+  color: #fff !important;
+  border-bottom: none !important;
   padding: 0.75rem 1rem;
 }
 
-/* Remplacer le texte du titre par un logo */
+/* Dans le thème Minimal, .site-title est un <h1> qui contient un <a> */
 .site-title {
-  font-size: 0; /* cacher le texte */
-  display: flex;
-  align-items: center;
-  height: 60px;
+  margin: 0;
+  font-size: 0 !important;            /* cache le texte du h1 */
+  line-height: 0;
 }
 
+.site-title a {
+  font-size: 0 !important;            /* cache aussi le texte du lien */
+  color: transparent !important;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+/* On affiche le logo à la place du texte */
 .site-title::before {
   content: "";
-  display: block;
-  width: 160px;
+  display: inline-block;
+  width: 160px;                        /* ajuste si tu veux plus grand/petit */
   height: 50px;
   background-image: url("../images/logo.png");
   background-size: contain;
@@ -52,7 +59,7 @@ body {
   background-position: left center;
 }
 
-/* Navigation */
+/* Navigation à droite (ou sous le logo en mobile) */
 .site-nav .page-link {
   color: #ffe082;
   font-weight: 600;
