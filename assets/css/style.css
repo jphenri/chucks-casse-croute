@@ -5,6 +5,10 @@
 body > h1:first-of-type {
   display: none !important;
 }
+main > h1:first-of-type,
+.markdown-body > h1:first-of-type {
+  display: none !important;
+}
 
 /* Reset */
 *,
