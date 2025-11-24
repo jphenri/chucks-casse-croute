@@ -3,6 +3,11 @@ layout: page
 title: "Menu"
 permalink: /menu.html
 ---
+<div class="lang-switch">
+  FR · <a href="{{ '/en/menu.html' | relative_url }}">EN</a>
+</div>
+
+<div class="hero">
 
 <div class="hero">
   <span class="badge">Menu complet</span>
