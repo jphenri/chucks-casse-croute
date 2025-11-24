@@ -6,36 +6,34 @@ permalink: /
 
 <div class="hero" style="text-align:center">
   <img src="./assets/images/logo.png"
-       alt="Logo Chuck’s casse-croûte"
+       alt="Chuck’s casse-croûte"
        width="150"
        style="border-radius:12px;margin-bottom:10px;" />
 
   <h1>Chuck’s casse-croûte</h1>
   <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
 
-  <a href="./menu.html" class="btn btn-primary">Voir le menu</a>
+  <img src="./assets/images/hero-chuck.jpg"
+       alt="Poutine généreuse servie chez Chuck’s casse-croûte"
+       style="max-width:100%;border-radius:16px;margin:10px auto 0;display:block;" />
+
+  <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
 </div>
 
 ---
 
-# 🍟 Notre menu
-
-Découvrez nos poutines classiques, burgers maison, hot-dogs, clubs et assiettes généreuses.
+# 🍟 Notre menu {#menu}
 
 <div class="card">
-  <h3>Poutines</h3>
-  <p>Classique, sauce blanche et poutines maison bien garnies.</p>
-</div>
+  <img src="./assets/images/menu-poutine.jpg"
+       alt="Assortiment de poutines et plats du menu de Chuck’s casse-croûte"
+       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
 
-<div class="card">
-  <h3>Burgers</h3>
-  <p>Fromage & bacon, poulet, et le Chuck Burger signature.</p>
-</div>
-
-<div class="card">
-  <h3>Classiques de casse-croûte</h3>
-  <p>Hot-dogs, clubs, assiettes et plus encore.</p>
+  <p>
+    Poutines classiques, spéciales maison, burgers, hot-dogs, bouchées et trios :  
+    tout ce qu’il faut pour un bon repas de casse-croûte québécois.
+  </p>
 </div>
 
 <div class="text-center">
@@ -44,87 +42,93 @@ Découvrez nos poutines classiques, burgers maison, hot-dogs, clubs et assiettes
 
 ---
 
-# 🧑‍🍳 L’histoire de Chuck
+# 🧑‍🍳 L’histoire de Chuck {#histoire}
 
 <div class="card">
-  <p>
-    Chuck’s casse-croûte, c’est un vrai casse-croûte de quartier à Gatineau :
-    portions généreuses, ambiance locale et recettes qui traversent les années.
-  </p>
-</div>
+  <img src="./assets/images/histoire-chuck.jpg"
+       alt="Intérieur de Chuck’s casse-croûte à Gatineau"
+       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
 
-<div class="text-center">
-  <a href="./histoire.html" class="btn btn-outline">Lire l’histoire complète</a>
+  <p>
+    Chuck’s casse-croûte, c’est un repère local à Gatineau :  
+    des portions généreuses, une ambiance simple et chaleureuse,  
+    et un comptoir de cantine où tout le monde se sent chez soi.
+  </p>
 </div>
 
 ---
 
-# ⭐ Avis & reviews
+# ⭐ Avis & reviews {#avis}
 
 <div class="card">
+  <img src="./assets/images/reviews-chuck.jpg"
+       alt="Clients satisfaits et avis positifs chez Chuck’s casse-croûte"
+       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
+
   <p>
-    Les clients parlent de portions généreuses, de poutines décadentes
-    et d’un casse-croûte où on revient encore et encore.
+    On nous parle souvent de nos portions <strong>bien remplies</strong>,  
+    de nos poutines « parmi les meilleures en ville » et de notre service friendly.
   </p>
 </div>
 
 <div class="text-center">
-  <a href="./reviews.html" class="btn btn-primary">Voir la page Avis</a>
-</div>
-
-<p class="text-center" style="margin-top:1rem;">
-  <em>Tu veux voir notre sélection d’avis en détail&nbsp;?</em><br>
   <a href="https://share.google/MH1O5rEseR35d5RUn"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="btn btn-outline">
-    Consulter les avis (document)
+     class="btn btn-outline"
+     target="_blank">
+    Voir notre sélection d’avis
   </a>
-</p>
+</div>
 
 ---
 
-# ❓ FAQ
+# ❓ FAQ {#faq}
 
 <div class="card">
-  <h3>Est-ce qu’on peut commander pour emporter&nbsp;?</h3>
+  <h3>Est-ce qu’on peut commander pour emporter ?</h3>
   <p>Oui, il suffit de nous appeler pendant les heures d’ouverture.</p>
 </div>
 
 <div class="card">
-  <h3>Quels sont les jours d’ouverture&nbsp;?</h3>
-  <p>Du mercredi au samedi, de 11 h à 18 h 45. Fermé dimanche, lundi et mardi.</p>
+  <h3>Quels sont les jours d’ouverture ?</h3>
+  <p>Du mercredi au samedi · 11 h – 18 h 45.<br>Dimanche, lundi, mardi : fermé.</p>
 </div>
 
 <div class="card">
-  <h3>Est-ce qu’on peut manger sur place&nbsp;?</h3>
+  <h3>Est-ce qu’on peut manger sur place ?</h3>
   <p>Oui, il y a une salle à manger familiale sur place.</p>
 </div>
 
 <div class="text-center">
-  <a href="./faq.html" class="btn btn-outline">Voir toutes les questions</a>
+  <a href="./faq.html" class="btn btn-primary">Voir toutes les questions</a>
 </div>
 
 ---
 
-# 📍 Contact & localisation
+# 📍 Contact & localisation {#contact}
 
 <div class="card">
+  <img src="./assets/images/contact-chuck.jpg"
+       alt="Façade de Chuck’s casse-croûte à Gatineau"
+       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
+
   <p>
     📍 <strong>
       <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
-         target="_blank"
-         rel="noopener noreferrer">
+         target="_blank">
         196 chemin de la Savane, Gatineau, QC J8T 1R3
       </a>
-    </strong><br>
-    📞 <strong>819-561-5353</strong><br>
-    Ouvert du mercredi au samedi : 11 h – 18 h 45.
+    </strong><br><br>
+
+    📞 <strong>819-561-5353</strong><br><br>
+
+    🕚 <strong>Mercredi → Samedi</strong><br>
+    11 h – 18 h 45<br>
+    Dimanche, lundi, mardi : <strong>fermé</strong>
   </p>
 </div>
 
 <div class="text-center">
-  <a href="./contact.html" class="btn btn-primary">Informations complètes</a>
+  <a href="#menu" class="btn btn-outline">Voir le menu</a>
 </div>
 
 ---
