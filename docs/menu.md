@@ -4,22 +4,22 @@ title: "Menu"
 permalink: /menu.html
 ---
 
-<div class="hero" style="text-align:center">
+<!-- HERO -->
+<div class="hero">
   <span class="badge">Menu complet</span>
   <h1>🍟 Menu de Chuck’s casse-croûte</h1>
   <p>
     Poutines généreuses, burgers débordants, bouchées croustillantes et trios bien garnis.<br>
     Le casse-croûte parfait pour se faire plaisir à Gatineau.
   </p>
-  <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3" class="btn btn-primary">Notre adresse</a> 
+  <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
+     class="btn btn-primary">Notre adresse</a> 
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
 </div>
 
+<div class="container wrapper">
 
----
-
-## 🥔 Frites et poutines
-
+<h2 id="frites-poutines">🥔 Frites et poutines</h2>
 
 <div class="card">
   <h3>Classiques de cantine</h3>
@@ -43,8 +43,7 @@ permalink: /menu.html
 
 ---
 
-## 🍴 Les bouchées
-
+<h2 id="bouchees">🍴 Les bouchées</h2>
 
 <div class="card">
   <h3>Bouchées à partager (ou pas 😋)</h3>
@@ -72,8 +71,7 @@ permalink: /menu.html
 
 ---
 
-## 🍔 Les burgers
-
+<h2 id="burgers">🍔 Les burgers</h2>
 
 <div class="card">
   <h3>Burgers de casse-croûte</h3>
@@ -94,8 +92,7 @@ permalink: /menu.html
 
 ---
 
-## 🍽️ Les assiettes
-
+<h2 id="assiettes">🍽️ Les assiettes</h2>
 
 <div class="card">
   <h3>Assiettes complètes</h3>
@@ -116,8 +113,7 @@ permalink: /menu.html
 
 ---
 
-## 🧃 Les trios
-
+<h2 id="trios">🧃 Les trios</h2>
 
 <div class="card">
   <h3>Trios Chuck’s</h3>
@@ -134,12 +130,9 @@ permalink: /menu.html
 | Trio #3 | Burger classique, petite frites + breuvage. Option : version petite poutine. |
 | Trio #4 | Burger fromage, petite frites + breuvage. Option : version petite poutine. |
 
----
-
 <div class="text-center mt-2">
-  <a href="{{ site.baseurl }}/" class="btn btn-outline">⬅ Retour à l’accueil</a>
+  <a href="{{ '/' | relative_url }}" class="btn btn-outline">⬅ Retour à l’accueil</a>
 </div>
- ---
 
 <footer class="site-footer">
   <p>
@@ -149,3 +142,5 @@ permalink: /menu.html
     </a>
   </p>
 </footer>
+
+</div> <!-- .container.wrapper -->
