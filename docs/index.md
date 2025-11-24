@@ -4,21 +4,46 @@ title: "Chuck’s casse-croûte"
 permalink: /
 ---
 
-# Chuck’s casse-croûte
+<div class="hero" style="text-align:center">
+  <img src="./assets/images/logo.png"
+       alt="Logo Chuck’s casse-croûte"
+       width="150"
+       style="border-radius:12px;margin-bottom:10px;" />
 
-Poutines **sa coche**, burgers bien garnis et ambiance familiale à Gatineau.
+  <h1>Chuck’s casse-croûte</h1>
+  <p>
+    Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.
+  </p>
 
-👉 Adresse : **196 chemin de la Savane, Gatineau, QC J8T 1R3**  
-👉 Téléphone : **819-561-5353**
+  <a href="tel:18195615353" class="btn btn-primary">Appeler maintenant</a>
+  <a href="./menu.html" class="btn btn-outline">Voir le menu</a>
+</div>
 
 ---
 
-## Pourquoi venir chez Chuck ?
+## Pourquoi venir chez Chuck&nbsp;?
 
-- 🧀 Poutines généreuses  
-- 🍔 Burgers maison  
-- 👨‍👩‍👧‍👦 Ambiance familiale  
-- 🕚 Ouvert mercredi → samedi : 11 h – 18 h 45  
+- 🧀 Poutines généreuses
+- 🍔 Burgers maison
+- 👨‍👩‍👧‍👦 Ambiance de quartier ultra friendly
+- 🕚 Ouvert du mercredi au samedi : 11 h – 18 h 45
+
+---
+
+## Adresse & téléphone
+
+📍 **196 chemin de la Savane, Gatineau, QC J8T 1R3**  
+📞 **819-561-5353**
+
+---
+
+## Horaire
+
+- Mercredi : 11 h – 18 h 45  
+- Jeudi : 11 h – 18 h 45  
+- Vendredi : 11 h – 18 h 45  
+- Samedi : 11 h – 18 h 45  
+- Dimanche, lundi, mardi : **fermé**
 
 ---
 
@@ -28,7 +53,7 @@ Poutines **sa coche**, burgers bien garnis et ambiance familiale à Gatineau.
 - [L’histoire de Chuck](./histoire.html)
 - [Avis & reviews](./reviews.html)
 - [FAQ](./faq.html)
-- [Contact](./contact.html)
+- [Contact & localisation](./contact.html)
 
 ---
 
@@ -39,7 +64,13 @@ Poutines **sa coche**, burgers bien garnis et ambiance familiale à Gatineau.
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Chuck's Casse-Croute",
-  "image": "",
+  "image": [
+    "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png"
+  ],
+  "@id": "{{ site.url }}{{ site.baseurl }}/",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "telephone": "+1-819-561-5353",
+  "priceRange": "$",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "196 chemin de la Savane",
@@ -48,8 +79,12 @@ Poutines **sa coche**, burgers bien garnis et ambiance familiale à Gatineau.
     "postalCode": "J8T 1R3",
     "addressCountry": "CA"
   },
-  "telephone": "+1-819-561-5353",
-  "priceRange": "$",
+  "servesCuisine": [
+    "Casse-croûte",
+    "Poutine",
+    "Burger",
+    "Sandwichs"
+  ],
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -57,12 +92,6 @@ Poutines **sa coche**, burgers bien garnis et ambiance familiale à Gatineau.
       "opens": "11:00",
       "closes": "18:45"
     }
-  ],
-  "servesCuisine": [
-    "Casse-croûte",
-    "Poutine",
-    "Burger",
-    "Sandwichs"
   ]
 }
 </script>
