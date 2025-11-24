@@ -46,15 +46,25 @@ permalink: /
 
 <div class="card">
   <img src="./assets/images/histoire-chuck.jpg"
-       alt="Intérieur de Chuck’s casse-croûte à Gatineau"
+       alt="Chuck’s casse-croûte - cuisine maison et ambiance locale"
        style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
 
   <p>
-    Chuck’s casse-croûte, c’est un repère local à Gatineau :  
-    des portions généreuses, une ambiance simple et chaleureuse,  
-    et un comptoir de cantine où tout le monde se sent chez soi.
+    Avant d’ouvrir son propre casse-croûte à Gatineau, Chuck a travaillé comme
+    <strong>saucier au prestigieux Château Montebello</strong>, l’un des hôtels
+    les plus reconnus au Canada.  
+    C’est là qu’il a perfectionné ses techniques, ses sauces maison et son amour
+    pour la cuisine généreuse.
+  </p>
+
+  <p>
+    Aujourd’hui, il ramène cette expertise dans un menu simple, réconfortant,
+    bien exécuté : poutines décadentes, burgers maison et classiques de cantine
+    faits avec soin.  
+    <strong>Un vrai goût de savoir-faire local.</strong>
   </p>
 </div>
+
 
 ---
 
