@@ -15,3 +15,17 @@ baseurl: "/chucks-casse-croute"  # ou vide "" si tu l’utilises comme user site
 
 # SEO de base
 lang: fr-CA
+
+languages:
+  - fr
+  - en
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: fr
+  - scope:
+      path: "en"
+    values:
+      lang: en
+
