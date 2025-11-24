@@ -4,6 +4,10 @@ title: "Chuck’s casse-croûte"
 permalink: /
 ---
 
+<div class="lang-switch">
+  FR · <a href="{{ '/en/' | relative_url }}">EN</a>
+</div>
+
 <!-- HERO -->
 <div class="hero">
   <img src="{{ '/assets/images/logo.png' | relative_url }}"
