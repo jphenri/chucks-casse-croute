@@ -4,39 +4,71 @@ title: "Menu"
 permalink: /menu.html
 ---
 
-# Menu de Chuck’s casse-croûte
+# Menu
 
-Ici, on sert du **classique bien fait** : poutines massives, burgers généreux, hot-dogs, clubs et assiettes.
+## Frites et poutines
 
-> 🔧 Astuce : remplace les sections ci-dessous par ton vrai menu (copie manuelle de ton tableau/menu).
-
-## Poutines
-
-- Poutine classique – frites maison, fromage en grains, sauce brune
-- Poutine sauce blanche
-- Poutines signature (Buffalo, BBQ, etc.)   
-
-## Burgers
-
-- Burger fromage et bacon  
-- Burger au poulet  
-- Chuck Burger (signature)   
-
-## Hot-dogs & sandwichs
-
-- Hot-dog bacon fromage  
-- Club Chuck & poutine  
-- Grilled cheese, etc.
-
-## Assiettes
-
-- Assiette burger + frites
-- Assiette hot-dog
-- Assiette poulet, etc.
+- Frites  
+- Poutine classique  
+- Poutine poulet  
+- Poutine poulet Buffalo  
+- Poutine bœuf  
+- Poutine bacon  
+- Poutine 3 viandes  
+- Poutine chili  
+- Chuck Poutine  
+  <small>(Poulet, bacon, oignons, champignons et sirop d’érable pur)</small>
 
 ---
 
-Tu peux **mettre une photo du menu réel** dans `/assets/images/menu/` et l’intégrer ainsi :
+## Les bouchées
 
-```markdown
-![Menu complet de Chuck’s casse-croûte](/assets/images/menu/menu-chucks.jpg)
+- Hot-dog  
+- Hot-dog fromage  
+- Hot-dog fromage bacon  
+- Chuck-dog  
+- Pogo  
+- Chuck grilled cheese  
+- Rondelles d’oignons  
+- Bâtonnets de fromage (6)  
+- Bâtonnets de zucchini  
+- Cornichons frits  
+- Ailes de poulet  
+- Roulé pizza  
+- Chili (petit ou grand)  
+
+---
+
+## Les burgers
+
+- Burger classique  
+- Burger fromage  
+- Burger fromage et bacon  
+- Burger champignons Suisse  
+- Chuck Burger au poulet  
+  <small>(Poitrine de poulet, fromage à poutine, bacon, mayo maison)</small>  
+- Chuck Burger  
+  <small>(Champignons, oignons, bacon, fromage, mayo maison)</small>
+
+---
+
+## Les assiettes  
+<small>(Servies avec frites et salade de chou maison)</small>
+
+- Club classique  
+- Chuck Club  
+  <small>(Poulet, sauce chili sucrée, fromage Suisse, bacon et laitue)</small>  
+- Club wrap  
+- Chuck wrap  
+- Wrap poulet Buffalo  
+- Hamburger steak  
+- Doigts de poulet (4)  
+
+---
+
+## Trios
+
+- **Trios #1** – Chuck grilled cheese, avec petite frites et breuvage (version petite poutine disponible)  
+- **Trios #2** – 2 hot-dogs ou 2 pogos, avec petite frites et breuvage (version petite poutine disponible)  
+- **Trios #3** – Burger classique, avec petite frites et breuvage (version petite poutine disponible)  
+- **Trios #4** – Burger fromage, avec petite frites et breuvage (version petite poutine disponible)  
