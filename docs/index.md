@@ -4,6 +4,7 @@ title: "Chuck’s casse-croûte"
 permalink: /
 ---
 
+<!-- HERO -->
 <div class="hero">
   <img src="{{ '/assets/images/logo.png' | relative_url }}"
        alt="Chuck’s casse-croûte"
@@ -19,7 +20,8 @@ permalink: /
 
 <div class="container wrapper">
 
-# 🍟 Notre menu {#menu}
+<!-- MENU -->
+<h2 id="menu">🍟 Notre menu</h2>
 
 <div class="card">
   <div class="row">
@@ -47,7 +49,8 @@ permalink: /
 
 ---
 
-# 🧑‍🍳 L’histoire de Chuck {#histoire}
+<!-- HISTOIRE -->
+<h2 id="histoire">🧑‍🍳 L’histoire de Chuck</h2>
 
 <div class="card">
   <div class="row">
@@ -93,10 +96,12 @@ permalink: /
 
 ---
 
-# ⭐ Avis & reviews {#avis}
+<!-- AVIS -->
+<h2 id="avis">⭐ Avis & reviews</h2>
 
 <div class="card">
   <div class="row">
+
     <div class="col">
       <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
          target="_blank"
@@ -123,12 +128,14 @@ permalink: /
         </a>
       </p>
     </div>
+
   </div>
 </div>
 
 ---
 
-# ❓ FAQ {#faq}
+<!-- FAQ -->
+<h2 id="faq">❓ FAQ</h2>
 
 <div class="card">
   <h3>Est-ce qu’on peut commander pour emporter ?</h3>
@@ -147,7 +154,8 @@ permalink: /
 
 ---
 
-# 📍 Contact & localisation {#contact}
+<!-- CONTACT -->
+<h2 id="contact">📍 Contact & localisation</h2>
 
 <div class="card">
   <div class="row">
@@ -157,6 +165,7 @@ permalink: /
     </div>
 
     <div class="col">
+
       <p>
         📍 <strong>
           <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
@@ -177,12 +186,12 @@ permalink: /
       <p>
         <a href="#menu" class="btn btn-outline">Voir le menu</a>
       </p>
+
     </div>
   </div>
 </div>
 
----
-
+<!-- FOOTER -->
 <footer class="site-footer">
   <p>
     © 2025 Chuck’s casse-croûte — Site créé par JP Henri ·
@@ -192,9 +201,9 @@ permalink: /
   </p>
 </footer>
 
-</div> <!-- fin .container.wrapper -->
+</div> <!-- .container.wrapper -->
 
-<!-- JSON-LD SEO LocalBusiness -->
+<!-- JSON-LD SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
