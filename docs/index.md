@@ -61,13 +61,29 @@ permalink: /
 # ⭐ Avis & reviews {#avis}
 
 <div class="card">
-  <img src="./assets/images/reviews-chuck.jpg"
-       alt="Clients satisfaits et avis positifs chez Chuck’s casse-croûte"
-       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
 
-  <p>
-    On nous parle souvent de nos portions <strong>bien remplies</strong>,  
-    de nos poutines « parmi les meilleures en ville » et de notre service friendly.
+  <!-- TikTok Embed -->
+  <blockquote
+    class="tiktok-embed"
+    cite="https://www.tiktok.com/@djieeph/video/7528406964968164613"
+    data-video-id="7528406964968164613"
+    style="max-width: 605px; min-width: 325px; margin: 0 auto 10px auto;"
+  >
+    <section>
+      <a target="_blank" title="@djieeph" href="https://www.tiktok.com/@djieeph?refer=embed">@djieeph</a>
+      <a title="poutine" target="_blank" href="https://www.tiktok.com/tag/poutine?refer=embed">#poutine</a>
+      <a title="gatineau" target="_blank" href="https://www.tiktok.com/tag/gatineau?refer=embed">#gatineau</a>
+      <a target="_blank" title="♬ son original - 𝕯𝖏𝖎𝖊𝖊𝖕𝖍 🇨🇦"
+         href="https://www.tiktok.com/music/son-original-7528407042421181240?refer=embed">
+         ♬ son original - 𝕯𝖏𝖎𝖊𝖊𝖕𝖍 🇨🇦
+      </a>
+    </section>
+  </blockquote>
+  <script async src="https://www.tiktok.com/embed.js"></script>
+
+  <p style="margin-top: 15px;">
+    Les clients adorent nos portions généreuses, notre sauce brune et blanche,
+    et nos poutines parmi les meilleures en ville.
   </p>
 </div>
 
@@ -78,6 +94,7 @@ permalink: /
     Voir notre sélection d’avis
   </a>
 </div>
+
 
 ---
 
