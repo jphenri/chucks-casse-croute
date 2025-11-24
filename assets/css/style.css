@@ -1,6 +1,10 @@
 /* ----------------------------------------------------
    Chuck’s Casse-Croûte – Thème custom
    ---------------------------------------------------- */
+/* Cacher le gros titre auto "chucks-casse-croute" ajouté en haut par GitHub */
+body > h1:first-of-type {
+  display: none !important;
+}
 
 /* Reset */
 *,
