@@ -3,7 +3,7 @@ description: "Poutines généreuses, burgers débordants et casse-croûte famili
 theme: jekyll-theme-minimal
 
 # Liens utiles (s’affichent dans le thème Minimal)
-logo: /assets/images/logo.jpg   # remplace par ton logo si tu veux
+logo: /assets/images/logo.png   # remplace par ton logo si tu veux
 show_downloads: false
 
 # Liens sociaux (tu peux ajuster/compléter)
