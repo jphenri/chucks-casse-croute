@@ -248,7 +248,19 @@ img {
   font-size: 0.85rem;
   color: #777;
   padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
 }
+
+.site-footer a {
+  color: #b71c1c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
 
 /* ----------------------------------------------------
    UTILITAIRES
