@@ -4,7 +4,7 @@ title: "Chuck’s casse-croûte"
 permalink: /
 ---
 
-<div class="hero" style="text-align:center">
+<div class="hero">
   <img src="{{ '/assets/images/logo.png' | relative_url }}"
        alt="Chuck’s casse-croûte"
        width="150"
@@ -17,7 +17,7 @@ permalink: /
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
 </div>
 
----
+<div class="container wrapper">
 
 # 🍟 Notre menu {#menu}
 
@@ -50,7 +50,6 @@ permalink: /
 # 🧑‍🍳 L’histoire de Chuck {#histoire}
 
 <div class="card">
-  <!-- FIRST ROW -->
   <div class="row">
     <div class="col">
       <img src="{{ '/assets/images/equipe-chuck.png' | relative_url }}"
@@ -63,8 +62,8 @@ permalink: /
         <strong>saucier au prestigieux Château Montebello</strong>, l’un des hôtels les plus reconnus au Canada.
       </p>
       <p>
-        C’est là qu’il a perfectionné ses techniques culinaires, ses sauces maison et son amour
-        pour la cuisine généreuse.
+        C’est là qu’il a perfectionné ses techniques culinaires, ses sauces maison
+        et son amour pour la cuisine généreuse.
       </p>
       <p>
         Aujourd’hui, il ramène cette expertise dans un menu simple, réconfortant et bien exécuté :
@@ -73,7 +72,6 @@ permalink: /
     </div>
   </div>
 
-  <!-- SECOND ROW -->
   <div class="row" style="margin-top:1.5rem;">
     <div class="col">
       <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
@@ -82,7 +80,7 @@ permalink: /
 
     <div class="col">
       <p>
-        Chuck’s casse-croûte, c’est aussi un petit repère local avec des tables extérieures
+        Chuck’s casse-croûte, c’est aussi un repère local avec des tables extérieures
         pour profiter d’un repas simple, rapide et bon.
       </p>
       <p>
@@ -99,22 +97,14 @@ permalink: /
 
 <div class="card">
   <div class="row">
-
     <div class="col">
-      <!-- TikTok Embed -->
-      <blockquote
-        class="tiktok-embed"
-        cite="https://www.tiktok.com/@djieeph/video/7528406964968164613"
-        data-video-id="7528406964968164613"
-        style="max-width: 605px; min-width: 325px; margin: 0 auto;"
-      >
-        <section>
-          <a target="_blank" title="@djieeph" href="https://www.tiktok.com/@djieeph?refer=embed">@djieeph</a>
-          <a title="poutine" target="_blank" href="https://www.tiktok.com/tag/poutine?refer=embed">#poutine</a>
-          <a title="gatineau" target="_blank" href="https://www.tiktok.com/tag/gatineau?refer=embed">#gatineau</a>
-        </section>
-      </blockquote>
-      <script async src="https://www.tiktok.com/embed.js"></script>
+      <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
+         target="_blank"
+         class="tiktok-card">
+        <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
+             alt="Vidéo TikTok sur la poutine de Chuck’s casse-croûte">
+        <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
+      </a>
     </div>
 
     <div class="col">
@@ -126,7 +116,7 @@ permalink: /
         Beaucoup nous disent que nos poutines font partie des meilleures en Outaouais.
       </p>
       <p>
-        <a href="https://share.google/MH1O5rEsseR35d5RUn"
+        <a href="https://share.google/MH1O5rEseR35d5RUn"
            class="btn btn-outline"
            target="_blank">
           Voir nos avis
@@ -161,7 +151,6 @@ permalink: /
 
 <div class="card">
   <div class="row">
-
     <div class="col">
       <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
            alt="Chuck’s casse-croûte - extérieur">
@@ -203,8 +192,7 @@ permalink: /
   </p>
 </footer>
 
-
----
+</div> <!-- fin .container.wrapper -->
 
 <!-- JSON-LD SEO LocalBusiness -->
 <script type="application/ld+json">
