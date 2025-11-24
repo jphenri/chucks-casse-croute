@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% if site.description %}
+    <meta name="description" content="{{ site.description }}" />
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper-header">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <img
+            src="{{ '/assets/images/logo.png' | relative_url }}"
+            alt="{{ site.title }}"
+            class="brand-logo"
+          />
+        </a>
+
+        <nav class="site-nav">
+          <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
+          <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
+          <a class="page-link" href="{{ '/histoire.html' | relative_url }}">Histoire</a>
+          <a class="page-link" href="{{ '/reviews.html' | relative_url }}">Avis</a>
+          <a class="page-link" href="{{ '/faq.html' | relative_url }}">FAQ</a>
+          <a class="page-link" href="{{ '/contact.html' | relative_url }}">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrapper">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>© {{ site.time | date: '%Y' }} Chuck’s casse-croûte — Site par J.P. Henri</p>
+    </footer>
+  </body>
+</html>
