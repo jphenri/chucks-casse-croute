@@ -5,15 +5,13 @@ permalink: /
 ---
 
 <div class="hero" style="text-align:center">
-  <img src="./assets/images/logo.png"
+  <img src="{{ '/assets/images/logo.png' | relative_url }}"
        alt="Chuck’s casse-croûte"
        width="150"
        style="border-radius:12px;margin-bottom:10px;" />
 
   <h1>Chuck’s casse-croûte</h1>
   <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
-
-
 
   <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
@@ -24,18 +22,27 @@ permalink: /
 # 🍟 Notre menu {#menu}
 
 <div class="card">
-  <img src="./assets/images/menu-poutine.png"
-       alt="Assortiment de poutines et plats du menu de Chuck’s casse-croûte"
-       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
+  <div class="row">
+    <div class="col">
+      <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
+           alt="Poutine sauce brune">
+    </div>
 
-  <p>
-    Poutines classiques, spéciales maison, burgers, hot-dogs, bouchées et trios :  
-    tout ce qu’il faut pour un bon repas de casse-croûte québécois.
-  </p>
-</div>
-
-<div class="text-center">
-  <a href="./menu.html" class="btn btn-primary">Voir le menu complet</a>
+    <div class="col">
+      <p>
+        Poutines classiques, spéciales maison, burgers, hot-dogs, bouchées et trios :
+        tout ce qu’il faut pour un bon repas de casse-croûte québécois.
+      </p>
+      <p>
+        Que tu sois team sauce brune ou sauce blanche, tu vas être servi en portion généreuse.
+      </p>
+      <p>
+        <a href="{{ '/menu.html' | relative_url }}" class="btn btn-primary">
+          Voir le menu complet
+        </a>
+      </p>
+    </div>
+  </div>
 </div>
 
 ---
@@ -43,69 +50,91 @@ permalink: /
 # 🧑‍🍳 L’histoire de Chuck {#histoire}
 
 <div class="card">
-  <img src="./assets/images/equipe-chuck.png"
-       alt="Chuck’s casse-croûte - cuisine maison et ambiance locale"
-       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
-         <img src="./assets/images/hero-chuck.png"
-       alt="Poutine généreuse servie chez Chuck’s casse-croûte"
-       style="max-width:100%;border-radius:16px;margin:10px auto 0;display:block;" />
+  <!-- FIRST ROW -->
+  <div class="row">
+    <div class="col">
+      <img src="{{ '/assets/images/equipe-chuck.png' | relative_url }}"
+           alt="Chuck et son équipe">
+    </div>
 
-  <p>
-    Avant d’ouvrir son propre casse-croûte à Gatineau, Chuck a travaillé comme
-    <strong>saucier au prestigieux Château Montebello</strong>, l’un des hôtels
-    les plus reconnus au Canada.  
-    C’est là qu’il a perfectionné ses techniques, ses sauces maison et son amour
-    pour la cuisine généreuse.
-  </p>
+    <div class="col">
+      <p>
+        Avant d’ouvrir son propre casse-croûte à Gatineau, Chuck a travaillé comme
+        <strong>saucier au prestigieux Château Montebello</strong>, l’un des hôtels les plus reconnus au Canada.
+      </p>
+      <p>
+        C’est là qu’il a perfectionné ses techniques culinaires, ses sauces maison et son amour
+        pour la cuisine généreuse.
+      </p>
+      <p>
+        Aujourd’hui, il ramène cette expertise dans un menu simple, réconfortant et bien exécuté :
+        poutines décadentes, burgers maison, hot-dogs et classiques de cantine.
+      </p>
+    </div>
+  </div>
 
-  <p>
-    Aujourd’hui, il ramène cette expertise dans un menu simple, réconfortant,
-    bien exécuté : poutines décadentes, burgers maison et classiques de cantine
-    faits avec soin.  
-    <strong>Un vrai goût de savoir-faire local.</strong>
-  </p>
+  <!-- SECOND ROW -->
+  <div class="row" style="margin-top:1.5rem;">
+    <div class="col">
+      <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
+           alt="Façade du casse-croûte Chuck">
+    </div>
+
+    <div class="col">
+      <p>
+        Chuck’s casse-croûte, c’est aussi un petit repère local avec des tables extérieures
+        pour profiter d’un repas simple, rapide et bon.
+      </p>
+      <p>
+        Ambiance familiale, service chaleureux et portions bien remplies —
+        c’est ce qui fait la réputation du casse-croûte.
+      </p>
+    </div>
+  </div>
 </div>
-
 
 ---
 
 # ⭐ Avis & reviews {#avis}
 
 <div class="card">
+  <div class="row">
 
-  <!-- TikTok Embed -->
-  <blockquote
-    class="tiktok-embed"
-    cite="https://www.tiktok.com/@djieeph/video/7528406964968164613"
-    data-video-id="7528406964968164613"
-    style="max-width: 605px; min-width: 325px; margin: 0 auto 10px auto;"
-  >
-    <section>
-      <a target="_blank" title="@djieeph" href="https://www.tiktok.com/@djieeph?refer=embed">@djieeph</a>
-      <a title="poutine" target="_blank" href="https://www.tiktok.com/tag/poutine?refer=embed">#poutine</a>
-      <a title="gatineau" target="_blank" href="https://www.tiktok.com/tag/gatineau?refer=embed">#gatineau</a>
-      <a target="_blank" title="♬ son original - 𝕯𝖏𝖎𝖊𝖊𝖕𝖍 🇨🇦"
-         href="https://www.tiktok.com/music/son-original-7528407042421181240?refer=embed">
-         ♬ son original - 𝕯𝖏𝖎𝖊𝖊𝖕𝖍 🇨🇦
-      </a>
-    </section>
-  </blockquote>
-  <script async src="https://www.tiktok.com/embed.js"></script>
+    <div class="col">
+      <!-- TikTok Embed -->
+      <blockquote
+        class="tiktok-embed"
+        cite="https://www.tiktok.com/@djieeph/video/7528406964968164613"
+        data-video-id="7528406964968164613"
+        style="max-width: 605px; min-width: 325px; margin: 0 auto;"
+      >
+        <section>
+          <a target="_blank" title="@djieeph" href="https://www.tiktok.com/@djieeph?refer=embed">@djieeph</a>
+          <a title="poutine" target="_blank" href="https://www.tiktok.com/tag/poutine?refer=embed">#poutine</a>
+          <a title="gatineau" target="_blank" href="https://www.tiktok.com/tag/gatineau?refer=embed">#gatineau</a>
+        </section>
+      </blockquote>
+      <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
 
-  <p style="margin-top: 15px;">
-    Les clients adorent nos portions généreuses, notre sauce brune et blanche,
-    et nos poutines parmi les meilleures en ville.
-  </p>
+    <div class="col">
+      <p>
+        Les clients adorent nos portions généreuses, notre sauce brune et blanche
+        et l’ambiance authentique de casse-croûte québécois.
+      </p>
+      <p>
+        Beaucoup nous disent que nos poutines font partie des meilleures en Outaouais.
+      </p>
+      <p>
+        <a href="https://share.google/MH1O5rEsseR35d5RUn"
+           class="btn btn-outline"
+           target="_blank">
+          Voir nos avis
+        </a>
+      </p>
+    </div>
+  </div>
 </div>
-
-<div class="text-center">
-  <a href="https://share.google/MH1O5rEseR35d5RUn"
-     class="btn btn-outline"
-     target="_blank">
-    Voir notre sélection d’avis
-  </a>
-</div>
-
 
 ---
 
@@ -123,11 +152,7 @@ permalink: /
 
 <div class="card">
   <h3>Est-ce qu’on peut manger sur place ?</h3>
-  <p>Oui, il y a une salle à manger familiale sur place.</p>
-</div>
-
-<div class="text-center">
-  <a href="./faq.html" class="btn btn-primary">Voir toutes les questions</a>
+  <p>Oui, nous avons une salle à manger familiale.</p>
 </div>
 
 ---
@@ -135,28 +160,36 @@ permalink: /
 # 📍 Contact & localisation {#contact}
 
 <div class="card">
-  <img src="./assets/images/contact-chuck.jpg"
-       alt="Façade de Chuck’s casse-croûte à Gatineau"
-       style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
+  <div class="row">
 
-  <p>
-    📍 <strong>
-      <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
-         target="_blank">
-        196 chemin de la Savane, Gatineau, QC J8T 1R3
-      </a>
-    </strong><br><br>
+    <div class="col">
+      <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
+           alt="Chuck’s casse-croûte - extérieur">
+    </div>
 
-    📞 <strong>819-561-5353</strong><br><br>
+    <div class="col">
+      <p>
+        📍 <strong>
+          <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
+             target="_blank">
+            196 chemin de la Savane, Gatineau, QC J8T 1R3
+          </a>
+        </strong>
+      </p>
 
-    🕚 <strong>Mercredi → Samedi</strong><br>
-    11 h – 18 h 45<br>
-    Dimanche, lundi, mardi : <strong>fermé</strong>
-  </p>
-</div>
+      <p>📞 <strong>819-561-5353</strong></p>
 
-<div class="text-center">
-  <a href="#menu" class="btn btn-outline">Voir le menu</a>
+      <p>
+        🕚 <strong>Mercredi → Samedi</strong><br>
+        11 h – 18 h 45<br>
+        Dimanche, lundi, mardi : <strong>fermé</strong>
+      </p>
+
+      <p>
+        <a href="#menu" class="btn btn-outline">Voir le menu</a>
+      </p>
+    </div>
+  </div>
 </div>
 
 ---
