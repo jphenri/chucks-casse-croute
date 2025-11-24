@@ -13,7 +13,7 @@ permalink: /
   <h1>Chuck’s casse-croûte</h1>
   <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
 
-  <img src="./assets/images/hero-chuck.jpg"
+  <img src="./assets/images/hero-chuck.png"
        alt="Poutine généreuse servie chez Chuck’s casse-croûte"
        style="max-width:100%;border-radius:16px;margin:10px auto 0;display:block;" />
 
@@ -26,7 +26,7 @@ permalink: /
 # 🍟 Notre menu {#menu}
 
 <div class="card">
-  <img src="./assets/images/menu-poutine.jpg"
+  <img src="./assets/images/menu-poutine.png"
        alt="Assortiment de poutines et plats du menu de Chuck’s casse-croûte"
        style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
 
