@@ -11,66 +11,105 @@ permalink: /
        style="border-radius:12px;margin-bottom:10px;" />
 
   <h1>Chuck’s casse-croûte</h1>
-  <p>
-    Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.
-  </p>
+  <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
 
-  <a href="tel:18195615353" class="btn btn-primary">Appeler maintenant</a>
-  <a href="./menu.html" class="btn btn-outline">Voir le menu</a>
+  <a href="./menu.html" class="btn btn-primary">Voir le Menu</a>
+  <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
 </div>
 
 ---
 
-## Pourquoi venir chez Chuck&nbsp;?
+# 🍟 Notre menu (aperçu)
 
-- 🧀 Poutines généreuses
-- 🍔 Burgers maison
-- 👨‍👩‍👧‍👦 Ambiance de quartier ultra friendly
-- 🕚 Ouvert du mercredi au samedi : 11 h – 18 h 45
+Découvrez nos poutines classiques, burgers maison, hot-dogs, clubs et assiettes généreuses.
 
----
+<div class="card">
+  <h3>Poutines</h3>
+  <p>Classique, sauce blanche, variantes maison.</p>
+</div>
 
-## Adresse & téléphone
+<div class="card">
+  <h3>Burgers</h3>
+  <p>Fromage & bacon, poulet, Chuck Burger signature.</p>
+</div>
 
-📍 **196 chemin de la Savane, Gatineau, QC J8T 1R3**  
-📞 **819-561-5353**
-
----
-
-## Horaire
-
-- Mercredi : 11 h – 18 h 45  
-- Jeudi : 11 h – 18 h 45  
-- Vendredi : 11 h – 18 h 45  
-- Samedi : 11 h – 18 h 45  
-- Dimanche, lundi, mardi : **fermé**
+<div class="text-center">
+  <a href="./menu.html" class="btn btn-primary">Voir le menu complet</a>
+</div>
 
 ---
 
-## Plan du site
+# 🧑‍🍳 L’histoire de Chuck
 
-- [Menu](./menu.html)
-- [L’histoire de Chuck](./histoire.html)
-- [Avis & reviews](./reviews.html)
-- [FAQ](./faq.html)
-- [Contact & localisation](./contact.html)
+<div class="card">
+  <p>
+    Un vrai casse-croûte de quartier à Gatineau : portions généreuses, ambiance locale
+    et recettes qui traversent les années.  
+  </p>
+</div>
+
+<div class="text-center">
+  <a href="./histoire.html" class="btn btn-outline">Lire l’histoire complète</a>
+</div>
+
+---
+
+# ⭐ Avis & Reviews
+
+<div class="card">
+  <p>
+    Les clients adorent nos portions ultra généreuses, notre sauce brune et blanche,
+    et nos poutines parmi les meilleures en ville.
+  </p>
+</div>
+
+<div class="text-center">
+  <a href="./reviews.html" class="btn btn-primary">Voir les avis</a>
+</div>
+
+---
+
+# ❓ FAQ
+
+<div class="card">
+  <h3>Est-ce qu’on peut commander pour emporter ?</h3>
+  <p>Oui !</p>
+</div>
+
+<div class="card">
+  <h3>Quels sont les horaires ?</h3>
+  <p>Du mercredi au samedi, 11 h – 18 h 45.</p>
+</div>
+
+<div class="text-center">
+  <a href="./faq.html" class="btn btn-outline">Voir toutes les questions</a>
+</div>
+
+---
+
+# 📍 Contact & localisation
+
+<div class="card">
+  <p>
+    📍 <strong>196 chemin de la Savane, Gatineau, QC J8T 1R3</strong><br>
+    📞 <strong>819-561-5353</strong><br>
+    Ouvert du mercredi au samedi : 11 h – 18 h 45.
+  </p>
+</div>
+
+<div class="text-center">
+  <a href="./contact.html" class="btn btn-primary">Informations complètes</a>
+</div>
 
 ---
 
 <!-- JSON-LD SEO LocalBusiness -->
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Chuck's Casse-Croute",
-  "image": [
-    "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png"
-  ],
-  "@id": "{{ site.url }}{{ site.baseurl }}/",
-  "url": "{{ site.url }}{{ site.baseurl }}/",
-  "telephone": "+1-819-561-5353",
-  "priceRange": "$",
+  "image": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "196 chemin de la Savane",
@@ -79,6 +118,7 @@ permalink: /
     "postalCode": "J8T 1R3",
     "addressCountry": "CA"
   },
+  "telephone": "+1-819-561-5353",
   "servesCuisine": [
     "Casse-croûte",
     "Poutine",
