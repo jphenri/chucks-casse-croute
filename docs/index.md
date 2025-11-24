@@ -194,6 +194,18 @@ permalink: /
 
 ---
 
+<footer class="site-footer">
+  <p>
+    © 2025 Chuck’s casse-croûte — Site créé par JP Henri ·
+    <a href="https://www.facebook.com/chuckscassecroute" target="_blank">
+      Facebook
+    </a>
+  </p>
+</footer>
+
+
+---
+
 <!-- JSON-LD SEO LocalBusiness -->
 <script type="application/ld+json">
 {
