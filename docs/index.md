@@ -13,9 +13,7 @@ permalink: /
   <h1>Chuck’s casse-croûte</h1>
   <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
 
-  <img src="./assets/images/hero-chuck.png"
-       alt="Poutine généreuse servie chez Chuck’s casse-croûte"
-       style="max-width:100%;border-radius:16px;margin:10px auto 0;display:block;" />
+
 
   <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
@@ -48,6 +46,9 @@ permalink: /
   <img src="./assets/images/equipe-chuck.png"
        alt="Chuck’s casse-croûte - cuisine maison et ambiance locale"
        style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
+         <img src="./assets/images/hero-chuck.png"
+       alt="Poutine généreuse servie chez Chuck’s casse-croûte"
+       style="max-width:100%;border-radius:16px;margin:10px auto 0;display:block;" />
 
   <p>
     Avant d’ouvrir son propre casse-croûte à Gatineau, Chuck a travaillé comme
