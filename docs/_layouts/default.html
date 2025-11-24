@@ -9,12 +9,16 @@
     {% if site.description %}
     <meta name="description" content="{{ site.description }}" />
     {% endif %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
   </head>
   <body>
     <header class="site-header">
       <div class="wrapper-header">
-        <a class="brand" href="{{ '/' | relative_url }}">
+        <a href="{{ '/' | relative_url }}" class="brand">
           <img
             src="{{ '/assets/images/logo.png' | relative_url }}"
             alt="{{ site.title }}"
@@ -25,10 +29,16 @@
         <nav class="site-nav">
           <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
           <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
-          <a class="page-link" href="{{ '/histoire.html' | relative_url }}">Histoire</a>
-          <a class="page-link" href="{{ '/reviews.html' | relative_url }}">Avis</a>
+          <a class="page-link" href="{{ '/histoire.html' | relative_url }}"
+            >Histoire</a
+          >
+          <a class="page-link" href="{{ '/reviews.html' | relative_url }}"
+            >Avis</a
+          >
           <a class="page-link" href="{{ '/faq.html' | relative_url }}">FAQ</a>
-          <a class="page-link" href="{{ '/contact.html' | relative_url }}">Contact</a>
+          <a class="page-link" href="{{ '/contact.html' | relative_url }}"
+            >Contact</a
+          >
         </nav>
       </div>
     </header>
