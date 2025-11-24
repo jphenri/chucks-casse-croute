@@ -45,7 +45,7 @@ permalink: /
 # 🧑‍🍳 L’histoire de Chuck {#histoire}
 
 <div class="card">
-  <img src="./assets/images/histoire-chuck.jpg"
+  <img src="./assets/images/equipe-chuck.png"
        alt="Chuck’s casse-croûte - cuisine maison et ambiance locale"
        style="max-width:100%;border-radius:12px;margin-bottom:10px;" />
 
