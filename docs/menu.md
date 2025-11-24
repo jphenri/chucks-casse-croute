@@ -4,7 +4,6 @@ title: "Menu"
 permalink: /menu.html
 ---
 
-<!-- HERO -->
 <div class="hero">
   <span class="badge">Menu complet</span>
   <h1>🍟 Menu de Chuck’s casse-croûte</h1>
@@ -29,6 +28,8 @@ permalink: /menu.html
   </p>
 </div>
 
+<div class="table-wrapper" markdown="1">
+
 | Item | Description |
 |------|-------------|
 | Frites | Frites dorées et croustillantes. |
@@ -41,6 +42,8 @@ permalink: /menu.html
 | Poutine chili | Poutine nappée de chili maison. |
 | Chuck Poutine | Poulet, bacon, oignons, champignons et sirop d’érable pur. |
 
+</div>
+
 ---
 
 <h2 id="bouchees">🍴 Les bouchées</h2>
@@ -52,6 +55,8 @@ permalink: /menu.html
     hot-dogs, grilled cheese, rondelles d’oignons, cornichons frits et plus encore.
   </p>
 </div>
+
+<div class="table-wrapper" markdown="1">
 
 | Item | Description |
 |------|-------------|
@@ -69,6 +74,8 @@ permalink: /menu.html
 | Roulé pizza | Roulé façon pizza. |
 | Chili (petit ou grand) | Chili réconfortant, idéal en accompagnement. |
 
+</div>
+
 ---
 
 <h2 id="burgers">🍔 Les burgers</h2>
@@ -81,6 +88,8 @@ permalink: /menu.html
   </p>
 </div>
 
+<div class="table-wrapper" markdown="1">
+
 | Burger | Description |
 |--------|-------------|
 | Burger classique | Burger simple, style casse-croûte. |
@@ -89,6 +98,8 @@ permalink: /menu.html
 | Burger champignons Suisse | Champignons et fromage Suisse. |
 | Chuck Burger au poulet | Poitrine de poulet, fromage à poutine, bacon, mayo maison. |
 | Chuck Burger | Champignons, oignons, bacon, fromage, mayo maison. |
+
+</div>
 
 ---
 
@@ -101,6 +112,8 @@ permalink: /menu.html
   </p>
 </div>
 
+<div class="table-wrapper" markdown="1">
+
 | Assiette | Description |
 |----------|-------------|
 | Club classique | Club sandwich servi avec frites et salade de chou. |
@@ -110,6 +123,8 @@ permalink: /menu.html
 | Wrap poulet Buffalo | Wrap au poulet sauce Buffalo. |
 | Hamburger steak | Hamburger steak servi en assiette. |
 | Doigts de poulet (4) | Doigts de poulet avec accompagnements. |
+
+</div>
 
 ---
 
@@ -123,12 +138,16 @@ permalink: /menu.html
   </p>
 </div>
 
+<div class="table-wrapper" markdown="1">
+
 | Trio | Contenu |
 |------|---------|
 | Trio #1 | Chuck grilled cheese, petite frites + breuvage. Option : version petite poutine. |
-| Trio #2 | 2 hot-dogs <strong>ou</strong> 2 pogos, petite frites + breuvage. Option : version petite poutine. |
+| Trio #2 | 2 hot-dogs ou 2 pogos, petite frites + breuvage. Option : version petite poutine. |
 | Trio #3 | Burger classique, petite frites + breuvage. Option : version petite poutine. |
 | Trio #4 | Burger fromage, petite frites + breuvage. Option : version petite poutine. |
+
+</div>
 
 <div class="text-center mt-2">
   <a href="{{ '/' | relative_url }}" class="btn btn-outline">⬅ Retour à l’accueil</a>
