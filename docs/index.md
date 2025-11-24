@@ -1,191 +1,158 @@
 ---
 layout: page
-title: "Chuck’s casse-croûte"
-permalink: /
+title: "Menu"
+permalink: /menu.html
 ---
 
-<!-- HERO -->
 <div class="hero">
-  <img src="{{ '/assets/images/logo.png' | relative_url }}"
-       alt="Chuck’s casse-croûte"
-       width="150"
-       style="border-radius:12px;margin-bottom:10px;" />
-
-  <h1>Chuck’s casse-croûte</h1>
-  <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
-
-  <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
+  <span class="badge">Menu complet</span>
+  <h1>🍟 Menu de Chuck’s casse-croûte</h1>
+  <p>
+    Poutines généreuses, burgers débordants, bouchées croustillantes et trios bien garnis.<br>
+    Le casse-croûte parfait pour se faire plaisir à Gatineau.
+  </p>
+  <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
+     class="btn btn-primary">Notre adresse</a> 
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
 </div>
 
 <div class="container wrapper">
 
-<!-- MENU -->
-<h2 id="menu">🍟 Notre menu</h2>
+<h2 id="frites-poutines">🥔 Frites et poutines</h2>
 
 <div class="card">
-  <div class="row">
-    <div class="col">
-      <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
-           alt="Poutine sauce brune">
-    </div>
-
-    <div class="col">
-      <p>
-        Poutines classiques, spéciales maison, burgers, hot-dogs, bouchées et trios :
-        tout ce qu’il faut pour un bon repas de casse-croûte québécois.
-      </p>
-      <p>
-        Que tu sois team sauce brune ou sauce blanche, tu vas être servi en portion généreuse.
-      </p>
-      <p>
-        <a href="{{ '/menu.html' | relative_url }}" class="btn btn-primary">
-          Voir le menu complet
-        </a>
-      </p>
-    </div>
-  </div>
+  <h3>Classiques de cantine</h3>
+  <p>
+    Des frites croustillantes et des poutines bien montées, avec fromage en grains
+    et sauces maison. Portions à la bonne franquette, comme on les aime.
+  </p>
 </div>
 
+<div class="table-wrapper">
 
-<!-- HISTOIRE -->
-<h2 id="histoire">🧑‍🍳 L’histoire de Chuck</h2>
+| Item | Description |
+|------|-------------|
+| Frites | Frites dorées et croustillantes. |
+| Poutine classique | Poutine traditionnelle avec fromage en grains et sauce. |
+| Poutine poulet | Poutine garnie de morceaux de poulet. |
+| Poutine poulet Buffalo | Poulet sauce Buffalo pour les amateurs de piquant. |
+| Poutine bœuf | Poutine garnie de bœuf. |
+| Poutine bacon | Poutine généreuse en bacon. |
+| Poutine 3 viandes | Mélange de viandes pour un max de protéines. |
+| Poutine chili | Poutine nappée de chili maison. |
+| Chuck Poutine | Poulet, bacon, oignons, champignons et sirop d’érable pur. |
+
+</div>
+
+---
+
+<h2 id="bouchees">🍴 Les bouchées</h2>
 
 <div class="card">
-  <div class="row">
-    <div class="col">
-      <img src="{{ '/assets/images/equipe-chuck.png' | relative_url }}"
-           alt="Chuck et son équipe">
-    </div>
-
-    <div class="col">
-      <p>
-        Avant d’ouvrir son propre casse-croûte à Gatineau, Chuck a travaillé comme
-        <strong>saucier au prestigieux Château Montebello</strong>, l’un des hôtels les plus reconnus au Canada.
-      </p>
-      <p>
-        C’est là qu’il a perfectionné ses techniques culinaires, ses sauces maison
-        et son amour pour la cuisine généreuse.
-      </p>
-      <p>
-        Aujourd’hui, il ramène cette expertise dans un menu simple, réconfortant et bien exécuté :
-        poutines décadentes, burgers maison, hot-dogs et classiques de cantine.
-      </p>
-    </div>
-  </div>
-
-  <div class="row" style="margin-top:1.5rem;">
-    <div class="col">
-      <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
-           alt="Façade du casse-croûte Chuck">
-    </div>
-
-    <div class="col">
-      <p>
-        Chuck’s casse-croûte, c’est aussi un repère local avec des tables extérieures
-        pour profiter d’un repas simple, rapide et bon.
-      </p>
-      <p>
-        Ambiance familiale, service chaleureux et portions bien remplies —
-        c’est ce qui fait la réputation du casse-croûte.
-      </p>
-    </div>
-  </div>
+  <h3>Bouchées à partager (ou pas 😋)</h3>
+  <p>
+    Parfait en entrée, en accompagnement ou en grignotage de fin de soirée :
+    hot-dogs, grilled cheese, rondelles d’oignons, cornichons frits et plus encore.
+  </p>
 </div>
 
-<!-- AVIS -->
-<h2 id="avis">⭐ Avis & reviews</h2>
+<div class="table-wrapper">
+
+| Item | Description |
+|------|-------------|
+| Hot-dog | Classique incontournable du casse-croûte. |
+| Hot-dog fromage | Hot-dog garni de fromage fondant. |
+| Hot-dog fromage bacon | Hot-dog avec fromage et bacon croustillant. |
+| Chuck-dog | Version spéciale de la maison. |
+| Pogo | Pogo de style cantine. |
+| Chuck grilled cheese | Grilled cheese façon Chuck. |
+| Rondelles d’oignons | Rondelles panées croustillantes. |
+| Bâtonnets de fromage (6) | Bâtonnets de fromage pané. |
+| Bâtonnets de zucchini | Zucchini pané et croustillant. |
+| Cornichons frits | Cornichons enrobés et frits. |
+| Ailes de poulet | Ailes croustillantes, parfaites à partager. |
+| Roulé pizza | Roulé façon pizza. |
+| Chili (petit ou grand) | Chili réconfortant, idéal en accompagnement. |
+
+</div>
+
+---
+
+<h2 id="burgers">🍔 Les burgers</h2>
 
 <div class="card">
-  <div class="row">
-
-    <div class="col">
-      <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
-         target="_blank"
-         class="tiktok-card">
-        <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
-             alt="Vidéo TikTok sur la poutine de Chuck’s casse-croûte">
-        <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
-      </a>
-    </div>
-
-    <div class="col">
-      <p>
-        Les clients adorent nos portions généreuses, notre sauce brune et blanche
-        et l’ambiance authentique de casse-croûte québécois.
-      </p>
-      <p>
-        Beaucoup nous disent que nos poutines font partie des meilleures en Outaouais.
-      </p>
-      <p>
-        <a href="https://share.google/MH1O5rEseR35d5RUn"
-           class="btn btn-outline"
-           target="_blank">
-          Voir nos avis
-        </a>
-      </p>
-    </div>
-
-  </div>
+  <h3>Burgers de casse-croûte</h3>
+  <p>
+    Burgers simples, généreux et savoureux, servis façon cantine québécoise.
+    Ajoutez des frites ou une poutine pour le combo parfait.
+  </p>
 </div>
 
+<div class="table-wrapper">
 
-<!-- FAQ -->
-<h2 id="faq">❓ FAQ</h2>
+| Burger | Description |
+|--------|-------------|
+| Burger classique | Burger simple, style casse-croûte. |
+| Burger fromage | Burger avec fromage fondant. |
+| Burger fromage et bacon | Burger garni de fromage et de bacon. |
+| Burger champignons Suisse | Champignons et fromage Suisse. |
+| Chuck Burger au poulet | Poitrine de poulet, fromage à poutine, bacon, mayo maison. |
+| Chuck Burger | Champignons, oignons, bacon, fromage, mayo maison. |
+
+</div>
+
+---
+
+<h2 id="assiettes">🍽️ Les assiettes</h2>
 
 <div class="card">
-  <h3>Est-ce qu’on peut commander pour emporter ?</h3>
-  <p>Oui, il suffit de nous appeler pendant les heures d’ouverture.</p>
+  <h3>Assiettes complètes</h3>
+  <p>
+    Servies avec frites et salade de chou maison, pour un repas complet et rassasiant.
+  </p>
 </div>
+
+<div class="table-wrapper">
+
+| Assiette | Description |
+|----------|-------------|
+| Club classique | Club sandwich servi avec frites et salade de chou. |
+| Chuck Club | Poulet, sauce chili sucrée, fromage Suisse, bacon, laitue. |
+| Club wrap | Version wrap du club classique. |
+| Chuck wrap | Wrap garni à la façon Chuck. |
+| Wrap poulet Buffalo | Wrap au poulet sauce Buffalo. |
+| Hamburger steak | Hamburger steak servi en assiette. |
+| Doigts de poulet (4) | Doigts de poulet avec accompagnements. |
+
+</div>
+
+---
+
+<h2 id="trios">🧃 Les trios</h2>
 
 <div class="card">
-  <h3>Quels sont les jours d’ouverture ?</h3>
-  <p>Du mercredi au samedi · 11 h – 18 h 45.<br>Dimanche, lundi, mardi : fermé.</p>
+  <h3>Trios Chuck’s</h3>
+  <p>
+    Chaque trio vient avec une <strong>petite frites</strong> et un <strong>breuvage</strong>.<br>
+    Option disponible : <em>version petite poutine</em> pour les plus gourmands.
+  </p>
 </div>
 
-<div class="card">
-  <h3>Est-ce qu’on peut manger sur place ?</h3>
-  <p>Oui, nous avons une salle à manger familiale.</p>
+<div class="table-wrapper">
+
+| Trio | Contenu |
+|------|---------|
+| Trio #1 | Chuck grilled cheese, petite frites + breuvage. Option : version petite poutine. |
+| Trio #2 | 2 hot-dogs ou 2 pogos, petite frites + breuvage. Option : version petite poutine. |
+| Trio #3 | Burger classique, petite frites + breuvage. Option : version petite poutine. |
+| Trio #4 | Burger fromage, petite frites + breuvage. Option : version petite poutine. |
+
 </div>
 
-<!-- CONTACT -->
-<h2 id="contact">📍 Contact & localisation</h2>
-
-<div class="card">
-  <div class="row">
-    <div class="col">
-      <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
-           alt="Chuck’s casse-croûte - extérieur">
-    </div>
-
-    <div class="col">
-
-      <p>
-        📍 <strong>
-          <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
-             target="_blank">
-            196 chemin de la Savane, Gatineau, QC J8T 1R3
-          </a>
-        </strong>
-      </p>
-
-      <p>📞 <strong>819-561-5353</strong></p>
-
-      <p>
-        🕚 <strong>Mercredi → Samedi</strong><br>
-        11 h – 18 h 45<br>
-        Dimanche, lundi, mardi : <strong>fermé</strong>
-      </p>
-
-      <p>
-        <a href="#menu" class="btn btn-outline">Voir le menu</a>
-      </p>
-
-    </div>
-  </div>
+<div class="text-center mt-2">
+  <a href="{{ '/' | relative_url }}" class="btn btn-outline">⬅ Retour à l’accueil</a>
 </div>
 
-<!-- FOOTER -->
 <footer class="site-footer">
   <p>
     © 2025 Chuck’s casse-croûte — Site créé par JP Henri ·
@@ -196,39 +163,3 @@ permalink: /
 </footer>
 
 </div> <!-- .container.wrapper -->
-
-<!-- JSON-LD SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Restaurant",
-  "name": "Chuck's Casse-Croute",
-  "image": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
-  "@id": "{{ site.url }}{{ site.baseurl }}/",
-  "url": "{{ site.url }}{{ site.baseurl }}/",
-  "telephone": "+1-819-561-5353",
-  "priceRange": "$",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "196 chemin de la Savane",
-    "addressLocality": "Gatineau",
-    "addressRegion": "QC",
-    "postalCode": "J8T 1R3",
-    "addressCountry": "CA"
-  },
-  "servesCuisine": [
-    "Casse-croûte",
-    "Poutine",
-    "Burger",
-    "Sandwichs"
-  ],
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Wednesday","Thursday","Friday","Saturday"],
-      "opens": "11:00",
-      "closes": "18:45"
-    }
-  ]
-}
-</script>
