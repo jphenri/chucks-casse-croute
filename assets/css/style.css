@@ -416,3 +416,20 @@ td, th {
   padding: .6rem .75rem;
   border-bottom: 1px solid #f0e0c8;
 }
+
+.lang-switch {
+  text-align: right;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.lang-switch a {
+  color: #ffc107;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lang-switch a:hover {
+  text-decoration: underline;
+}
+
