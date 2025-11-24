@@ -15,15 +15,6 @@ permalink: /menu.html
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
 </div>
 
----
-
-## 🔗 Navigation rapide
-
-- [🥔 Frites et poutines](#frites-et-poutines)  
-- [🍴 Les bouchées](#les-bouchées)  
-- [🍔 Les burgers](#les-burgers)  
-- [🍽️ Les assiettes](#les-assiettes)  
-- [🧃 Les trios](#les-trios)  
 
 ---
 
