@@ -328,3 +328,33 @@ img {
     -webkit-overflow-scrolling: touch;
   }
 }
+/* ----------------------------------------------------
+   ROW / COL  – layout desktop à 2 colonnes
+   ---------------------------------------------------- */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.col {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Pour les images dans une colonne */
+.col img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Mobile → revient à 1 colonne */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
