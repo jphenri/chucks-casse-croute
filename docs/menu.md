@@ -3,11 +3,10 @@ layout: page
 title: "Menu"
 permalink: /menu.html
 ---
+
 <div class="lang-switch">
   FR · <a href="{{ '/en/menu.html' | relative_url }}">EN</a>
 </div>
-
-<div class="hero">
 
 <div class="hero">
   <span class="badge">Menu complet</span>
@@ -16,14 +15,16 @@ permalink: /menu.html
     Poutines généreuses, burgers débordants, bouchées croustillantes et trios bien garnis.<br>
     Le casse-croûte parfait pour se faire plaisir à Gatineau.
   </p>
+
   <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
      class="btn btn-primary">Notre adresse</a> 
+
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
 </div>
 
 <div class="container wrapper">
 
-<h2 id="frites-poutines">🥔 Frites et poutines</h2>
+<h2 id="frites">🥔 Frites et poutines</h2>
 
 <div class="card">
   <h3>Classiques de cantine</h3>
@@ -49,7 +50,7 @@ permalink: /menu.html
 
 </div>
 
-
+---
 
 <h2 id="bouchees">🍴 Les bouchées</h2>
 
@@ -72,7 +73,7 @@ permalink: /menu.html
 | Pogo | Pogo de style cantine. |
 | Chuck grilled cheese | Grilled cheese façon Chuck. |
 | Rondelles d’oignons | Rondelles panées croustillantes. |
-| Bâtonnets de fromage (6) | Bâtonnets de fromage pané. |
+| Bâtonnets de fromage (6) | Fromage pané, croustillant. |
 | Bâtonnets de zucchini | Zucchini pané et croustillant. |
 | Cornichons frits | Cornichons enrobés et frits. |
 | Ailes de poulet | Ailes croustillantes, parfaites à partager. |
@@ -81,7 +82,7 @@ permalink: /menu.html
 
 </div>
 
-
+---
 
 <h2 id="burgers">🍔 Les burgers</h2>
 
@@ -99,14 +100,14 @@ permalink: /menu.html
 |--------|-------------|
 | Burger classique | Burger simple, style casse-croûte. |
 | Burger fromage | Burger avec fromage fondant. |
-| Burger fromage et bacon | Burger garni de fromage et de bacon. |
+| Burger fromage et bacon | Fromage + bacon croustillant. |
 | Burger champignons Suisse | Champignons et fromage Suisse. |
 | Chuck Burger au poulet | Poitrine de poulet, fromage à poutine, bacon, mayo maison. |
 | Chuck Burger | Champignons, oignons, bacon, fromage, mayo maison. |
 
 </div>
 
-
+---
 
 <h2 id="assiettes">🍽️ Les assiettes</h2>
 
@@ -122,16 +123,16 @@ permalink: /menu.html
 | Assiette | Description |
 |----------|-------------|
 | Club classique | Club sandwich servi avec frites et salade de chou. |
-| Chuck Club | Poulet, sauce chili sucrée, fromage Suisse, bacon, laitue. |
+| Chuck Club | Poulet, sauce chili sucrée, Suisse, bacon, laitue. |
 | Club wrap | Version wrap du club classique. |
-| Chuck wrap | Wrap garni à la façon Chuck. |
+| Chuck wrap | Wrap garni façon Chuck. |
 | Wrap poulet Buffalo | Wrap au poulet sauce Buffalo. |
 | Hamburger steak | Hamburger steak servi en assiette. |
 | Doigts de poulet (4) | Doigts de poulet avec accompagnements. |
 
 </div>
 
-
+---
 
 <h2 id="trios">🧃 Les trios</h2>
 
@@ -139,7 +140,7 @@ permalink: /menu.html
   <h3>Trios Chuck’s</h3>
   <p>
     Chaque trio vient avec une <strong>petite frites</strong> et un <strong>breuvage</strong>.<br>
-    Option disponible : <em>version petite poutine</em> pour les plus gourmands.
+    Option disponible : <em>version petite poutine</em>.
   </p>
 </div>
 
@@ -147,10 +148,10 @@ permalink: /menu.html
 
 | Trio | Contenu |
 |------|---------|
-| Trio #1 | Chuck grilled cheese, petite frites + breuvage. Option : version petite poutine. |
-| Trio #2 | 2 hot-dogs ou 2 pogos, petite frites + breuvage. Option : version petite poutine. |
-| Trio #3 | Burger classique, petite frites + breuvage. Option : version petite poutine. |
-| Trio #4 | Burger fromage, petite frites + breuvage. Option : version petite poutine. |
+| Trio #1 | Chuck grilled cheese, petite frites + breuvage. Option : petite poutine. |
+| Trio #2 | 2 hot-dogs ou 2 pogos, petite frites + breuvage. Option : petite poutine. |
+| Trio #3 | Burger classique, petite frites + breuvage. Option : petite poutine. |
+| Trio #4 | Burger fromage, petite frites + breuvage. Option : petite poutine. |
 
 </div>
 
