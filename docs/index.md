@@ -4,18 +4,22 @@ title: "Chuck’s casse-croûte"
 permalink: /
 ---
 
-<div class="lang-switch">
-  FR · <a href="{{ '/en/' | relative_url }}">EN</a>
-</div>
-
-<!-- HERO -->
 <div class="hero">
+  <div class="lang-switch-hero">
+    {% if page.url contains '/en/' %}
+      <a href="{{ '/' | relative_url }}">FR</a> · <span class="active">EN</span>
+    {% else %}
+      <span class="active">FR</span> · <a href="{{ '/en/' | relative_url }}">EN</a>
+    {% endif %}
+  </div>
+
   <img src="{{ '/assets/images/logo.png' | relative_url }}"
        alt="Chuck’s casse-croûte"
        width="150"
        style="border-radius:12px;margin-bottom:10px;" />
-
   <h1>Chuck’s casse-croûte</h1>
+
+
   <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
 
   <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
