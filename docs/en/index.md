@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Chuck’s Snack Bar"
+title: "Chuck’s casse-croûte"
 permalink: /en/
 ---
 
@@ -10,11 +10,11 @@ permalink: /en/
   </div>
 
   <img src="{{ '/assets/images/logo.png' | relative_url }}"
-       alt="Chuck’s Snack Bar"
+       alt="Chuck’s casse-croûte"
        width="150"
        style="border-radius:12px;margin-bottom:10px;" />
 
-  <h1>Chuck’s Snack Bar</h1>
+  <h1>Chuck’s casse-croûte</h1>
   <p>Top-notch poutines, generous burgers and a warm, family-friendly atmosphere in Gatineau.</p>
 
   <a href="#menu" class="btn btn-primary" style="margin-top:12px;">View the menu</a>
@@ -163,7 +163,7 @@ permalink: /en/
   <div class="row">
     <div class="col">
       <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
-           alt="Chuck’s Snack Bar building">
+           alt="Chuck’s casse-croûte building">
     </div>
 
     <div class="col">
@@ -193,9 +193,9 @@ permalink: /en/
 
 <footer class="site-footer">
   <p>
-    © 2025 Chuck’s Snack Bar — Website by JP Henri ·
-    <a href="https://www.facebook.com/chuckscassecroute" target="_blank">
-      Facebook
+    © 2025 Chuck’s casse-croûte — Website by JP Henri ·
+    <a href="https://jphenri.ca" target="_blank">
+      jphenri.ca
     </a>
   </p>
 </footer>
