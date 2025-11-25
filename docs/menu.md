@@ -20,6 +20,24 @@ permalink: /menu.html
   </p>
 
   <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
+     class="btn btn-primary">Notre adresse</a>
+  <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
+  <a href="https://www.facebook.com/chuckscassecroute"
+     class="btn btn-outline"
+     target="_blank" rel="noopener">
+    Facebook
+  </a>
+</div>
+
+
+  <span class="badge">Menu complet</span>
+  <h1>🍟 Menu de Chuck’s casse-croûte</h1>
+  <p>
+    Poutines généreuses, burgers débordants, bouchées croustillantes et trios bien garnis.<br>
+    Le casse-croûte parfait pour se faire plaisir à Gatineau.
+  </p>
+
+  <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
      class="btn btn-primary">Notre adresse</a> 
 
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
