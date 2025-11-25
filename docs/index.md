@@ -56,7 +56,7 @@ permalink: /
   </div>
 </div>
 
----
+
 
 <!-- HISTOIRE -->
 <h2 id="histoire">🧑‍🍳 L’histoire de Chuck</h2>
@@ -103,7 +103,7 @@ permalink: /
   </div>
 </div>
 
----
+
 
 <!-- AVIS -->
 <h2 id="avis">⭐ Avis & reviews</h2>
@@ -141,7 +141,7 @@ permalink: /
   </div>
 </div>
 
----
+
 
 <!-- FAQ -->
 <h2 id="faq">❓ FAQ</h2>
@@ -161,7 +161,7 @@ permalink: /
   <p>Oui, nous avons une salle à manger familiale.</p>
 </div>
 
----
+
 
 <!-- CONTACT -->
 <h2 id="contact">📍 Contact & localisation</h2>
