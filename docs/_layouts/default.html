@@ -6,20 +6,22 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
-    <header class="site-header">
+<header class="site-header">
 
-      <div class="lang-switch-top">
-        {% if page.url contains '/en/' %}
-          <a href="{{ '/' | relative_url }}">FR</a> · <span class="active">EN</span>
-        {% else %}
-          <span class="active">FR</span> · <a href="{{ '/en/' | relative_url }}">EN</a>
-        {% endif %}
-      </div>
+  <div class="wrapper-header">
 
-      <div class="wrapper-header">
-        <a class="brand" href="{{ site.baseurl }}/">
-          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Chuck’s casse-croûte" class="brand-logo">
-        </a>
+    <div class="lang-switch-top">
+      {% if page.url contains '/en/' %}
+        <a href="{{ '/' | relative_url }}">FR</a> · <span class="active">EN</span>
+      {% else %}
+        <span class="active">FR</span> · <a href="{{ '/en/' | relative_url }}">EN</a>
+      {% endif %}
+    </div>
+
+    <a class="brand" href="{{ site.baseurl }}/">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Chuck’s casse-croûte" class="brand-logo">
+    </a>
+
         <nav class="site-nav">
           <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
           <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
