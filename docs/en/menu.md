@@ -10,7 +10,7 @@ permalink: /en/menu.html
   </div>
 
   <span class="badge">Full Menu</span>
-  <h1>🍟 Chuck’s Snack Bar Menu</h1>
+  <h1>🍟 Chuck’s casse-croûte Menu</h1>
   <p>
     Generous poutines, stacked burgers, crispy bites and hearty combos.<br>
     The perfect snack bar experience in Gatineau.
@@ -159,8 +159,8 @@ permalink: /en/menu.html
 <footer class="site-footer">
   <p>
     © 2025 Chuck’s Snack Bar — Website by JP Henri ·
-    <a href="https://www.facebook.com/chuckscassecroute" target="_blank">
-      Facebook
+    <a href="https://jphenri.ca" target="_blank">
+      jphenri.ca
     </a>
   </p>
 </footer>
