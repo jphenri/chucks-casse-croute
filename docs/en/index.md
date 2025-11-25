@@ -51,7 +51,7 @@ permalink: /en/
   </div>
 </div>
 
----
+
 
 <h2 id="story">🧑‍🍳 Chuck’s Story</h2>
 
@@ -100,7 +100,7 @@ permalink: /en/
   </div>
 </div>
 
----
+
 
 <h2 id="reviews">⭐ Reviews</h2>
 
@@ -136,7 +136,7 @@ permalink: /en/
   </div>
 </div>
 
----
+
 
 <h2 id="faq">❓ FAQ</h2>
 
@@ -155,7 +155,7 @@ permalink: /en/
   <p>Yes, we have a family dining area.</p>
 </div>
 
----
+
 
 <h2 id="contact">📍 Contact & Location</h2>
 
