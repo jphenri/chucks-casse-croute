@@ -47,7 +47,7 @@ permalink: /en/menu.html
 
 </div>
 
----
+
 
 <h2 id="bites">🍴 Bites & Sides</h2>
 
@@ -79,7 +79,7 @@ permalink: /en/menu.html
 
 </div>
 
----
+
 
 <h2 id="burgers">🍔 Burgers</h2>
 
@@ -104,7 +104,7 @@ permalink: /en/menu.html
 
 </div>
 
----
+
 
 <h2 id="plates">🍽️ Plates</h2>
 
@@ -129,7 +129,7 @@ permalink: /en/menu.html
 
 </div>
 
----
+
 
 <h2 id="combos">🧃 Combos</h2>
 
