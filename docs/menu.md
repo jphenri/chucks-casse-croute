@@ -58,7 +58,7 @@ permalink: /menu.html
 
 </div>
 
----
+
 
 <h2 id="bouchees">🍴 Les bouchées</h2>
 
@@ -90,7 +90,7 @@ permalink: /menu.html
 
 </div>
 
----
+
 
 <h2 id="burgers">🍔 Les burgers</h2>
 
@@ -115,7 +115,7 @@ permalink: /menu.html
 
 </div>
 
----
+
 
 <h2 id="assiettes">🍽️ Les assiettes</h2>
 
@@ -140,7 +140,7 @@ permalink: /menu.html
 
 </div>
 
----
+
 
 <h2 id="trios">🧃 Les trios</h2>
 
