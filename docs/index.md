@@ -6,22 +6,18 @@ permalink: /
 
 <div class="hero">
   <div class="lang-switch-hero">
-    {% if page.url contains '/en/' %}
-      <a href="{{ '/menu.html' | relative_url }}">FR</a> · <span class="active">EN</span>
-    {% else %}
-      <span class="active">FR</span> · <a href="{{ '/en/menu.html' | relative_url }}">EN</a>
-    {% endif %}
+    <span class="active">FR</span> · <a href="{{ '/en/' | relative_url }}">EN</a>
   </div>
 
-  <span class="badge">Menu complet</span>
-  <h1>🍟 Menu de Chuck’s casse-croûte</h1>
-  <p>
-    Poutines généreuses, burgers débordants, bouchées croustillantes et trios bien garnis.<br>
-    Le casse-croûte parfait pour se faire plaisir à Gatineau.
-  </p>
+  <img src="{{ '/assets/images/logo.png' | relative_url }}"
+       alt="Chuck’s casse-croûte"
+       width="150"
+       style="border-radius:12px;margin-bottom:10px;" />
 
-  <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
-     class="btn btn-primary">Notre adresse</a>
+  <h1>Chuck’s casse-croûte</h1>
+  <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
+
+  <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
   <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
   <a href="https://www.facebook.com/chuckscassecroute"
      class="btn btn-outline"
@@ -30,19 +26,6 @@ permalink: /
   </a>
 </div>
 
-
-  <img src="{{ '/assets/images/logo.png' | relative_url }}"
-       alt="Chuck’s casse-croûte"
-       width="150"
-       style="border-radius:12px;margin-bottom:10px;" />
-  <h1>Chuck’s casse-croûte</h1>
-
-
-  <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
-
-  <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
-  <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
-</div>
 
 <div class="container wrapper">
 
