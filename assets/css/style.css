@@ -432,4 +432,14 @@ td, th {
 .lang-switch a:hover {
   text-decoration: underline;
 }
+.lang-switch-top {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  font-size: 0.9rem;
+}
+
+.wrapper-header {
+  position: relative;
+}
 
