@@ -110,32 +110,47 @@ permalink: /
 <div class="card">
   <div class="row">
 
-    <div class="col">
-      <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
-         target="_blank"
-         class="tiktok-card">
-        <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
-             alt="Vidéo TikTok sur la poutine de Chuck’s casse-croûte">
-        <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
-      </a>
-    </div>
+<div class="col">
+  <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
+     target="_blank"
+     class="tiktok-card">
+    <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
+         alt="Vidéo TikTok sur la poutine de Chuck’s casse-croûte">
+    <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
+  </a>
+</div>
 
-    <div class="col">
-      <p>
-        Les clients adorent nos portions généreuses, notre sauce brune et blanche
-        et l’ambiance authentique de casse-croûte québécois.
-      </p>
-      <p>
-        Beaucoup affirment que nos poutines sont les meilleures de tout l’Outaouais. Pourquoi ? Parce que nos sauces sont uniques, riches, savoureuses, et faites maison. 
-      </p>
-      <p>
-        <a href="https://share.google/MH1O5rEseR35d5RUn"
-           class="btn btn-outline"
-           target="_blank">
-          Voir nos avis
-        </a>
-      </p>
-    </div>
+<div class="col">
+  <p>
+    Beaucoup de clients nous disent que nos poutines sont les meilleures en Outaouais — 
+    et ce n’est pas juste nous qui le disons. Nous sommes fièrement classés 
+    <strong>#1 à Gatineau sur 
+      <a href="https://poutztanote.ca/restaurant/chucks-casse-croute/" target="_blank" rel="noopener">
+        PoutzTaNote.ca
+      </a>
+    </strong>.
+  </p>
+
+  <p>
+    Cette année, <strong>Olivier Prime a lui aussi souligné que notre poutine est unique 
+    et l’une des meilleures à Gatineau</strong>.
+  </p>
+
+  <p>
+    Nos sauces sont uniques, préparées maison, bien riches et jamais diluées. 
+    Ajoute à ça des frites croustillantes et un fromage frais qui fait 
+    <em>skouik skouik</em>, et tu comprends pourquoi on revient toujours chez Chuck’s.
+  </p>
+
+  <p>
+    <a href="https://share.google/MH1O5rEseR35d5RUn"
+       class="btn btn-outline"
+       target="_blank">
+      Voir nos avis
+    </a>
+  </p>
+</div>
+
 
   </div>
 </div>
