@@ -18,7 +18,6 @@ permalink: /en/
   <p>Top-notch poutines, generous burgers and a warm, family-friendly atmosphere in Gatineau.</p>
 
   <a href="#menu" class="btn btn-primary" style="margin-top:12px;">View the menu</a>
-  <a href="tel:18195615353" class="btn btn-outline">Call now</a>
 </div>
 
 <div class="container wrapper">
