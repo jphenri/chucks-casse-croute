@@ -148,7 +148,7 @@ permalink: /
 
 <div class="card">
   <h3>Est-ce qu’on peut commander pour emporter ?</h3>
-  <p>Oui, il suffit de nous appeler pendant les heures d’ouverture.</p>
+  <p>Oui, il suffit de venir sur place pendant les heures d’ouverture.</p>
 </div>
 
 <div class="card">
