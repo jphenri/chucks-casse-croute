@@ -18,7 +18,6 @@ permalink: /
   <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
 
   <a href="#menu" class="btn btn-primary" style="margin-top:12px;">Voir le menu</a>
-  <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
   <a href="https://www.facebook.com/chuckscassecroute"
      class="btn btn-outline"
      target="_blank" rel="noopener">
