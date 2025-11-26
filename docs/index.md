@@ -126,7 +126,7 @@ permalink: /
         et l’ambiance authentique de casse-croûte québécois.
       </p>
       <p>
-        Beaucoup nous disent que nos poutines font partie des meilleures en Outaouais.
+        Beaucoup affirment que nos poutines sont les meilleures de tout l’Outaouais. Pourquoi ? Parce que nos sauces sont uniques, riches, savoureuses, et faites maison. 
       </p>
       <p>
         <a href="https://share.google/MH1O5rEseR35d5RUn"
