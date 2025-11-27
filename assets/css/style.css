@@ -81,37 +81,74 @@ ol {
   padding-left: 1.5rem;
 }
 
-/* Barre de titre / header du thème */
+/* ------------------------------
+   HEADER + NAV
+   ------------------------------ */
+
 .site-header {
   border-bottom: none;
   background: #b71c1c;
   color: #fff;
+  padding: 1.2rem 1rem; /* laisse respirer le logo */
 }
 
-.site-title {
-  font-weight: 800;
-  letter-spacing: 0.04em;
+.wrapper-header {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
 }
 
-.site-title a {
-  color: #fff;
-  text-decoration: none;
+.site-header .brand-logo {
+  height: 110px;            /* gros logo desktop */
+  width: auto;
+  max-width: none;
+  display: block;
+  border-radius: 0;
+}
+
+/* Nav */
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .site-nav .page-link {
   color: #ffe082;
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .site-nav .page-link + .page-link {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .site-nav .page-link:hover {
   text-decoration: underline;
 }
 
-/* Pied de page */
+/* FR / EN */
+.lang-switch-hero {
+  font-size: 0.9rem;
+  color: #ffe082;
+}
+
+/* ------------------------------
+   ESPACE ENTRE HEADER ET MAIN
+   ------------------------------ */
+
+main {
+  display: block;
+  margin-top: 1.5rem; /* espace sous le header */
+}
+
+/* ------------------------------
+   PIED DE PAGE
+   ------------------------------ */
+
 .site-footer {
   border-top: none;
   text-align: center;
@@ -120,13 +157,12 @@ ol {
   padding: 1.5rem 0 2rem;
 }
 
-/* Section "hero" possible sur la home (index.md) */
+/* ------------------------------
+   HERO
+   ------------------------------ */
+
 .hero {
-  background: linear-gradient(
-    135deg,
-    #b71c1c,
-    #c62828
-  );
+  background: linear-gradient(135deg, #b71c1c, #c62828);
   color: #fff;
   padding: 1.5rem 1.75rem;
   border-radius: 16px;
@@ -143,7 +179,7 @@ ol {
   margin-bottom: 0.5rem;
 }
 
-/* Badges & petites étiquettes */
+/* Badges */
 .badge {
   display: inline-block;
   padding: 0.15rem 0.6rem;
@@ -156,7 +192,10 @@ ol {
   font-weight: 700;
 }
 
-/* Boutons style "commander / appeler" */
+/* ------------------------------
+   BOUTONS
+   ------------------------------ */
+
 .btn {
   display: inline-block;
   padding: 0.6rem 1.1rem;
@@ -188,7 +227,10 @@ ol {
   background: rgba(255, 193, 7, 0.15);
 }
 
-/* Cartes pour sections Menu / FAQ / Avis */
+/* ------------------------------
+   CARTES (Menu / FAQ / Avis)
+   ------------------------------ */
+
 .card {
   border-radius: 12px;
   border: 1px solid #f0e0c8;
@@ -201,7 +243,10 @@ ol {
   margin-top: 0;
 }
 
-/* Tableaux (si tu en utilises pour le menu) */
+/* ------------------------------
+   TABLEAUX
+   ------------------------------ */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -220,14 +265,20 @@ th {
   background: #fff5dd;
 }
 
-/* Images */
+/* ------------------------------
+   IMAGES
+   ------------------------------ */
+
 img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
 }
 
-/* Petites classes utilitaires */
+/* ------------------------------
+   UTILITAIRES
+   ------------------------------ */
+
 .text-center {
   text-align: center;
 }
@@ -240,253 +291,111 @@ img {
   margin-bottom: 1rem;
 }
 
-/* Responsif mobile */
-@media (max-width: 640px) {
+/* ------------------------------
+   RESPONSIVE – TABLETTE
+   ------------------------------ */
+
+@media (max-width: 960px) {
+  .wrapper {
+    margin: 1.5rem;
+    padding: 1.25rem;
+  }
+}
+
+/* ------------------------------
+   RESPONSIVE – MOBILE (gros texte + gros logo)
+   ------------------------------ */
+
+@media (max-width: 768px) {
+  /* Base plus grosse */
+  body {
+    font-size: 20px;
+    line-height: 1.55;
+  }
+
   .wrapper {
     margin: 1rem;
     padding: 1.1rem;
   }
 
-  h1 {
-    font-size: 1.9rem;
-  }
-
-  .site-nav .page-link + .page-link {
-    margin-left: 0.5rem;
-  }
-}
-/* Fix header logo size */
-.site-header .brand-logo {
-  height: 52px;          /* taille du logo dans le header */
-  width: auto;
-  max-width: none;
-  border-radius: 0;      /* pas de coins ronds pour le logo */
-}
-/* Header layout: logo + menu + FR/EN */
-.site-header {
-  padding: 0.6rem 1rem;
-}
-
-.wrapper-header {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-/* Si tu as le switch FR / EN dans le header */
-.lang-switch-hero {
-  font-size: 0.9rem;
-}
-
-/* Mobile: un peu plus serré mais toujours sur une ligne */
-@media (max-width: 600px) {
-  .wrapper-header {
-    padding: 0 0.25rem;
-  }
-
-  .site-nav .page-link {
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
-    font-size: 0.9rem;
-  }
-
-  .lang-switch-hero {
-    font-size: 0.85rem;
-  }
-}
-/* ----------------------------------------------------
-   GLOBAL SPACING BETWEEN HEADER AND MAIN
-   ---------------------------------------------------- */
-
-main {
-  display: block;           /* ensures consistent behavior */
-  margin-top: 1.5rem;       /* space below the header */
-}
-
-/* Mobile: slightly more comfortable */
-@media (max-width: 768px) {
   main {
     margin-top: 1.75rem;
   }
-}
-.site-header .brand-logo {
-  height: 130px !important;    /* big clean size */
-  width: auto !important;
-  max-width: none !important;
-  display: block;
-}
 
-.site-header {
-  padding: 1.2rem 1rem;        /* extra space so the logo breathes */
-}
-
-.wrapper-header {
-  align-items: center;
-  gap: 1.2rem;
-}
-
-/* ----------------------------------------------------
-   +20% GLOBAL SCALE ON MOBILE
-   ---------------------------------------------------- */
-@media (max-width: 768px) {
-
-  /* Base font: bigger everywhere */
-  body {
-    font-size: 20px !important;        /* +20% compared to 16–17px */
-    line-height: 1.6;
+  /* Header en un peu plus compact mais lisible */
+  .site-header {
+    padding: 0.9rem 0.75rem;
   }
 
-  /* TITLES */
-  h1 {
-    font-size: 2.4rem !important;      /* +20% */
-  }
-
-  h2 {
-    font-size: 1.9rem !important;      /* +20% */
-  }
-
-  h3 {
-    font-size: 1.5rem !important;      /* +20% */
-  }
-
-  /* PARAGRAPHES + LISTES */
-  p,
-  li,
-  .card p,
-  .faq-item p {
-    font-size: 1.25rem !important;     /* équivalent ~20% plus grand */
-  }
-
-  /* HERO TITLE & SUBTITLE */
-  .hero h1 {
-    font-size: 2.5rem !important;      /* Titre très lisible */
-    line-height: 1.25;
-  }
-
-  .hero p,
-  .hero-subtitle {
-    font-size: 1.25rem !important;
-  }
-
-  /* BUTTONS */
-  .btn,
-  .btn-primary,
-  .btn-outline {
-    font-size: 1.2rem !important;
-    padding: 1.1rem 1.25rem !important;
-    width: 100%;
-    max-width: 320px;
-  }
-
-  /* HEADER MENU */
-  .site-nav .page-link {
-    font-size: 1.15rem !important;
-  }
-
-  /* FR EN */
-  .lang-switch-hero {
-    font-size: 1.15rem !important;
-  }
-
-  /* HEADER LOGO (+20%) */
-  .site-header .brand-logo {
-    height: 84px !important;   /* si ton logo était ~70px, +20% */
-    width: auto !important;
-  }
-
-  /* HERO LOGO (si tu en as un dedans) */
-  .hero-logo {
-    max-width: 330px !important;
-  }
-
-  /* SECTIONS (plus d’air) */
-  .wrapper,
   .wrapper-header {
-    padding-left: 18px !important;
-    padding-right: 18px !important;
+    padding: 0 0.25rem;
+    gap: 0.75rem;
   }
 
-  /* CARDS */
-  .card,
-  .faq-item,
-  .contact-section {
-    padding: 1.4rem !important;
+  .site-header .brand-logo {
+    height: 90px; /* gros logo iPhone */
   }
 
-  /* FOOTER */
-  .site-footer {
-    font-size: 1.1rem !important;
-  }
-}
-/* ----------------------------------------------------
-   MODE MOBILE LARGE (iPhone) — Tout plus grand
-   ---------------------------------------------------- */
-@media (max-width: 768px) {
-
-  /* Base font */
-  body {
-    font-size: 20px !important;      /* GROS TEXTE */
-    line-height: 1.55 !important;
+  /* Menu + FR/EN plus gros */
+  .site-nav .page-link {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
   }
 
-  /* Titles */
+  .lang-switch-hero {
+    font-size: 1.25rem;
+  }
+
+  /* Titres */
   h1 {
-    font-size: 2.4rem !important;    /* Très lisible */
+    font-size: 2.4rem;
   }
 
   h2 {
-    font-size: 1.9rem !important;
+    font-size: 1.9rem;
   }
 
   h3 {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
   }
 
   /* Hero */
+  .hero {
+    padding: 1.4rem 1.1rem;
+  }
+
   .hero h1 {
-    font-size: 2.5rem !important;
-    line-height: 1.25 !important;
+    font-size: 2.5rem;
+    line-height: 1.25;
   }
 
   .hero p {
-    font-size: 1.25rem !important;
+    font-size: 1.25rem;
   }
 
-  /* Buttons */
+  /* Boutons plus gros + plein largeur */
   .btn,
   .btn-primary,
   .btn-outline {
-    font-size: 1.25rem !important;
-    padding: 1rem 1.3rem !important;
+    font-size: 1.25rem;
+    padding: 1rem 1.3rem;
     width: 100%;
     max-width: 320px;
     margin-bottom: 0.7rem;
+    text-align: center;
   }
 
-  /* Header menu */
-  .site-nav .page-link {
-    font-size: 1.3rem !important;
-    font-weight: 700 !important;
+  /* Paragraphes & listes */
+  p,
+  li,
+  .card p {
+    font-size: 1.25rem;
   }
 
-  /* FR/EN */
-  .lang-switch-hero {
-    font-size: 1.3rem !important;
-  }
-
-  /* Header logo bigger */
-  .site-header .brand-logo {
-    height: 90px !important;
+  /* Footer */
+  .site-footer {
+    font-size: 1.1rem;
   }
 }
-
-
