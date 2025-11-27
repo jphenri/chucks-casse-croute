@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Dossiers inutiles (si jamais tu en ajoutes)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Empêche l’indexation de fichiers sources inutiles
+Disallow: /*.psd$
+Disallow: /*.ai$
+Disallow: /*.zip$
+
+# Sitemap (automatique via jekyll-sitemap ou manuel si tu l’as créé)
+Sitemap: https://chucks-casse-croute.com/sitemap.xml
