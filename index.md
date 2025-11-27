@@ -142,7 +142,7 @@ permalink: /
     
       <p>
         <a href="https://share.google/MH1O5rEseR35d5RUn"
-           class="btn btn-outline"
+           class="btn btn-primary"
            target="_blank">
           Voir nos avis
         </a>
@@ -205,7 +205,7 @@ permalink: /
       </p>
 
       <p>
-        <a href="#menu" class="btn btn-outline">Voir le menu</a>
+        <a href="#menu" class="btn btn-primary">Voir le menu</a>
       </p>
 
     </div>
