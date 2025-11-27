@@ -102,7 +102,7 @@ main {
 
 .wrapper {
   max-width: 1100px;
-  margin: 1.5rem auto 2.5rem;
+  margin: 1.5rem auto 1rem;
   padding: 1.5rem 1.75rem;
   background: #ffffff;
   border-radius: 16px;
@@ -308,6 +308,27 @@ p {
   .row {
     gap: 1.8rem;
   }
+     /* Layout : 1 colonne */
+  .row {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .col {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .card,
+  .faq-item,
+  .contact-section {
+    padding: 1.3rem 1.1rem;
+  }
+
+  .site-footer {
+    font-size: 1.05rem;
+  }
+}
 }
 
 /* ====================================================
