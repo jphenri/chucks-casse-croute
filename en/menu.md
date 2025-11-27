@@ -15,7 +15,6 @@ permalink: /en/menu.html
   </p>
   <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
      class="btn btn-primary">Our Address</a>
-  <a href="tel:18195615353" class="btn btn-outline">Call Now</a>
 </div>
 
 <div class="container wrapper">
