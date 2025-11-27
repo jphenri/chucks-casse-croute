@@ -105,36 +105,45 @@ permalink: /en/
 
 <div class="card">
   <div class="row">
-
+    
     <div class="col">
-      <p>
-      Many customers tell us we serve the best poutine in the Outaouais — 
-      and it’s not just us saying it. We are proudly ranked 
-      <strong>#1 in Gatineau on 
-        <a href="https://poutztanote.ca/restaurant/chucks-casse-croute/" target="_blank" rel="noopener">
-          PoutzTaNote.ca
-        </a>
-      </strong>.
-    </p>
-
-    <p>
-      This year, <strong>Olivier Primeau also highlighted that our poutine is unique 
-      and one of the best in Gatineau</strong>.
-    </p>
-
-    <p>
-      Our sauces are unique, made in-house, rich, and never watered down. 
-      Add crispy fries and fresh squeaky cheese curds, and you’ll understand 
-      why people keep coming back to Chuck’s.
-    </p>
-
-    <p>
-      <a href="https://share.google/MH1O5rEseR35d5RUn"
-         class="btn btn-outline"
-         target="_blank">
-        See our reviews
+      <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
+         target="_blank"
+         class="tiktok-card">
+        <img src="{{ '/assets/images/olivier-primeau-review-chucks-casse-croute.png' | relative_url }}"
+             alt="Olivier Primeau review - Chuck’s casse-croûte">
+        <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
       </a>
-    </p>
+    </div>
+      <div class="col">
+        <p>
+        Many customers tell us we serve the best poutine in the Outaouais — 
+        and it’s not just us saying it. We are proudly ranked 
+        <strong>#1 in Gatineau on 
+          <a href="https://poutztanote.ca/restaurant/chucks-casse-croute/" target="_blank" rel="noopener">
+            PoutzTaNote.ca
+          </a>
+        </strong>.
+      </p>
+  
+      <p>
+        This year, <strong>Olivier Primeau also highlighted that our poutine is unique 
+        and one of the best in Gatineau</strong>.
+      </p>
+  
+      <p>
+        Our sauces are unique, made in-house, rich, and never watered down. 
+        Add crispy fries and fresh squeaky cheese curds, and you’ll understand 
+        why people keep coming back to Chuck’s.
+      </p>
+  
+      <p>
+        <a href="https://share.google/MH1O5rEseR35d5RUn"
+           class="btn btn-outline"
+           target="_blank">
+          See our reviews
+        </a>
+      </p>
   </div>
     </div>
 
