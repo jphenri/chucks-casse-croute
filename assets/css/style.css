@@ -334,78 +334,98 @@ main {
   gap: 1.2rem;
 }
 
-@media (max-width: 768px) {
-  .site-header .brand-logo {
-    height: 70px !important;
-  }
-}
 /* ----------------------------------------------------
-   GLOBAL MOBILE FONT SCALE — Chuck's Casse-Croûte
+   +20% GLOBAL SCALE ON MOBILE
    ---------------------------------------------------- */
 @media (max-width: 768px) {
 
-  /* Taille de base plus grande */
+  /* Base font: bigger everywhere */
   body {
-    font-size: 18px !important;      /* +2px sur tout le site */
-    line-height: 1.55;
+    font-size: 20px !important;        /* +20% compared to 16–17px */
+    line-height: 1.6;
   }
 
-  /* Titres */
+  /* TITLES */
   h1 {
-    font-size: 2rem !important;      /* 32px */
+    font-size: 2.4rem !important;      /* +20% */
   }
 
   h2 {
-    font-size: 1.6rem !important;    /* 25-26px */
+    font-size: 1.9rem !important;      /* +20% */
   }
 
   h3 {
-    font-size: 1.3rem !important;    /* 21px */
+    font-size: 1.5rem !important;      /* +20% */
   }
 
-  /* Paragraphes */
+  /* PARAGRAPHES + LISTES */
   p,
   li,
   .card p,
   .faq-item p {
-    font-size: 1.05rem !important;   /* 17px */
+    font-size: 1.25rem !important;     /* équivalent ~20% plus grand */
   }
 
-  /* Hero */
+  /* HERO TITLE & SUBTITLE */
   .hero h1 {
-    font-size: 2.1rem !important;    /* large title */
+    font-size: 2.5rem !important;      /* Titre très lisible */
+    line-height: 1.25;
   }
 
-  .hero p {
-    font-size: 1.1rem !important;    /* subtitle bigger */
+  .hero p,
+  .hero-subtitle {
+    font-size: 1.25rem !important;
   }
 
-  /* Boutons */
+  /* BUTTONS */
   .btn,
   .btn-primary,
   .btn-outline {
-    font-size: 1.05rem !important;   /* 17px */
-    padding: 0.9rem 1.1rem !important;
-  }
-
-  /* Menu du header */
-  .site-nav .page-link {
-    font-size: 1rem !important;      /* 16px */
-  }
-
-  /* FR / EN */
-  .lang-switch-hero {
-    font-size: 1rem !important;
-  }
-
-  /* FAQ */
-  .faq-item h3 {
     font-size: 1.2rem !important;
+    padding: 1.1rem 1.25rem !important;
+    width: 100%;
+    max-width: 320px;
   }
 
-  /* Footer */
+  /* HEADER MENU */
+  .site-nav .page-link {
+    font-size: 1.15rem !important;
+  }
+
+  /* FR EN */
+  .lang-switch-hero {
+    font-size: 1.15rem !important;
+  }
+
+  /* HEADER LOGO (+20%) */
+  .site-header .brand-logo {
+    height: 84px !important;   /* si ton logo était ~70px, +20% */
+    width: auto !important;
+  }
+
+  /* HERO LOGO (si tu en as un dedans) */
+  .hero-logo {
+    max-width: 330px !important;
+  }
+
+  /* SECTIONS (plus d’air) */
+  .wrapper,
+  .wrapper-header {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  /* CARDS */
+  .card,
+  .faq-item,
+  .contact-section {
+    padding: 1.4rem !important;
+  }
+
+  /* FOOTER */
   .site-footer {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 }
+
 
