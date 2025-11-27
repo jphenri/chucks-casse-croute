@@ -109,13 +109,13 @@ permalink: /
   <div class="row">
 
 <div class="col">
- <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
-   target="_blank"
-   style="display:block; text-decoration:none;">
-  <img src="/assets/images/olivier-primeau-review-chucks-casse-croute.png"
-       alt="Review de Chuck’s par Olivier Primeau"
-       style="width:100%; border-radius:16px;">
-</a>
+      <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
+         target="_blank"
+         class="tiktok-card">
+        <img src="{{ '/assets/images/olivier-primeau-review-chucks-casse-croute.png' | relative_url }}"
+             alt="Olivier Primeau review - Chuck’s casse-croûte">
+        <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
+      </a>
 </div>
 
     <div class="col">
