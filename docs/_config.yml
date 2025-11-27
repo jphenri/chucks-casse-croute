@@ -29,3 +29,5 @@ defaults:
     values:
       lang: en
 
+plugins:
+  - jekyll-sitemap
