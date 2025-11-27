@@ -262,4 +262,45 @@ img {
   max-width: none;
   border-radius: 0;      /* pas de coins ronds pour le logo */
 }
+/* Header layout: logo + menu + FR/EN */
+.site-header {
+  padding: 0.6rem 1rem;
+}
+
+.wrapper-header {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Si tu as le switch FR / EN dans le header */
+.lang-switch-hero {
+  font-size: 0.9rem;
+}
+
+/* Mobile: un peu plus serré mais toujours sur une ligne */
+@media (max-width: 600px) {
+  .wrapper-header {
+    padding: 0 0.25rem;
+  }
+
+  .site-nav .page-link {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .lang-switch-hero {
+    font-size: 0.85rem;
+  }
+}
 
