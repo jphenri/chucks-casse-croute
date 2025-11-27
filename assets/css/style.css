@@ -334,4 +334,9 @@ main {
   gap: 1.2rem;
 }
 
+@media (max-width: 768px) {
+  .site-header .brand-logo {
+    height: 70px !important;
+  }
+}
 
