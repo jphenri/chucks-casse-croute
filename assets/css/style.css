@@ -318,6 +318,20 @@ main {
     margin-top: 1.75rem;
   }
 }
+.site-header .brand-logo {
+  height: 90px !important;    /* big clean size */
+  width: auto !important;
+  max-width: none !important;
+  display: block;
+}
 
+.site-header {
+  padding: 1.2rem 1rem;        /* extra space so the logo breathes */
+}
+
+.wrapper-header {
+  align-items: center;
+  gap: 1.2rem;
+}
 
 
