@@ -1,372 +1,144 @@
-/* ----------------------------------------------------
-   Chuck’s Casse-Croûte – Thème custom mobile-first
-   ---------------------------------------------------- */
-
-/* Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  background: #f9f3e8;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif;
-  color: #222;
-  line-height: 1.6;
-}
-
-/* Cacher le H1 auto ajouté par GitHub (le lien violet) */
-body > h1:first-of-type,
-main > h1:first-of-type,
-.markdown-body > h1:first-of-type {
-  display: none !important;
-}
-
-/* ----------------------------------------------------
-   CONTAINER GLOBAL (pour éviter le full-width sur wide screen)
-   ---------------------------------------------------- */
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-/* ----------------------------------------------------
-   HEADER / NAV
-   ---------------------------------------------------- */
-
-.site-header {
-  background: #b71c1c;
-  color: #fff;
-  padding: 0.75rem 1rem;
-}
-
-.wrapper-header {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-}
-
-.brand-logo {
-  height: 56px;
-  width: auto;
-  display: block;
-}
-
-/* Navigation */
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.site-nav .page-link {
-  color: #ffe082;
-  font-weight: 600;
-  margin-left: 1rem;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
-
-.site-nav .page-link:hover {
-  text-decoration: underline;
-}
-
-/* ----------------------------------------------------
-   WRAPPER POUR LE CONTENU MARKDOWN
-   ---------------------------------------------------- */
-
-.wrapper {
-  padding: 2rem 0 0;
-}
-
-/* ----------------------------------------------------
-   TITRES & TEXTE
-   ---------------------------------------------------- */
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Segoe UI", system-ui, sans-serif;
-  color: #b71c1c;
-  margin-top: 0;
-}
-
-h1 {
-  font-size: 2.3rem;
-}
-
-h2 {
-  font-size: 1.7rem;
-  border-left: 4px solid #ffc107;
-  padding-left: 0.5rem;
-}
-
-h3 {
-  font-size: 1.3rem;
-}
-
-p {
-  margin: 0.5rem 0 1rem;
-}
-
-/* ----------------------------------------------------
-   HERO
-   ---------------------------------------------------- */
-
-.hero {
-  background: linear-gradient(135deg, #b71c1c, #c62828);
-  color: #fff;
-  padding: 1.5rem 1.75rem;
-  border-radius: 16px;
-  margin: 1.5rem auto 1.5rem;
-  max-width: 1200px;
-  text-align: center;
-}
-
-.hero h1 {
-  color: #fff;
-  margin-top: 0.3rem;
-}
-
-.hero p {
-  margin-bottom: 0.75rem;
-}
-
-/* ----------------------------------------------------
-   BOUTONS
-   ---------------------------------------------------- */
-
-.btn {
-  display: inline-block;
-  padding: 0.6rem 1.1rem;
-  margin: 0.25rem 0.35rem;
-  border-radius: 999px;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-  border: 2px solid transparent;
-  font-size: 0.95rem;
-}
-
-.btn-primary {
-  background: #ffc107;
-  color: #4e342e;
-  border-color: #ffb300;
-}
-
-.btn-primary:hover {
-  background: #ffb300;
-}
-
-.btn-outline {
-  background: transparent;
-  color: #ffc107;
-  border-color: #ffc107;
-}
-
-.btn-outline:hover {
-  background: rgba(255, 193, 7, 0.15);
-}
-
-/* ----------------------------------------------------
-   CARDS
-   ---------------------------------------------------- */
-
-.card {
-  background: #fffdf9;
-  border-radius: 12px;
-  border: 1px solid #f0e0c8;
-  padding: 1rem 1.1rem;
-  margin: 1.5rem 0;
-}
-
-/* ----------------------------------------------------
-   ROW / COL – layout 2 colonnes sur desktop
-   ---------------------------------------------------- */
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.col {
-  flex: 1;
-  min-width: 260px;
-}
-
-/* Images dans les colonnes */
-.col img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  display: block;
-}
-
-/* Limiter la taille des images sur desktop */
-@media (min-width: 769px) {
-  .col img {
-    max-width: 420px;
-  }
-}
-
-/* ----------------------------------------------------
-   TIKTOK CARD (embed sans script)
-   ---------------------------------------------------- */
-
-.tiktok-card {
-  display: block;
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  text-decoration: none;
-}
-
-.tiktok-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.tiktok-badge {
-  position: absolute;
-  left: 50%;
-  bottom: 12px;
-  transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-/* ----------------------------------------------------
-   TABLEAUX (si tu en utilises)
-   ---------------------------------------------------- */
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  font-size: 0.95rem;
-}
-
-th,
-td {
-  padding: 0.6rem 0.5rem;
-  border-bottom: 1px solid #eee0cc;
-}
-
-th {
-  text-align: left;
-  background: #fff5dd;
-}
-
-/* ----------------------------------------------------
-   IMAGES GLOBALES
-   ---------------------------------------------------- */
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ----------------------------------------------------
-   FOOTER
-   ---------------------------------------------------- */
-
-.site-footer {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #777;
-  padding: 2rem 0 2.5rem;
-  margin-top: 2rem;
-}
-
-.site-footer a {
-  color: #b71c1c;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-}
-
-/* ----------------------------------------------------
-   UTILITAIRES
-   ---------------------------------------------------- */
-
-.text-center {
-  text-align: center;
-}
-
-/* ----------------------------------------------------
+/* ===========================
    RESPONSIVE
-   ---------------------------------------------------- */
+   =========================== */
 
-/* Tablettes */
+/* Tablettes & mobiles ≤ 768px */
 @media (max-width: 768px) {
-  .wrapper {
-    padding-top: 1.5rem;
+
+  body {
+    font-size: 16px;
   }
 
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  .wrapper {
+    padding-top: 1.25rem;
+  }
+
+  /* HEADER */
+  .site-header {
+    padding: 0.6rem 0;
+  }
+
+  .wrapper-header {
+    max-width: 100%;
+    padding: 0 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .brand-logo {
+    height: 48px;
+  }
+
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: flex-start;
+  }
+
+  .site-nav .page-link {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  /* LANG SWITCH dans le hero ou en haut */
+  .lang-switch-hero {
+    position: static;          /* ne plus flotter en absolute sur mobile */
+    text-align: right;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    padding-right: 4px;
+  }
+
+  /* TITRES */
   h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   h2 {
     font-size: 1.4rem;
   }
 
-  .wrapper-header {
-    flex-direction: column;
-    align-items: center;
+  h3 {
+    font-size: 1.2rem;
   }
 
-  .site-nav {
-    justify-content: center;
-  }
-
-  .site-nav .page-link {
-    margin: 0.25rem 0.5rem;
-    font-size: 0.9rem;
-  }
-
+  /* HERO */
   .hero {
-    margin: 1rem;
-    padding: 1.1rem 1rem;
+    margin: 0.75rem 0.75rem 1.25rem;
+    padding: 1.1rem 1rem 1.2rem;
+    text-align: center;
   }
 
+  .hero h1 {
+    margin-bottom: 0.4rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .hero .btn,
+  .hero .btn-primary {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin: 0.35rem auto;
+  }
+
+  /* LAYOUT 2 colonnes → 1 colonne */
   .row {
     flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .col {
+    min-width: 0;
+  }
+
+  /* BOUTONS GLOBAUX */
+  .btn,
+  .btn-primary,
+  .btn-outline {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin: 0.3rem auto;
+    text-align: center;
+    padding: 0.65rem 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  /* FAQ */
+  .faq-item {
+    padding: 12px 10px;
+  }
+
+  .faq-item h3 {
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+  .site-footer {
+    padding: 1.5rem 0 2rem;
+    font-size: 0.8rem;
+    text-align: center;
   }
 }
 
-/* Téléphones */
+/* Petits téléphones ≤ 480px */
 @media (max-width: 480px) {
-  .container {
-    padding: 0 0.75rem;
+  .hero {
+    margin: 0.5rem 0.5rem 1rem;
+    padding: 0.9rem 0.85rem;
   }
 
   h1 {
@@ -376,217 +148,4 @@ img {
   h2 {
     font-size: 1.25rem;
   }
-
-  .hero {
-    margin: 0.75rem;
-    padding: 0.9rem 0.8rem;
-  }
-
-  .hero .btn {
-    display: block;
-    width: 100%;
-    margin: 0.25rem 0;
-  }
-
-  table {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
 }
-.table-wrapper {
-  overflow-x: auto;
-  margin: 1rem 0;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: #fffdf9;
-  border-radius: 10px;
-}
-
-th {
-  background: #ffe8c8;
-  font-weight: 700;
-}
-
-td, th {
-  padding: .6rem .75rem;
-  border-bottom: 1px solid #f0e0c8;
-}
-
-.hero {
-  position: relative; /* si ce n’est pas déjà là */
-}
-
-.lang-switch-hero {
-  position: absolute;
-  top: 12px;
-  right: 18px;
-  font-size: 0.9rem;
-}
-
-.lang-switch-hero a {
-  color: #ffe082;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.lang-switch-hero a:hover {
-  text-decoration: underline;
-}
-
-.lang-switch-hero .active {
-  color: #ffffff;
-  font-weight: 700;
-}
-/* ===========================
-   MOBILE (écran ≤ 768px)
-   =========================== */
-@media (max-width: 768px) {
-
-  /* Conteneur principal */
-  body {
-    font-size: 16px;
-  }
-
-  .page-content,
-  .wrapper,
-  .wrapper-header {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  /* HEADER + NAV + LANG SWITCH */
-  .site-header {
-    padding: 8px 0;
-  }
-
-  .wrapper-header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .brand-logo {
-    max-height: 40px;
-  }
-
-  .site-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    font-size: 14px;
-  }
-
-  .site-nav .page-link {
-    padding: 4px 0;
-  }
-
-  .lang-switch-hero {
-    margin-left: 0;
-    font-size: 14px;
-  }
-
-  /* HERO */
-  .hero {
-    text-align: center;
-    padding: 20px 16px;
-  }
-
-  .hero h1,
-  .hero-title {
-    font-size: 24px;
-    line-height: 1.2;
-  }
-
-  .hero p,
-  .hero-subtitle {
-    font-size: 15px;
-  }
-
-  .hero .btn,
-  .hero .btn-primary {
-    width: 100%;
-    max-width: 260px;
-    margin: 12px auto 0;
-    display: inline-block;
-  }
-
-  /* SECTIONS GÉNÉRALES */
-  section {
-    padding: 20px 0;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  /* IMAGES DANS LES BLOCS */
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Si tu as des grilles 2 colonnes (ex: image + texte) */
-  .two-column,
-  .section-grid,
-  .menu-grid,
-  .story-grid,
-  .reviews-grid {
-    display: block;
-  }
-
-  .two-column > div,
-  .section-grid > div,
-  .menu-grid > div,
-  .story-grid > div,
-  .reviews-grid > div {
-    width: 100%;
-  }
-
-  /* Boutons */
-  .btn,
-  .btn-primary,
-  .btn-outline {
-    display: inline-block;
-    width: 100%;
-    max-width: 260px;
-    text-align: center;
-    padding: 10px 14px;
-    font-size: 15px;
-  }
-
-  /* FAQ – espacer les questions */
-  .faq-item {
-    padding: 12px 10px;
-  }
-
-  .faq-item h3 {
-    font-size: 16px;
-  }
-
-  /* Bloc contact */
-  .contact-section {
-    text-align: left;
-  }
-
-  .contact-section .btn {
-    margin-top: 10px;
-  }
-
-  /* Footer */
-  .site-footer {
-    padding: 16px 12px;
-    font-size: 13px;
-    text-align: center;
-  }
-}
-
