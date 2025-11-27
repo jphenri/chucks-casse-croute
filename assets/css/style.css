@@ -255,3 +255,11 @@ img {
     margin-left: 0.5rem;
   }
 }
+/* Fix header logo size */
+.site-header .brand-logo {
+  height: 52px;          /* taille du logo dans le header */
+  width: auto;
+  max-width: none;
+  border-radius: 0;      /* pas de coins ronds pour le logo */
+}
+
