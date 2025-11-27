@@ -1,24 +1,21 @@
 title: "Chuck’s casse-croûte"
 description: "Poutines généreuses, burgers débordants et casse-croûte familial à Gatineau."
 
-# Liens utiles (s’affichent dans le thème Minimal)
-logo: /assets/images/logo.png   # remplace par ton logo si tu veux
+# Logo utilisé par le thème Minimal
+logo: /assets/images/logo.png
 show_downloads: false
 
-# Liens sociaux (tu peux ajuster/compléter)
-github:
-  is_project_page: false
+# Domaine principal du site
+url: "https://chucks-casse-croute.com"
+baseurl: ""   # IMPORTANT : vide car tu utilises un nom de domaine custom
 
-# URL de base – à ajuster si tu utilises un custom domain plus tard
-url: "https://jphenri.github.io"
-baseurl: "/chucks-casse-croute"  # ou vide "" si tu l’utilises comme user site
-
-# SEO de base
+# SEO / Langues
 lang: fr-CA
 
 languages:
   - fr
   - en
+
 defaults:
   - scope:
       path: ""
@@ -29,5 +26,6 @@ defaults:
     values:
       lang: en
 
+# Plugins GitHub Pages (sitemap auto)
 plugins:
   - jekyll-sitemap
