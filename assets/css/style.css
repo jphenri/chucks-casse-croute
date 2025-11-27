@@ -304,18 +304,20 @@ img {
   }
 }
 /* ----------------------------------------------------
-   ESPACE ENTRE HEADER ET HERO
+   GLOBAL SPACING BETWEEN HEADER AND MAIN
    ---------------------------------------------------- */
 
-.hero {
-  margin-top: 1.25rem !important;   /* espace parfait desktop */
+main {
+  display: block;           /* ensures consistent behavior */
+  margin-top: 1.5rem;       /* space below the header */
 }
 
-/* Sur mobile un peu plus d’espace */
+/* Mobile: slightly more comfortable */
 @media (max-width: 768px) {
-  .hero {
-    margin-top: 1.5rem !important;
+  main {
+    margin-top: 1.75rem;
   }
 }
+
 
 
