@@ -114,7 +114,7 @@ permalink: /
   <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
      target="_blank"
      class="tiktok-card">
-    <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
+    <img src="{{ '/assets/images/olivier-primeau-review-chucks-casse-croute.png' | relative_url }}"
          alt="Vidéo TikTok sur la poutine de Chuck’s casse-croûte">
     <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
   </a>
