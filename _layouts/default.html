@@ -6,30 +6,29 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
-
 <header class="site-header">
-  <div class="wrapper-header">
 
-    <!-- LOGO -->
+  <div class="wrapper-header">
     <a class="brand" href="{{ site.baseurl }}/">
       <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Chuck’s casse-croûte" class="brand-logo">
     </a>
 
-    <!-- NAV -->
-    <nav class="site-nav">
-      <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
-      <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
-    </nav>
-  </div>
-</header>
+        <nav class="site-nav">
+          <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
+          <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
+        </nav>
 
-<main>
-  {{ content }}
-</main>
+      </div>
+    </header>
 
-<footer class="site-footer">
-  <p>© {{ site.time | date: '%Y' }} Chuck’s casse-croûte — Site par J.P. Henri</p>
-</footer>
+    <main>
+      {{ content }}
+    </main>
 
+
+
+    <footer class="site-footer">
+      <p>© {{ site.time | date: '%Y' }} Chuck’s casse-croûte — Site par J.P. Henri</p>
+    </footer>
   </body>
 </html>
