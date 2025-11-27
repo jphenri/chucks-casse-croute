@@ -156,7 +156,7 @@ permalink: /en/
 
 <div class="card">
   <h3>Can we order for takeout?</h3>
-  <p>Yes — just call us during opening hours.</p>
+  <p>Yes — come and see us during opening hours.</p>
 </div>
 
 <div class="card">
