@@ -41,7 +41,7 @@ body {
   gap: 1rem;
 }
 
-/* Gros logo header */
+/* Logo header */
 .brand-logo {
   height: 110px;
   width: auto;
@@ -57,7 +57,7 @@ body {
 .site-nav .page-link {
   color: #ffe082;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ body {
 
 /* Switch FR / EN */
 .lang-switch-hero {
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   color: #ffe082;
 }
 
@@ -107,11 +107,11 @@ h4 {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   border-left: 4px solid #ffc107;
   padding-left: 0.5rem;
   margin-top: 2.2rem;
@@ -138,7 +138,6 @@ p {
   color: #fff;
   padding: 2rem 1.6rem;
   border-radius: 16px;
-  text-align: left;
 }
 
 .hero h1 {
@@ -147,7 +146,20 @@ p {
 }
 
 .hero p {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
+}
+
+/* Badge (facultatif) */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 999px;
+  background: #ffc107;
+  color: #4e342e;
+  font-weight: 700;
 }
 
 /* ======================================================
@@ -162,7 +174,8 @@ p {
   text-align: center;
   text-decoration: none;
   border: 2px solid transparent;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -212,7 +225,7 @@ img {
 }
 
 /* ======================================================
-   UTILITY CLASSES
+   UTILITAIRES
    ====================================================== */
 
 .text-center {
@@ -228,87 +241,112 @@ img {
 }
 
 /* ======================================================
-   MOBILE — MODE LARGE (+25% de taille)
+   TABLETTE
+   ====================================================== */
+
+@media (max-width: 960px) {
+  .wrapper {
+    margin: 1.5rem;
+    padding: 1.4rem;
+  }
+}
+
+/* ======================================================
+   MOBILE – MODE “2x PLUS GROS”
    ====================================================== */
 
 @media (max-width: 768px) {
 
-  /* BODY */
+  /* Corps du texte */
   body {
-    font-size: 20px;
+    font-size: 24px;           /* ~2x par rapport à 14–16px */
+    line-height: 1.6;
   }
 
-  /* HEADER */
+  main {
+    margin-top: 1.8rem;
+  }
+
+  .wrapper {
+    margin: 1rem;
+    padding: 1.3rem;
+  }
+
+  /* Header en colonne + gros logo */
   .site-header {
     padding: 1rem 0.8rem;
   }
 
   .wrapper-header {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 0.6rem;
   }
 
   .brand-logo {
-    height: 100px;
+    height: 120px; /* BIG sur iPhone */
   }
 
-  /* MENU */
+  /* Menu + FR/EN très lisibles */
+  .site-nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .site-nav .page-link {
-    font-size: 1.35rem;
+    font-size: 1.6rem;    /* gros Accueil / Menu */
   }
 
   .lang-switch-hero {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
-  /* HERO */
-  .hero {
-    padding: 1.6rem 1rem;
-  }
-
-  .hero h1 {
-    font-size: 2.6rem;
-  }
-
-  .hero p {
-    font-size: 1.35rem;
-  }
-
-  /* WRAPPER */
-  .wrapper {
-    margin: 1rem;
-    padding: 1.2rem;
-  }
-
-  /* BUTTONS */
-  .btn,
-  .btn-primary,
-  .btn-outline {
-    font-size: 1.3rem;
-    padding: 1rem 1.6rem;
-    width: 100%;
-    max-width: 340px;
-  }
-
-  /* TITRES */
+  /* Titres */
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;      /* très gros titre */
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   h3 {
+    font-size: 1.9rem;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 1.8rem 1.2rem;
+  }
+
+  .hero h1 {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+
+  .hero p {
+    font-size: 1.6rem;    /* sous-titre bien gros */
+  }
+
+  /* Paragraphes */
+  p {
     font-size: 1.6rem;
   }
 
-  /* PARAGRAPHES */
-  p {
-    font-size: 1.3rem;
+  /* Boutons – gros et full-width */
+  .btn,
+  .btn-primary,
+  .btn-outline {
+    font-size: 1.6rem;
+    padding: 1.1rem 1.6rem;
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 0.8rem;
   }
 
+  /* Footer */
   .site-footer {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
