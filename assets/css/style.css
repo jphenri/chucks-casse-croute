@@ -602,3 +602,28 @@ p {
     font-size: 1.4rem !important;
   }
 }
+/* ==========================================
+   Centre TOUTES les images sur mobile
+   ========================================== */
+@media (max-width: 1024px) {
+
+  /* Centre les images dans les colonnes */
+  .row .col img,
+  .card img,
+  img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Empêche les textes de s'écraser autour */
+  .col {
+    text-align: center !important;
+  }
+
+  /* Mais garde les paragraphes alignés à gauche */
+  .col p,
+  .card p {
+    text-align: left !important;
+  }
+}
