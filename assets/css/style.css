@@ -340,3 +340,65 @@ img {
     padding: 1.2rem !important;
   }
 }
+/* ----------------------------------------------------
+   Portrait iPhone : extra large text & nav
+   ---------------------------------------------------- */
+@media (max-width: 480px) {
+
+  /* Base text encore plus gros */
+  body {
+    font-size: 22px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Titres */
+  h1 {
+    font-size: 2.6rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  h3 {
+    font-size: 1.6rem !important;
+  }
+
+  /* Hero */
+  .hero h1 {
+    font-size: 2.7rem !important;
+  }
+
+  .hero p {
+    font-size: 1.3rem !important;
+  }
+
+  /* Menu Accueil / Menu + FR·EN */
+  .site-nav .page-link,
+  .lang-switch-hero {
+    font-size: 1.5rem !important;
+  }
+
+  /* Logo header un peu plus gros en portrait */
+  .site-header .brand-logo {
+    height: 105px !important;
+  }
+
+  /* Boutons vraiment confortables */
+  .btn,
+  .btn-primary,
+  .btn-outline {
+    font-size: 1.3rem !important;
+    padding: 1.1rem 1.4rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 0.8rem;
+  }
+
+  /* Un peu plus d’air autour du contenu */
+  .wrapper {
+    margin: 1rem 0.7rem 2rem;
+    padding: 1.2rem 1rem;
+  }
+}
+
