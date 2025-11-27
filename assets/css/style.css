@@ -400,17 +400,74 @@ img {
   }
 }
 /* ----------------------------------------------------
-   Portrait iPhone : extra large text & nav
+   iPhone Portrait — Maximum Readability (Full XL Mode)
    ---------------------------------------------------- */
 @media (max-width: 480px) {
 
-  /* Base text encore plus gros */
+  /* Base font size */
   body {
     font-size: 22px !important;
-    line-height: 1.6 !important;
+    line-height: 1.62 !important;
   }
 
-  /* Titres */
+  /* Header spacing */
+  .site-header {
+    padding-top: 1.2rem !important;
+    padding-bottom: 1.2rem !important;
+  }
+
+  /* Header logo */
+  .site-header .brand-logo {
+    height: 110px !important;
+    width: auto !important;
+  }
+
+  /* Menu (Accueil / Menu) */
+  .site-nav .page-link {
+    font-size: 1.55rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.4px !important;
+  }
+
+  /* FR / EN */
+  .lang-switch-hero {
+    font-size: 1.55rem !important;
+    font-weight: 800 !important;
+  }
+
+  /* Hero block */
+  .hero {
+    padding: 1.7rem 1.4rem !important;
+    border-radius: 20px !important;
+  }
+
+  .hero h1 {
+    font-size: 2.7rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .hero p {
+    font-size: 1.35rem !important;
+  }
+
+  /* Hero buttons */
+  .hero .btn,
+  .hero .btn-primary,
+  .hero .btn-outline {
+    font-size: 1.35rem !important;
+    padding: 1.15rem 1.5rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 0.9rem !important;
+  }
+
+  /* Section wrappers */
+  .wrapper {
+    margin: 1.2rem 0.6rem 2rem !important;
+    padding: 1.3rem 1.1rem !important;
+  }
+
+  /* Titles */
   h1 {
     font-size: 2.6rem !important;
   }
@@ -423,41 +480,49 @@ img {
     font-size: 1.6rem !important;
   }
 
-  /* Hero */
-  .hero h1 {
-    font-size: 2.7rem !important;
+  /* Paragraphs */
+  p {
+    font-size: 1.25rem !important;
   }
 
-  .hero p {
-    font-size: 1.3rem !important;
+  /* FAQ */
+  .faq-item h3 {
+    font-size: 1.55rem !important;
   }
 
-  /* Menu Accueil / Menu + FR·EN */
-  .site-nav .page-link,
-  .lang-switch-hero {
-    font-size: 1.5rem !important;
+  .faq-item p {
+    font-size: 1.25rem !important;
   }
 
-  /* Logo header un peu plus gros en portrait */
-  .site-header .brand-logo {
-    height: 105px !important;
-  }
-
-  /* Boutons vraiment confortables */
+  /* Buttons inside cards */
   .btn,
   .btn-primary,
   .btn-outline {
     font-size: 1.3rem !important;
     padding: 1.1rem 1.4rem !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-bottom: 0.8rem;
   }
 
-  /* Un peu plus d’air autour du contenu */
-  .wrapper {
-    margin: 1rem 0.7rem 2rem;
-    padding: 1.2rem 1rem;
+  /* Row/Col → single column */
+  .row {
+    flex-direction: column !important;
+    gap: 1.8rem !important;
+  }
+
+  .col {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+
+  /* Images */
+  img {
+    border-radius: 16px !important;
+  }
+
+  /* Footer */
+  .site-footer {
+    font-size: 1.15rem !important;
+    padding: 2rem 1rem !important;
   }
 }
+
 
