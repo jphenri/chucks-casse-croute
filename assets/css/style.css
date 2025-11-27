@@ -149,3 +149,146 @@
     font-size: 1.25rem;
   }
 }
+
+/* ===========================
+   MOBILE FIXES — Chuck’s casse-croûte
+   =========================== */
+@media (max-width: 768px) {
+
+  /* Body */
+  body {
+    font-size: 16px;
+    line-height: 1.45;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Global containers */
+  .wrapper,
+  .site-header .wrapper-header,
+  .page-content {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    width: 100% !important;
+  }
+
+  /* Header / Logo */
+  .site-header {
+    padding: 8px 0;
+    text-align: left;
+  }
+
+  .wrapper-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+  .brand-logo {
+    max-height: 50px;
+    width: auto;
+  }
+
+  /* Navigation */
+  .site-nav {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .site-nav .page-link {
+    font-size: 15px;
+    padding: 4px 0;
+  }
+
+  /* Language switch */
+  .lang-switch-hero {
+    margin-left: 0 !important;
+    font-size: 15px;
+    padding-top: 4px;
+  }
+
+  /* Section titles */
+  h1, h2, h3 {
+    text-align: left;
+    line-height: 1.25;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  /* Images full width */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Blocks with image + text */
+  .two-column,
+  .menu-grid,
+  .story-grid,
+  .reviews-grid,
+  .section-grid {
+    display: block !important;
+  }
+
+  .two-column > div,
+  .menu-grid > div,
+  .story-grid > div,
+  .reviews-grid > div,
+  .section-grid > div {
+    width: 100% !important;
+    margin-bottom: 18px;
+  }
+
+  /* Buttons */
+  .btn,
+  .btn-primary,
+  .btn-outline {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 14px;
+    margin: 12px 0;
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  /* FAQ */
+  .faq-item {
+    padding: 12px 8px;
+    margin-bottom: 8px;
+  }
+
+  .faq-item h3 {
+    font-size: 16px;
+  }
+
+  /* Contact section */
+  .contact-section,
+  .contact-info {
+    text-align: left !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Footer */
+  .site-footer {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+}
+
