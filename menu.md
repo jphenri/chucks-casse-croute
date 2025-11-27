@@ -4,13 +4,7 @@ title: "Menu"
 permalink: /menu.html
 ---
 <div class="hero">
-  <div class="lang-switch-hero">
-    {% if page.url contains '/en/' %}
-      <a href="{{ '/menu.html' | relative_url }}">FR</a> · <span class="active">EN</span>
-    {% else %}
-      <span class="active">FR</span> · <a href="{{ '/en/menu.html' | relative_url }}">EN</a>
-    {% endif %}
-  </div>
+
 
   <span class="badge">Menu complet</span>
   <h1>🍟 Menu de Chuck’s casse-croûte</h1>
