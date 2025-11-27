@@ -411,3 +411,35 @@ h2 {
     height: 50px;
   }
 }
+/* Hero lisible sur mobile */
+@media (max-width: 768px) {
+  .hero {
+    padding: 28px 20px;
+    text-align: center;
+  }
+
+  .hero-kicker {
+    font-size: 14px;
+  }
+
+  .hero-title,
+  .hero h1 {
+    font-size: 28px;      /* Titre plus gros */
+    line-height: 1.25;
+  }
+
+  .hero-subtitle,
+  .hero p {
+    font-size: 16px;      /* Texte plus gros */
+  }
+
+  .hero .btn,
+  .hero .btn-primary {
+    font-size: 16px;
+    padding: 12px 18px;
+    width: 100%;
+    max-width: 280px;
+    margin-top: 14px;
+  }
+}
+
