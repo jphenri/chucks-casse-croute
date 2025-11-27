@@ -153,13 +153,6 @@ permalink: /en/menu.html
   <a href="{{ '/en/' | relative_url }}" class="btn btn-outline">⬅ Back to home</a>
 </div>
 
-<footer class="site-footer">
-  <p>
-    © 2025 Chuck’s Snack Bar — Website by JP Henri ·
-    <a href="https://jphenri.ca" target="_blank">
-      jphenri.ca
-    </a>
-  </p>
-</footer>
+
 
 </div> <!-- .container.wrapper -->
