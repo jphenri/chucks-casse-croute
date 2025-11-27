@@ -442,3 +442,32 @@ img {
     margin-right: 0.5rem;
   }
 }
+/* ----------------------------------------------------
+   FORCE toutes les sections 2 colonnes à devenir 1 colonne sur mobile
+   ---------------------------------------------------- */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column !important;  /* force 1 colonne */
+    gap: 1.5rem;
+  }
+
+  .col {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+
+  /* pour les images dans .col → full width */
+  .col img {
+    max-width: 100% !important;
+    height: auto;
+  }
+}
+
+/* encore plus strict pour petits écrans */
+@media (max-width: 480px) {
+  .row {
+    gap: 1.2rem;
+  }
+}
+
