@@ -15,7 +15,6 @@ permalink: /menu.html
 
   <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
      class="btn btn-primary">Notre adresse</a>
-  <a href="tel:18195615353" class="btn btn-outline">Appeler maintenant</a>
   <a href="https://www.facebook.com/chuckscassecroute"
      class="btn btn-outline"
      target="_blank" rel="noopener">
