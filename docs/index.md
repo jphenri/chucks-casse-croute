@@ -105,7 +105,7 @@ permalink: /
 
 
 <!-- AVIS -->
-<h2 id="avis">⭐ Avis & reviews</h2>
+<h2 id="avis">⭐ Avis & reviews de la meilleure poutine de Gatineau</h2>
 
 <div class="card">
   <div class="row">
@@ -120,36 +120,36 @@ permalink: /
   </a>
 </div>
 
-<div class="col">
-  <p>
-    Beaucoup de clients nous disent que nos poutines sont les meilleures en Outaouais — 
-    et ce n’est pas juste nous qui le disons. Nous sommes fièrement classés 
-    <strong>#1 à Gatineau sur 
-      <a href="https://poutztanote.ca/restaurant/chucks-casse-croute/" target="_blank" rel="noopener">
-        PoutzTaNote.ca
-      </a>
-    </strong>.
-  </p>
-
-  <p>
-    Cette année, <strong>Olivier Prime a lui aussi souligné que notre poutine est unique 
-    et l’une des meilleures à Gatineau</strong>.
-  </p>
-
-  <p>
-    Nos sauces sont uniques, préparées maison, bien riches et jamais diluées. 
-    Ajoute à ça des frites croustillantes et un fromage frais qui fait 
-    <em>skouik skouik</em>, et tu comprends pourquoi on revient toujours chez Chuck’s.
-  </p>
-
-  <p>
-    <a href="https://share.google/MH1O5rEseR35d5RUn"
-       class="btn btn-outline"
-       target="_blank">
-      Voir nos avis
-    </a>
-  </p>
-</div>
+    <div class="col">
+      <p>
+        Beaucoup de clients nous disent que nos poutines sont les meilleures en Outaouais — 
+        et ce n’est pas juste nous qui le disons. Nous sommes fièrement classés 
+        <strong>#1 à Gatineau sur 
+          <a href="https://poutztanote.ca/restaurant/chucks-casse-croute/" target="_blank" rel="noopener">
+            PoutzTaNote.ca
+          </a>
+        </strong>.
+      </p>
+    
+      <p>
+        Cette année, <strong>Olivier Prime a lui aussi souligné que notre poutine est unique 
+        et l’une des meilleures à Gatineau</strong>.
+      </p>
+    
+      <p>
+        Nos sauces sont uniques, préparées maison, bien riches et jamais diluées. 
+        Ajoute à ça des frites croustillantes et un fromage frais qui fait 
+        <em>skouik skouik</em>, et tu comprends pourquoi on revient toujours chez Chuck’s.
+      </p>
+    
+      <p>
+        <a href="https://share.google/MH1O5rEseR35d5RUn"
+           class="btn btn-outline"
+           target="_blank">
+          Voir nos avis
+        </a>
+      </p>
+    </div>
 
 
   </div>
