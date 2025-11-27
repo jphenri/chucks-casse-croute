@@ -5,9 +5,7 @@ permalink: /
 ---
 
 <div class="hero">
-      <div class="lang-switch-hero">
-        <span class="active">FR</span> · <a href="{{ '/en/' | relative_url }}">EN</a>
-      </div>
+
 
   <img src="{{ '/assets/images/logo.png' | relative_url }}"
        alt="Chuck’s casse-croûte"
