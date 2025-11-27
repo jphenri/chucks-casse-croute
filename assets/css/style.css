@@ -1,445 +1,390 @@
-/* ===========================================
-   Chuck's casse-croûte - Theme CSS
-   Mobile-first
-   =========================================== */
-
-/* ---------- Variables ---------- */
-:root {
-  --cc-red: #d62828;
-  --cc-red-dark: #b71f1f;
-  --cc-yellow: #ffcc4d;
-  --cc-cream: #fff7e8;
-  --cc-bg: #faf4ea;
-  --cc-text: #2b2b2b;
-  --cc-muted: #777;
-  --cc-border: #e3d7c8;
-  --cc-radius: 14px;
-  --cc-shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.08);
-  --cc-font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, sans-serif;
+/* ----------------------------------------------------
+   Chuck’s Casse-Croûte – Thème custom
+   ---------------------------------------------------- */
+/* Cacher le gros titre auto "chucks-casse-croute" ajouté en haut par GitHub */
+body > h1:first-of-type {
+  display: none !important;
+}
+main > h1:first-of-type,
+.markdown-body > h1:first-of-type {
+  display: none !important;
 }
 
-/* ---------- Reset léger ---------- */
+/* Reset */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  margin: 0;
-  padding: 0;
+  margin: 1.5rem;
+  background: #f9f3e8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-}
+/* ----------------------------------------------------
+   HEADER / NAV
+   ---------------------------------------------------- */
 
-/* ---------- Body / texte ---------- */
-body {
-  font-family: var(--cc-font-main);
-  background: var(--cc-bg);
-  color: var(--cc-text);
-  line-height: 1.5;
-  font-size: 16px;
-}
-
-/* liens */
-a {
-  color: var(--cc-red);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* ---------- Layout global ---------- */
-.page-content {
-  padding: 0 16px 32px;
-}
-
-.wrapper,
-.wrapper-header {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-/* ---------- Header ---------- */
 .site-header {
-  background: var(--cc-red);
+  background: #b71c1c;
   color: #fff;
-  padding: 10px 0;
+  padding: 0.75rem 1rem;
 }
 
 .wrapper-header {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 0 16px;
-}
-
-.brand {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .brand-logo {
-  height: 42px;
+  height: 56px;
   width: auto;
+  display: block;
 }
 
-/* nav */
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  font-size: 14px;
-}
-
+/* Nav links */
 .site-nav .page-link {
-  color: #ffecec;
+  color: #ffe082;
+  font-weight: 600;
+  margin-left: 1rem;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .site-nav .page-link:hover {
   text-decoration: underline;
 }
 
-/* switch FR/EN */
-.lang-switch-hero {
-  font-size: 14px;
-  color: #ffecec;
+/* ----------------------------------------------------
+   WRAPPER / PAGE
+   ---------------------------------------------------- */
+
+.wrapper {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
 }
 
-.lang-switch-hero .active {
-  font-weight: 700;
+.page-header {
+  margin-bottom: 1.5rem;
 }
 
-.lang-switch-hero a {
-  color: #ffecec;
+.page-title {
+  margin: 0;
 }
 
-/* ---------- Hero ---------- */
+/* ----------------------------------------------------
+   TITRES & TEXTE
+   ---------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #b71c1c;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  border-left: 4px solid #ffc107;
+  padding-left: 0.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  margin: 0.5rem 0 1rem;
+}
+
+/* ----------------------------------------------------
+   HERO
+   ---------------------------------------------------- */
+
 .hero {
-  margin: 0 auto;
-  margin-top: 16px;
-  margin-bottom: 24px;
-  padding: 20px 18px;
-  border-radius: 20px;
-  background: radial-gradient(circle at top left, #ffdd8a, #f8453b);
+  background: linear-gradient(135deg, #b71c1c, #c62828);
   color: #fff;
-  box-shadow: var(--cc-shadow-soft);
+  padding: 1.5rem 1.75rem;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.hero-kicker {
-  font-size: 12px;
+.hero h1,
+.hero h2 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.hero p {
+  margin-bottom: 0.75rem;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  background: #ffc107;
+  color: #4e342e;
+  font-weight: 700;
+  font-size: 0.75rem;
+  border-radius: 999px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  opacity: 0.9;
-  margin-bottom: 6px;
 }
 
-.hero-title,
-.hero h1 {
-  font-size: 24px;
-  margin: 0 0 10px;
-}
+/* ----------------------------------------------------
+   BOUTONS
+   ---------------------------------------------------- */
 
-.hero-title span {
-  color: #ffe082;
-}
-
-.hero-subtitle {
-  font-size: 14px;
-  margin: 0 0 16px;
-}
-
-/* ---------- Boutons ---------- */
-
-.btn,
-.btn-primary,
-.btn-outline {
-  display: inline-block;
-  padding: 10px 18px;
-  border-radius: 999px;
-  font-size: 15px;
-  font-weight: 600;
-  border: 2px solid transparent;
-  cursor: pointer;
-  text-align: center;
-  transition:
-    background 0.15s ease,
-    color 0.15s ease,
-    box-shadow 0.15s ease,
-    transform 0.1s ease;
-}
-
-.btn-primary,
 .btn {
-  background: #fff;
-  color: var(--cc-red-dark);
-  border-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  margin: 0.25rem 0.35rem;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-size: 0.95rem;
 }
 
-.btn-primary:hover,
-.btn:hover {
-  background: #ffe082;
-  border-color: #ffe082;
-  transform: translateY(-1px);
+.btn-primary {
+  background: #ffc107;
+  color: #4e342e;
+  border-color: #ffb300;
+}
+
+.btn-primary:hover {
+  background: #ffb300;
 }
 
 .btn-outline {
   background: transparent;
-  color: #fff;
-  border-color: #fff;
+  color: #ffc107;
+  border-color: #ffc107;
 }
 
 .btn-outline:hover {
-  background: #fff;
-  color: var(--cc-red-dark);
+  background: rgba(255, 193, 7, 0.15);
 }
 
-/* ---------- Sections ---------- */
-section {
-  margin: 26px 0;
-}
-
-section .section-header {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-bottom: 12px;
-}
-
-section .section-header h2 {
-  margin: 0;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-/* petit badge emoji titre */
-.section-emoji {
-  font-size: 18px;
-}
-
-/* ---------- Cartes / blocs ---------- */
+/* ----------------------------------------------------
+   CARDS
+   ---------------------------------------------------- */
 
 .card {
-  background: #fff;
-  border-radius: var(--cc-radius);
-  padding: 14px;
-  box-shadow: var(--cc-shadow-soft);
+  background: #fffdf9;
+  border-radius: 12px;
+  border: 1px solid #f0e0c8;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0;
 }
 
-.card + .card {
-  margin-top: 14px;
+.card h3 {
+  margin-top: 0;
 }
 
-/* Grids 2 colonnes sur desktop – mobile-first = bloc */
-.two-column,
-.menu-grid,
-.story-grid,
-.reviews-grid,
-.section-grid {
-  display: block;
-}
+/* ----------------------------------------------------
+   TABLEAUX
+   ---------------------------------------------------- */
 
-.two-column > div,
-.menu-grid > div,
-.story-grid > div,
-.reviews-grid > div,
-.section-grid > div {
+table {
   width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
 }
 
-/* ---------- TikTok / Reviews ---------- */
-.tiktok-card {
-  position: relative;
-  display: block;
-  border-radius: var(--cc-radius);
-  overflow: hidden;
-  box-shadow: var(--cc-shadow-soft);
+th,
+td {
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid #eee0cc;
 }
 
-.tiktok-badge {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  font-size: 13px;
-  padding: 6px 10px;
-  border-radius: 999px;
+th {
+  text-align: left;
+  background: #fff5dd;
 }
 
-/* ---------- FAQ ---------- */
+/* ----------------------------------------------------
+   IMAGES
+   ---------------------------------------------------- */
 
-.faq-item {
-  background: #fff;
-  border-radius: var(--cc-radius);
-  padding: 12px 14px;
-  margin-bottom: 10px;
-  box-shadow: var(--cc-shadow-soft);
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 
-.faq-item h3 {
-  margin: 0 0 6px;
-  font-size: 16px;
-}
-
-/* ---------- Contact ---------- */
-
-.contact-section {
-  background: #fff;
-  border-radius: var(--cc-radius);
-  padding: 14px;
-  box-shadow: var(--cc-shadow-soft);
-}
-
-.contact-section a {
-  font-weight: 600;
-}
-
-/* ---------- Footer ---------- */
+/* ----------------------------------------------------
+   FOOTER
+   ---------------------------------------------------- */
 
 .site-footer {
-  padding: 18px 16px 26px;
   text-align: center;
-  font-size: 13px;
-  color: var(--cc-muted);
+  font-size: 0.85rem;
+  color: #777;
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
 }
 
-/* ===========================================
-   Responsive ≥ 768px (tablette / petit desktop)
-   =========================================== */
-@media (min-width: 768px) {
-  .page-content {
-    padding: 0 24px 40px;
-  }
-
-  .wrapper,
-  .wrapper-header {
-    padding: 0;
-  }
-
-  .wrapper-header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .site-nav {
-    font-size: 15px;
-  }
-
-  .lang-switch-hero {
-    margin-left: 12px;
-  }
-
-  .hero {
-    margin-top: 22px;
-    margin-bottom: 30px;
-    padding: 26px 40px;
-    text-align: left;
-  }
-
-  .hero-title,
-  .hero h1 {
-    font-size: 30px;
-  }
-
-  .hero-subtitle {
-    font-size: 15px;
-    max-width: 520px;
-  }
-
-  /* 2 colonnes pour certains blocs */
-  .two-column,
-  .menu-grid,
-  .story-grid,
-  .reviews-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
-    gap: 22px;
-    align-items: center;
-  }
-
-  .card {
-    padding: 18px;
-  }
-
-  .faq-item {
-    padding: 14px 16px;
-  }
+.site-footer a {
+  color: #b71c1c;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-/* ===========================================
-   Responsive ≥ 1024px (desktop large)
-   =========================================== */
-@media (min-width: 1024px) {
-  .hero {
-    padding: 32px 60px;
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+
+/* ----------------------------------------------------
+   UTILITAIRES
+   ---------------------------------------------------- */
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+/* ----------------------------------------------------
+   RESPONSIVE
+   ---------------------------------------------------- */
+
+/* Tablettes */
+@media (max-width: 768px) {
+  .wrapper {
+    margin: 1rem;
+    padding: 1.1rem;
   }
 
-  .hero-title,
-  .hero h1 {
-    font-size: 34px;
+  h1 {
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 1.4rem;
   }
 
-  body {
-    font-size: 17px;
+  .wrapper-header {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .site-header {
-    padding: 12px 0;
-  }
-
-  .brand-logo {
-    height: 50px;
+  .site-nav .page-link {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
 }
-/* Hero lisible sur mobile */
-@media (max-width: 768px) {
+
+/* Téléphones */
+@media (max-width: 480px) {
+  .wrapper {
+    margin: 0.75rem;
+    padding: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
   .hero {
-    padding: 28px 20px;
-    text-align: center;
+    padding: 0.9rem 0.8rem;
   }
 
-  .hero-kicker {
-    font-size: 14px;
-  }
-
-  .hero-title,
-  .hero h1 {
-    font-size: 28px;      /* Titre plus gros */
-    line-height: 1.25;
-  }
-
-  .hero-subtitle,
-  .hero p {
-    font-size: 16px;      /* Texte plus gros */
-  }
-
-  .hero .btn,
-  .hero .btn-primary {
-    font-size: 16px;
-    padding: 12px 18px;
+  .hero .btn {
+    display: block;
     width: 100%;
-    max-width: 280px;
-    margin-top: 14px;
+    margin: 0.25rem 0;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+/* ----------------------------------------------------
+   ROW / COL  – layout desktop à 2 colonnes
+   ---------------------------------------------------- */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.col {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Pour les images dans une colonne */
+.col img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Mobile → revient à 1 colonne */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
   }
 }
 
+/* ----------------------------------------------------
+   Limiter la taille des images sur desktop
+   ---------------------------------------------------- */
+
+@media (min-width: 769px) {
+  .card img,
+  .col img {
+    max-width: 420px;   /* taille idéale sur PC */
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+  }
+
+  .row {
+    align-items: flex-start;
+  }
+}
