@@ -533,3 +533,72 @@ p {
     padding: 2.5rem 2.4rem;
   }
 }
+/* ==========================================
+   MODE XL POUR TOUS LES TÉLÉPHONES (≤ 1024px)
+   iPhone 12 inclus
+   ========================================== */
+@media (max-width: 1024px) {
+
+  /* Base texte plus gros partout */
+  body {
+    font-size: 22px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* NAV BAR : Accueil / Menu / FR·EN */
+  .site-nav .page-link,
+  .lang-switch-hero {
+    font-size: 1.8rem !important;      /* gros */
+    font-weight: 900 !important;       /* très bold */
+    letter-spacing: 0.4px !important;
+    color: #ffe9a0 !important;         /* jaune clair = plus lisible */
+  }
+
+  /* HERO */
+  .hero h1 {
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+  }
+
+  .hero p {
+    font-size: 1.5rem !important;
+  }
+
+  /* BOUTONS */
+  .btn,
+  .btn-primary,
+  .btn-outline {
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+    padding: 1.2rem 1.6rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 0.9rem !important;
+  }
+
+  .btn-primary {
+    background: #ffd23c !important;
+    border-color: #ffbf00 !important;
+    color: #4a2f00 !important;
+  }
+
+  .btn-outline {
+    border-color: #ffd23c !important;
+    color: #ffd23c !important;
+  }
+
+  /* Sections texte */
+  h2 {
+    font-size: 2.1rem !important;
+  }
+
+  h3 {
+    font-size: 1.7rem !important;
+  }
+
+  .card p,
+  .faq-item p,
+  .contact-section p {
+    font-size: 1.4rem !important;
+  }
+}
