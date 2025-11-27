@@ -160,13 +160,6 @@ permalink: /menu.html
   <a href="{{ '/' | relative_url }}" class="btn btn-outline">⬅ Retour à l’accueil</a>
 </div>
 
-<footer class="site-footer">
-  <p>
-    © 2025 Chuck’s casse-croûte — Site créé par JP Henri ·
-    <a href="https://jphenri.ca" target="_blank">
-      jphenri.ca
-    </a>
-  </p>
-</footer>
+
 
 </div> <!-- .container.wrapper -->
