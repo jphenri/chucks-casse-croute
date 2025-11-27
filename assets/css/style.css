@@ -319,7 +319,7 @@ main {
   }
 }
 .site-header .brand-logo {
-  height: 90px !important;    /* big clean size */
+  height: 130px !important;    /* big clean size */
   width: auto !important;
   max-width: none !important;
   display: block;
@@ -337,6 +337,75 @@ main {
 @media (max-width: 768px) {
   .site-header .brand-logo {
     height: 70px !important;
+  }
+}
+/* ----------------------------------------------------
+   GLOBAL MOBILE FONT SCALE — Chuck's Casse-Croûte
+   ---------------------------------------------------- */
+@media (max-width: 768px) {
+
+  /* Taille de base plus grande */
+  body {
+    font-size: 18px !important;      /* +2px sur tout le site */
+    line-height: 1.55;
+  }
+
+  /* Titres */
+  h1 {
+    font-size: 2rem !important;      /* 32px */
+  }
+
+  h2 {
+    font-size: 1.6rem !important;    /* 25-26px */
+  }
+
+  h3 {
+    font-size: 1.3rem !important;    /* 21px */
+  }
+
+  /* Paragraphes */
+  p,
+  li,
+  .card p,
+  .faq-item p {
+    font-size: 1.05rem !important;   /* 17px */
+  }
+
+  /* Hero */
+  .hero h1 {
+    font-size: 2.1rem !important;    /* large title */
+  }
+
+  .hero p {
+    font-size: 1.1rem !important;    /* subtitle bigger */
+  }
+
+  /* Boutons */
+  .btn,
+  .btn-primary,
+  .btn-outline {
+    font-size: 1.05rem !important;   /* 17px */
+    padding: 0.9rem 1.1rem !important;
+  }
+
+  /* Menu du header */
+  .site-nav .page-link {
+    font-size: 1rem !important;      /* 16px */
+  }
+
+  /* FR / EN */
+  .lang-switch-hero {
+    font-size: 1rem !important;
+  }
+
+  /* FAQ */
+  .faq-item h3 {
+    font-size: 1.2rem !important;
+  }
+
+  /* Footer */
+  .site-footer {
+    font-size: 1rem !important;
   }
 }
 
