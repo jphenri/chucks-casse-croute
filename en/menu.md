@@ -5,9 +5,7 @@ permalink: /en/menu.html
 ---
 
 <div class="hero">
-  <div class="lang-switch-hero">
-    <a href="{{ '/menu.html' | relative_url }}">FR</a> · <span class="active">EN</span>
-  </div>
+
 
   <span class="badge">Full Menu</span>
   <h1>🍟 Chuck’s casse-croûte Menu</h1>
