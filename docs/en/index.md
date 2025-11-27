@@ -101,35 +101,41 @@ permalink: /en/
 
 
 
-<h2 id="reviews">⭐ Reviews</h2>
+<h2 id="reviews">⭐ Reviews - Best poutine in Gatineau</h2>
 
 <div class="card">
   <div class="row">
 
     <div class="col">
-      <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
-         target="_blank"
-         class="tiktok-card">
-        <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
-             alt="TikTok video review">
-        <span class="tiktok-badge">▶ View TikTok video</span>
-      </a>
-    </div>
-
-    <div class="col">
       <p>
-        Customers love our generous portions, rich sauces and authentic Québec snack bar atmosphere.
-      </p>
-      <p>
-        Many say our poutines are among the best in the Outaouais region.
-      </p>
-      <p>
-        <a href="https://share.google/MH1O5rEseR35d5RUn"
-           class="btn btn-outline"
-           target="_blank">
-          View Google reviews
+      Many customers tell us we serve the best poutine in the Outaouais — 
+      and it’s not just us saying it. We are proudly ranked 
+      <strong>#1 in Gatineau on 
+        <a href="https://poutztanote.ca/restaurant/chucks-casse-croute/" target="_blank" rel="noopener">
+          PoutzTaNote.ca
         </a>
-      </p>
+      </strong>.
+    </p>
+
+    <p>
+      This year, <strong>Olivier Primeau also highlighted that our poutine is unique 
+      and one of the best in Gatineau</strong>.
+    </p>
+
+    <p>
+      Our sauces are unique, made in-house, rich, and never watered down. 
+      Add crispy fries and fresh squeaky cheese curds, and you’ll understand 
+      why people keep coming back to Chuck’s.
+    </p>
+
+    <p>
+      <a href="https://share.google/MH1O5rEseR35d5RUn"
+         class="btn btn-outline"
+         target="_blank">
+        See our reviews
+      </a>
+    </p>
+  </div>
     </div>
 
   </div>
