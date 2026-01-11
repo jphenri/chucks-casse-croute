@@ -176,18 +176,44 @@ permalink: /
 <!-- FACEBOOK FEED (auto update) -->
 <h2 id="facebook">📱 Nos dernières vidéos & posts</h2>
 
-<div class="card fb-wrap">
-  <div class="fb-page"
-    data-href="https://www.facebook.com/chuckscassecroute"
-    data-tabs="timeline"
-    data-width="800"
-    data-height="700"
-    data-small-header="true"
-    data-adapt-container-width="true"
-    data-hide-cover="false"
-    data-show-facepile="false">
+<section id="fb-section">
+  <div class="card fb-wrap">
+    <div class="fb-page"
+      data-href="https://www.facebook.com/chuckscassecroute"
+      data-tabs="timeline"
+      data-width="500"
+      data-height="700"
+      data-small-header="true"
+      data-adapt-container-width="true"
+      data-hide-cover="false"
+      data-show-facepile="false">
+      <p>Chargement de Facebook…</p>
+    </div>
   </div>
-</div>
+
+  <!-- Fallback: always visible if FB is blocked / not logged in / cookies disabled -->
+  <div class="card fb-fallback">
+    <h3>📌 Nos vidéos Facebook</h3>
+    <p>
+      Certains navigateurs bloquent l’affichage automatique de Facebook si vous n’êtes pas connecté
+      ou si le suivi est désactivé.
+    </p>
+    <p>
+      <a class="btn btn-primary"
+         href="https://www.facebook.com/chuckscassecroute/videos"
+         target="_blank" rel="noopener">
+        ▶ Voir toutes nos vidéos
+      </a>
+
+      <a class="btn btn-outline"
+         href="https://www.facebook.com/chuckscassecroute"
+         target="_blank" rel="noopener">
+        Ouvrir la page Facebook
+      </a>
+    </p>
+  </div>
+</section>
+
 
 <!-- CONTACT -->
 <h2 id="contact">📍 Contact & localisation</h2>
