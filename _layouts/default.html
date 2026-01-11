@@ -77,6 +77,16 @@
       jphenri.ca
     </a></p>
 </footer>
+<script>
+  // Hide fallback if FB plugin renders an iframe successfully
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+      var fbIframe = document.querySelector("#fb-section iframe");
+      var fallback = document.querySelector("#fb-section .fb-fallback");
+      if (fbIframe && fallback) fallback.style.display = "none";
+    }, 2500);
+  });
+</script>
 
   </body>
 </html>
