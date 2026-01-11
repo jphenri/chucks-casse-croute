@@ -700,3 +700,15 @@ p {
     font-size: 0.9rem;
   }
 }
+
+
+.fb-wrap{
+  max-width: 520px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.fb-wrap h2{
+  margin: 0 0 1rem 0;
+}
+
