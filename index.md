@@ -175,17 +175,17 @@ permalink: /
 
 <!-- FACEBOOK FEED (auto update) -->
 <h2 id="facebook">📱 Nos dernières vidéos & posts</h2>
-
-<div class="fb-page"
-  data-href="https://www.facebook.com/chuckscassecroute"
-  data-tabs="timeline"
-  data-width="500"
-  data-height="700"
-  data-small-header="true"
-  data-adapt-container-width="true"
-  data-hide-cover="false"
-  data-show-facepile="false">
-</div>
+<section id="fb-section">
+  <div class="fb-page"
+    data-href="https://www.facebook.com/chuckscassecroute"
+    data-tabs="timeline"
+    data-width="500"
+    data-height="700"
+    data-small-header="true"
+    data-adapt-container-width="true"
+    data-hide-cover="false"
+    data-show-facepile="false">
+  </div>
 
 
   <div class="card fb-fallback">
