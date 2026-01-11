@@ -187,7 +187,7 @@ permalink: /
   data-adapt-container-width="true"
   data-hide-cover="false"
   data-show-facepile="true">
-  <blockquote cite="PAGE_URL" class="fb-xfbml-parse-ignore">
+  <blockquote cite="https://chucks-casse-croute.com/" class="fb-xfbml-parse-ignore">
     <a href="https://www.facebook.com/chuckscassecroute">Facebook</a>
   </blockquote>
 </div>
