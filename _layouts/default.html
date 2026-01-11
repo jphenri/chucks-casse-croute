@@ -53,6 +53,24 @@
 <main>
   {{ content }}
 </main>
+<!-- Facebook SDK (load once) -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      xfbml: true,
+      version: "v19.0"
+    });
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/fr_CA/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, "script", "facebook-jssdk"));
+</script>
 
 <footer class="site-footer">
   <p>© {{ site.time | date: '%Y' }} Chuck’s casse-croûte — Site par J.P. Henri  <a href="https://jphenri.ca" target="_blank">
