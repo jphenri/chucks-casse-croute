@@ -703,7 +703,7 @@ p {
 
 
 .fb-wrap{
-  max-width: 520px;
+  max-width: auto;
   margin: 2.5rem auto;
   padding: 0 1rem;
 }
