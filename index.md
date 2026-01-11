@@ -188,7 +188,7 @@ permalink: /
   data-hide-cover="false"
   data-show-facepile="true">
   <blockquote cite="PAGE_URL" class="fb-xfbml-parse-ignore">
-    <a href="PAGE_URL">Facebook</a>
+    <a href="https://www.facebook.com/chuckscassecroute">Facebook</a>
   </blockquote>
 </div>
 
