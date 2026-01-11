@@ -173,6 +173,24 @@ permalink: /
   <p>Oui, nous avons une salle à manger familiale.</p>
 </div>
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/fr_CA/sdk.js#xfbml=1&version=v19.0">
+</script>
+
+<div class="fb-page"
+  data-href="PAGE_URL"
+  data-tabs="timeline"
+  data-width="500"
+  data-height="700"
+  data-small-header="true"
+  data-adapt-container-width="true"
+  data-hide-cover="false"
+  data-show-facepile="true">
+  <blockquote cite="PAGE_URL" class="fb-xfbml-parse-ignore">
+    <a href="PAGE_URL">Facebook</a>
+  </blockquote>
+</div>
 
 
 <!-- CONTACT -->
