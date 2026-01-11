@@ -191,12 +191,11 @@ permalink: /
     </div>
   </div>
 
-  <!-- Fallback: always visible if FB is blocked / not logged in / cookies disabled -->
   <div class="card fb-fallback">
     <h3>📌 Nos vidéos Facebook</h3>
     <p>
-      Certains navigateurs bloquent l’affichage automatique de Facebook si vous n’êtes pas connecté
-      ou si le suivi est désactivé.
+      Si vous ne voyez pas la section Facebook, votre navigateur bloque parfois le contenu
+      (anti-tracking, mode privé, AdBlock) ou vous n’êtes pas connecté.
     </p>
     <p>
       <a class="btn btn-primary"
@@ -204,7 +203,6 @@ permalink: /
          target="_blank" rel="noopener">
         ▶ Voir toutes nos vidéos
       </a>
-
       <a class="btn btn-outline"
          href="https://www.facebook.com/chuckscassecroute"
          target="_blank" rel="noopener">
@@ -212,6 +210,7 @@ permalink: /
       </a>
     </p>
   </div>
+
 </section>
 
 
