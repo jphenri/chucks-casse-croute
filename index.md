@@ -173,25 +173,21 @@ permalink: /
   <p>Oui, nous avons une salle à manger familiale.</p>
 </div>
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous"
-  src="https://connect.facebook.net/fr_CA/sdk.js#xfbml=1&version=v19.0">
-</script>
+<!-- FACEBOOK FEED (auto update) -->
+<h2 id="facebook">📱 Nos dernières vidéos & posts</h2>
 
-<div class="fb-page"
-  data-href="https://www.facebook.com/chuckscassecroute"
-  data-tabs="timeline"
-  data-width="500"
-  data-height="700"
-  data-small-header="true"
-  data-adapt-container-width="true"
-  data-hide-cover="false"
-  data-show-facepile="true">
-  <blockquote cite="https://chucks-casse-croute.com/" class="fb-xfbml-parse-ignore">
-    <a href="https://www.facebook.com/chuckscassecroute">Facebook</a>
-  </blockquote>
+<div class="card fb-wrap">
+  <div class="fb-page"
+    data-href="https://www.facebook.com/chuckscassecroute"
+    data-tabs="timeline"
+    data-width="500"
+    data-height="700"
+    data-small-header="true"
+    data-adapt-container-width="true"
+    data-hide-cover="false"
+    data-show-facepile="false">
+  </div>
 </div>
-
 
 <!-- CONTACT -->
 <h2 id="contact">📍 Contact & localisation</h2>
