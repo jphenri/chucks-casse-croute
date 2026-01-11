@@ -179,7 +179,7 @@ permalink: /
 </script>
 
 <div class="fb-page"
-  data-href="PAGE_URL"
+  data-href="https://www.facebook.com/chuckscassecroute"
   data-tabs="timeline"
   data-width="500"
   data-height="700"
