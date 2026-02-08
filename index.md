@@ -66,6 +66,7 @@ permalink: /
 
 <nav class="section-nav" aria-label="Sections principales">
   <a class="section-pill" href="#menu">🍟 Menu</a>
+  <a class="section-pill" href="#blog">📰 Blog</a>
   <a class="section-pill" href="#histoire">🧑‍🍳 Histoire</a>
   <a class="section-pill" href="#avis">⭐ Avis</a>
   <a class="section-pill" href="#faq">❓ FAQ</a>
@@ -74,6 +75,20 @@ permalink: /
 
 
 <div class="container wrapper">
+
+<!-- BLOG -->
+<h2 id="blog">📰 Blog</h2>
+
+<div class="card">
+  <p><strong>Réouverture le 18 février 2026.</strong></p>
+  <p>
+    Chuck's casse-croûte rouvre officiellement le <strong>18 février 2026</strong>.
+  </p>
+  <p>
+    <a href="{{ '/blog/reouverture-18-fevrier/' | relative_url }}" class="btn btn-primary">Lire l'article</a>
+    <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">Voir le blog</a>
+  </p>
+</div>
 
 <!-- MENU -->
 <h2 id="menu">🍟 Notre menu</h2>

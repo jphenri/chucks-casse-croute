@@ -15,8 +15,10 @@
 {% if is_en %}
   {% assign home_url = '/en/' %}
   {% assign menu_url = '/en/menu/' %}
+  {% assign blog_url = '/en/blog/' %}
   {% assign home_label = 'Home' %}
   {% assign menu_label = 'Menu' %}
+  {% assign blog_label = 'Blog' %}
   {% assign nav_toggle_label = 'Menu' %}
   {% assign cta_fb_label = 'Facebook' %}
   {% assign skip_label = 'Skip to content' %}
@@ -26,8 +28,10 @@
 {% else %}
   {% assign home_url = '/' %}
   {% assign menu_url = '/menu/' %}
+  {% assign blog_url = '/blog/' %}
   {% assign home_label = 'Accueil' %}
   {% assign menu_label = 'Menu' %}
+  {% assign blog_label = 'Blog' %}
   {% assign nav_toggle_label = 'Menu' %}
   {% assign cta_fb_label = 'Facebook' %}
   {% assign skip_label = 'Aller au contenu' %}
@@ -35,11 +39,21 @@
   {% assign og_locale = 'fr_CA' %}
   {% assign og_alt_locale = 'en_CA' %}
 {% endif %}
-{% if page.url == menu_url %}
-  {% assign fr_lang_url = '/menu/' %}
-  {% assign en_lang_url = '/en/menu/' %}
-{% else %}
+{% assign fr_lang_url = page.fr_url %}
+{% assign en_lang_url = page.en_url %}
+{% unless fr_lang_url and en_lang_url %}
+  {% if is_en %}
+    {% assign fr_lang_url = page_path | replace_first: '/en', '' %}
+    {% assign en_lang_url = page_path %}
+  {% else %}
+    {% assign fr_lang_url = page_path %}
+    {% assign en_lang_url = '/en' | append: page_path %}
+  {% endif %}
+{% endunless %}
+{% if fr_lang_url == '' %}
   {% assign fr_lang_url = '/' %}
+{% endif %}
+{% if en_lang_url == '/en' %}
   {% assign en_lang_url = '/en/' %}
 {% endif %}
 <html lang="{{ html_lang }}">
@@ -99,6 +113,7 @@
         <nav class="site-nav" id="site-nav" aria-label="Primary">
           <a class="page-link{% if page.url == home_url %} is-active{% endif %}" href="{{ home_url | relative_url }}">{{ home_label }}</a>
           <a class="page-link{% if page.url == menu_url %} is-active{% endif %}" href="{{ menu_url | relative_url }}">{{ menu_label }}</a>
+          <a class="page-link{% if page.url contains '/blog/' %} is-active{% endif %}" href="{{ blog_url | relative_url }}">{{ blog_label }}</a>
           <a class="page-link" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">{{ cta_fb_label }}</a>
         </nav>
 

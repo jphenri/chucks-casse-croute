@@ -66,6 +66,7 @@ permalink: /en/
 
 <nav class="section-nav" aria-label="Main sections">
   <a class="section-pill" href="#menu">🍟 Menu</a>
+  <a class="section-pill" href="#blog">📰 Blog</a>
   <a class="section-pill" href="#story">🧑‍🍳 Story</a>
   <a class="section-pill" href="#reviews">⭐ Reviews</a>
   <a class="section-pill" href="#faq">❓ FAQ</a>
@@ -73,6 +74,19 @@ permalink: /en/
 </nav>
 
 <div class="container wrapper">
+
+<h2 id="blog">📰 Blog</h2>
+
+<div class="card">
+  <p><strong>Reopening on February 18, 2026.</strong></p>
+  <p>
+    Chuck's casse-croûte officially reopens on <strong>February 18, 2026</strong>.
+  </p>
+  <p>
+    <a href="{{ '/en/blog/reouverture-18-fevrier/' | relative_url }}" class="btn btn-primary">Read the article</a>
+    <a href="{{ '/en/blog/' | relative_url }}" class="btn btn-outline">Visit the blog</a>
+  </p>
+</div>
 
 <h2 id="menu">🍟 Our Menu</h2>
 
