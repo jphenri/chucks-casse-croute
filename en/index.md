@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Chuck’s casse-croûte"
+description: "Generous poutines, stacked burgers and a warm family-style snack bar in Gatineau."
 permalink: /en/
 ---
 
@@ -8,13 +9,22 @@ permalink: /en/
 
   <img src="{{ '/assets/images/logo.png' | relative_url }}"
        alt="Chuck’s casse-croûte"
+       class="hero-logo"
        width="150"
-       style="border-radius:12px;margin-bottom:10px;" />
+       height="150" />
 
   <h1>Chuck’s casse-croûte</h1>
   <p>Top-notch poutines, generous burgers and a warm, family-friendly atmosphere in Gatineau.</p>
 
-  <a href="#menu" class="btn btn-primary" style="margin-top:12px;">View the menu</a>
+  <div class="hero-actions">
+    <a href="#menu" class="btn btn-primary">View the menu</a>
+    <a href="https://www.facebook.com/chuckscassecroute"
+       class="btn btn-outline"
+       target="_blank" rel="noopener">
+      Facebook
+    </a>
+    <a href="tel:+18195615353" class="btn btn-ghost">Call Chuck</a>
+  </div>
 </div>
 
 <div class="container wrapper">
@@ -25,6 +35,7 @@ permalink: /en/
   <div class="row">
     <div class="col">
       <img src="{{ '/assets/images/poutine-sauce-brune.png' | relative_url }}"
+           loading="lazy"
            alt="Poutine brown sauce">
     </div>
 
@@ -77,9 +88,10 @@ permalink: /en/
     </div>
   </div>
 
-  <div class="row" style="margin-top:1.5rem;">
+  <div class="row mt-2">
     <div class="col">
       <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
+           loading="lazy"
            alt="Chuck’s Snack Bar exterior">
     </div>
 
@@ -102,18 +114,20 @@ permalink: /en/
 
 <div class="card">
   <div class="row">
-    
     <div class="col">
       <a href="https://www.tiktok.com/@djieeph/video/7528406964968164613"
          target="_blank"
+         rel="noopener"
          class="tiktok-card">
         <img src="{{ '/assets/images/olivier-primeau-review-chucks-casse-croute.png' | relative_url }}"
+             loading="lazy"
              alt="Olivier Primeau review - Chuck’s casse-croûte">
-        <span class="tiktok-badge">▶ Voir la vidéo sur TikTok</span>
+        <span class="tiktok-badge">Watch on TikTok</span>
       </a>
     </div>
-      <div class="col">
-        <p>
+
+    <div class="col">
+      <p>
         Many customers tell us we serve the best poutine in the Outaouais — 
         and it’s not just us saying it. We are proudly ranked 
         <strong>#1 in Gatineau on 
@@ -137,13 +151,11 @@ permalink: /en/
       <p>
         <a href="https://share.google/MH1O5rEseR35d5RUn"
            class="btn btn-outline"
-           target="_blank">
+           target="_blank" rel="noopener">
           See our reviews
         </a>
       </p>
-  </div>
     </div>
-
   </div>
 </div>
 
@@ -174,6 +186,7 @@ permalink: /en/
   <div class="row">
     <div class="col">
       <img src="{{ '/assets/images/chuck-facade.png' | relative_url }}"
+           loading="lazy"
            alt="Chuck’s casse-croûte building">
     </div>
 
@@ -181,13 +194,13 @@ permalink: /en/
       <p>
         📍 <strong>
           <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
-             target="_blank">
+             target="_blank" rel="noopener">
             196 Chemin de la Savane, Gatineau, QC J8T 1R3
           </a>
         </strong>
       </p>
 
-      <p>📞 <strong>819-561-5353</strong></p>
+      <p>📞 <strong><a href="tel:+18195615353">819-561-5353</a></strong></p>
 
       <p>
         🕚 <strong>Wednesday → Saturday</strong><br>

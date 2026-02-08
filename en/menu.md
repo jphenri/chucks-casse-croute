@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Menu"
+description: "Full Chuck’s casse-croûte menu: poutines, burgers, sides, plates and combos in Gatineau."
 permalink: /en/menu.html
 ---
 
@@ -13,8 +14,19 @@ permalink: /en/menu.html
     Generous poutines, stacked burgers, crispy bites and hearty combos.<br>
     The perfect snack bar experience in Gatineau.
   </p>
-  <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
-     class="btn btn-primary">Our Address</a>
+  <div class="hero-actions">
+    <a href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3"
+       class="btn btn-primary"
+       target="_blank" rel="noopener">
+      Our Address
+    </a>
+    <a href="https://www.facebook.com/chuckscassecroute"
+       class="btn btn-outline"
+       target="_blank" rel="noopener">
+      Facebook
+    </a>
+    <a href="tel:+18195615353" class="btn btn-ghost">Call Chuck</a>
+  </div>
 </div>
 
 <div class="container wrapper">

@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Private or temporary paths (if added in the future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Avoid indexing design/source artifacts
+Disallow: /*.psd$
+Disallow: /*.ai$
+Disallow: /*.zip$
+
+Sitemap: https://chucks-casse-croute.com/sitemap.xml

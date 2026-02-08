@@ -1,92 +1,140 @@
 <!DOCTYPE html>
-<html lang="fr">
+{% assign current_lang = page.lang | default: site.lang | default: 'fr-CA' %}
+{% assign is_en = current_lang == 'en' %}
+{% assign page_description = page.description | default: site.description %}
+{% assign canonical_url = page.url | absolute_url %}
+{% if is_en %}
+  {% assign home_url = '/en/' %}
+  {% assign menu_url = '/en/menu.html' %}
+  {% assign home_label = 'Home' %}
+  {% assign menu_label = 'Menu' %}
+  {% assign cta_fb_label = 'Facebook' %}
+  {% assign skip_label = 'Skip to content' %}
+  {% assign footer_text = 'Site by' %}
+  {% assign og_locale = 'en_CA' %}
+  {% assign og_alt_locale = 'fr_CA' %}
+{% else %}
+  {% assign home_url = '/' %}
+  {% assign menu_url = '/menu.html' %}
+  {% assign home_label = 'Accueil' %}
+  {% assign menu_label = 'Menu' %}
+  {% assign cta_fb_label = 'Facebook' %}
+  {% assign skip_label = 'Aller au contenu' %}
+  {% assign footer_text = 'Site par' %}
+  {% assign og_locale = 'fr_CA' %}
+  {% assign og_alt_locale = 'en_CA' %}
+{% endif %}
+<html lang="{{ current_lang }}">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="alternate" hreflang="fr-ca" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="en-ca" href="{{ '/en/' | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="{{ og_locale }}">
+    <meta property="og:locale:alternate" content="{{ og_alt_locale }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    <meta property="og:url" content="{{ canonical_url }}">
+    <meta property="og:image" content="{{ '/assets/images/social-card.png' | absolute_url }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    <meta name="twitter:image" content="{{ '/assets/images/social-card.png' | absolute_url }}">
+
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
-      <!-- OPEN GRAPH (Facebook, Messenger, iMessage, Discord) -->
-    <meta property="og:title" content="Chuck’s casse-croûte – La poutine préférée de Gatineau">
-    <meta property="og:description" content="Classés #1 à Gatineau sur PoutzTaNote.ca. Poutines généreuses, sauces uniques, portions débordantes.">
-    <meta property="og:image" content="{{ '/assets/images/social-card.png' | relative_url }}">
-    <meta property="og:url" content="https://chucks-casse-croute.com">
-    <meta property="og:type" content="website">
-    
-    <!-- TWITTER/X CARD -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Chuck’s casse-croûte – La poutine préférée de Gatineau">
-    <meta name="twitter:description" content="Classés #1 à Gatineau sur PoutzTaNote.ca. Poutines généreuses, sauces uniques, portions débordantes.">
-    <meta name="twitter:image" content="{{ '/assets/images/social-card.png' | relative_url }}">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
+    <a class="skip-link" href="#main-content">{{ skip_label }}</a>
 
-<header class="site-header">
-  <div class="wrapper-header">
+    <header class="site-header">
+      <div class="wrapper-header">
+        <a class="brand" href="{{ home_url | relative_url }}" aria-label="Chuck's casse-croute">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Chuck’s casse-croûte" class="brand-logo">
+        </a>
 
-    <!-- LOGO -->
-    <a class="brand" href="{{ site.baseurl }}/">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Chuck’s casse-croûte" class="brand-logo">
-    </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a class="page-link{% if page.url == home_url %} is-active{% endif %}" href="{{ home_url | relative_url }}">{{ home_label }}</a>
+          <a class="page-link{% if page.url == menu_url %} is-active{% endif %}" href="{{ menu_url | relative_url }}">{{ menu_label }}</a>
+          <a class="page-link" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">{{ cta_fb_label }}</a>
+        </nav>
 
-    <!-- NAV -->
-    <nav class="site-nav">
-      <a class="page-link" href="{{ '/' | relative_url }}">Accueil</a>
-      <a class="page-link" href="{{ '/menu.html' | relative_url }}">Menu</a>
-    </nav>
+        <div class="lang-switch-hero" aria-label="Language switcher">
+          {% if is_en %}
+            <a href="{{ '/' | relative_url }}">FR</a>
+            <span class="divider">·</span>
+            <span class="active">EN</span>
+          {% else %}
+            <span class="active">FR</span>
+            <span class="divider">·</span>
+            <a href="{{ '/en/' | relative_url }}">EN</a>
+          {% endif %}
+        </div>
+      </div>
+    </header>
 
-    <!-- LANGUAGE SWITCHER -->
-    <div class="lang-switch-hero">
-      {% if page.lang == "en" %}
-        <a href="{{ '/' | relative_url }}">FR</a> · <span class="active">EN</span>
-      {% else %}
-        <span class="active">FR</span> · <a href="{{ '/en/' | relative_url }}">EN</a>
-      {% endif %}
-    </div>
+    <main id="main-content">
+      {{ content }}
+    </main>
 
-  </div>
-</header>
+    <footer class="site-footer">
+      <p>© {{ site.time | date: '%Y' }} Chuck’s casse-croûte — {{ footer_text }} <a href="https://jphenri.ca" target="_blank" rel="noopener">jphenri.ca</a></p>
+    </footer>
 
-<main>
-  {{ content }}
-</main>
-<!-- Facebook SDK (load once) -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function () {
-    FB.init({
-      xfbml: true,
-      version: "v19.0"
-    });
-  };
+    <script>
+      (function () {
+        var fbSection = document.getElementById("fb-section");
+        if (!fbSection) {
+          return;
+        }
 
-  (function(d, s, id){
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/fr_CA/sdk.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, "script", "facebook-jssdk"));
-</script>
+        window.fbAsyncInit = function () {
+          FB.init({
+            xfbml: true,
+            version: "v19.0"
+          });
+        };
 
-<footer class="site-footer">
-  <p>© {{ site.time | date: '%Y' }} Chuck’s casse-croûte — Site par J.P. Henri  <a href="https://jphenri.ca" target="_blank">
-      jphenri.ca
-    </a></p>
-</footer>
-<script>
-  // Hide fallback if FB plugin renders an iframe successfully
-  window.addEventListener("load", function () {
-    setTimeout(function () {
-      var fbIframe = document.querySelector("#fb-section iframe");
-      var fallback = document.querySelector("#fb-section .fb-fallback");
-      if (fbIframe && fallback) fallback.style.display = "none";
-    }, 2500);
-  });
-</script>
+        (function (d, s, id) {
+          var js;
+          var fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {
+            return;
+          }
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://connect.facebook.net/fr_CA/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, "script", "facebook-jssdk"));
 
+        window.addEventListener("load", function () {
+          setTimeout(function () {
+            var fbIframe = document.querySelector("#fb-section iframe");
+            var fallback = document.querySelector("#fb-section .fb-fallback");
+            if (fbIframe && fallback) {
+              fallback.style.display = "none";
+            }
+          }, 2500);
+        });
+      }());
+    </script>
   </body>
 </html>
