@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 {% assign current_lang = page.lang | default: site.lang | default: 'fr-CA' %}
-{% assign is_en = current_lang == 'en' %}
+{% assign page_path = page.url | default: '/' %}
+{% assign is_en = false %}
+{% if current_lang == 'en' or page_path == '/en/' or page_path contains '/en/' %}
+  {% assign is_en = true %}
+{% endif %}
+{% if is_en %}
+  {% assign html_lang = 'en' %}
+{% else %}
+  {% assign html_lang = 'fr-CA' %}
+{% endif %}
 {% assign page_description = page.description | default: site.description %}
 {% assign canonical_url = page.url | absolute_url %}
 {% if is_en %}
@@ -33,7 +42,7 @@
   {% assign fr_lang_url = '/' %}
   {% assign en_lang_url = '/en/' %}
 {% endif %}
-<html lang="{{ current_lang }}">
+<html lang="{{ html_lang }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,8 +89,12 @@
           <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Chuck’s casse-croûte" class="brand-logo">
         </a>
 
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-          {{ nav_toggle_label }}
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{{ nav_toggle_label }}">
+          <span class="nav-toggle-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </button>
 
         <nav class="site-nav" id="site-nav" aria-label="Primary">
