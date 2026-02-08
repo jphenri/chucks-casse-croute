@@ -113,11 +113,14 @@ img {
 }
 
 .site-header .brand-logo {
-  width: 74px;
+  width: auto;
   height: 74px;
-  object-fit: cover;
+  max-width: 210px;
+  object-fit: contain;
   border-radius: 14px;
   border: 2px solid rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 4px 6px;
 }
 
 .site-nav {
@@ -126,6 +129,21 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.65rem;
+}
+
+.nav-toggle {
+  display: none;
+  min-height: 42px;
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff6d9;
+  font-family: "Sora", "Avenir Next", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .site-nav .page-link {
@@ -205,11 +223,14 @@ main {
 }
 
 .hero-logo {
-  width: 136px;
+  width: auto;
   height: 136px;
-  object-fit: cover;
+  max-width: 100%;
+  object-fit: contain;
   border-radius: 18px;
   border: 3px solid rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 6px 8px;
 }
 
 .hero h1,
@@ -711,8 +732,9 @@ p {
   }
 
   .site-header .brand-logo {
-    width: 82px;
+    width: auto;
     height: 82px;
+    max-width: 220px;
   }
 
   .site-nav {
@@ -731,8 +753,9 @@ p {
   }
 
   .hero-logo {
-    width: 112px;
+    width: auto;
     height: 112px;
+    max-width: 100%;
   }
 
   .hero-grid {
@@ -768,6 +791,30 @@ p {
     font-size: 16px;
   }
 
+  .wrapper-header {
+    grid-template-columns: auto auto;
+    justify-items: stretch;
+    text-align: left;
+    gap: 0.6rem;
+  }
+
+  .brand {
+    justify-self: start;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+  }
+
+  .lang-switch-hero {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 0.15rem;
+  }
+
   .site-nav .page-link,
   .btn,
   .btn-primary,
@@ -777,7 +824,19 @@ p {
   }
 
   .site-nav {
+    grid-column: 1 / -1;
     width: 100%;
+    margin-top: 0.2rem;
+  }
+
+  .js-enabled .site-nav {
+    display: none;
+  }
+
+  .js-enabled .site-nav.is-open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .hero-actions {
