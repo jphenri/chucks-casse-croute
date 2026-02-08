@@ -6,26 +6,71 @@ permalink: /en/
 ---
 
 <div class="hero">
+  <div class="hero-grid">
+    <div>
+      <img src="{{ '/assets/images/logo.png' | relative_url }}"
+           alt="Chuck’s casse-croûte"
+           class="hero-logo"
+           width="150"
+           height="150" />
 
-  <img src="{{ '/assets/images/logo.png' | relative_url }}"
-       alt="Chuck’s casse-croûte"
-       class="hero-logo"
-       width="150"
-       height="150" />
+      <h1>Chuck’s casse-croûte</h1>
+      <p>Top-notch poutines, generous burgers and a warm, family-friendly atmosphere in Gatineau.</p>
 
-  <h1>Chuck’s casse-croûte</h1>
-  <p>Top-notch poutines, generous burgers and a warm, family-friendly atmosphere in Gatineau.</p>
+      <div class="hero-kpis">
+        <div class="hero-kpi">
+          <strong>#1</strong>
+          <span>Poutine in Gatineau</span>
+        </div>
+        <div class="hero-kpi">
+          <strong>11am - 6:45pm</strong>
+          <span>Wednesday to Saturday</span>
+        </div>
+        <div class="hero-kpi">
+          <strong>Homemade</strong>
+          <span>Rich sauces and generous portions</span>
+        </div>
+      </div>
 
-  <div class="hero-actions">
-    <a href="#menu" class="btn btn-primary">View the menu</a>
-    <a href="https://www.facebook.com/chuckscassecroute"
-       class="btn btn-outline"
-       target="_blank" rel="noopener">
-      Facebook
-    </a>
-    <a href="tel:+18195615353" class="btn btn-ghost">Call Chuck</a>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">View the menu</a>
+        <a href="https://www.facebook.com/chuckscassecroute"
+           class="btn btn-outline"
+           target="_blank" rel="noopener">
+          Facebook
+        </a>
+        <a href="tel:+18195615353" class="btn btn-ghost">Call Chuck</a>
+      </div>
+    </div>
+
+    <aside class="hero-panel">
+      <p class="hero-panel-eyebrow">Quick info</p>
+      <h2>Your neighbourhood snack bar</h2>
+      <ul class="quick-list">
+        <li>
+          <span>Address</span>
+          <strong>196 chemin de la Savane, Gatineau</strong>
+        </li>
+        <li>
+          <span>Service</span>
+          <strong>Dine-in and takeout</strong>
+        </li>
+        <li>
+          <span>Phone</span>
+          <strong>819-561-5353</strong>
+        </li>
+      </ul>
+    </aside>
   </div>
 </div>
+
+<nav class="section-nav" aria-label="Main sections">
+  <a class="section-pill" href="#menu">🍟 Menu</a>
+  <a class="section-pill" href="#story">🧑‍🍳 Story</a>
+  <a class="section-pill" href="#reviews">⭐ Reviews</a>
+  <a class="section-pill" href="#faq">❓ FAQ</a>
+  <a class="section-pill" href="#contact">📍 Contact</a>
+</nav>
 
 <div class="container wrapper">
 
@@ -163,19 +208,21 @@ permalink: /en/
 
 <h2 id="faq">❓ FAQ</h2>
 
-<div class="card">
-  <h3>Can we order for takeout?</h3>
-  <p>Yes — come and see us during opening hours.</p>
-</div>
+<div class="faq-grid">
+  <div class="card faq-item">
+    <h3>Can we order for takeout?</h3>
+    <p>Yes — come and see us during opening hours.</p>
+  </div>
 
-<div class="card">
-  <h3>What are your opening hours?</h3>
-  <p>Wednesday to Saturday · 11am – 6:45pm<br>Sunday, Monday, Tuesday: closed.</p>
-</div>
+  <div class="card faq-item">
+    <h3>What are your opening hours?</h3>
+    <p>Wednesday to Saturday · 11am – 6:45pm<br>Sunday, Monday, Tuesday: closed.</p>
+  </div>
 
-<div class="card">
-  <h3>Can we eat on-site?</h3>
-  <p>Yes, we have a family dining area.</p>
+  <div class="card faq-item">
+    <h3>Can we eat on-site?</h3>
+    <p>Yes, we have a family dining area.</p>
+  </div>
 </div>
 
 
@@ -201,6 +248,12 @@ permalink: /en/
       </p>
 
       <p>📞 <strong><a href="tel:+18195615353">819-561-5353</a></strong></p>
+
+      <div class="contact-links">
+        <a class="contact-pill" href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3" target="_blank" rel="noopener">Directions</a>
+        <a class="contact-pill" href="tel:+18195615353">Call</a>
+        <a class="contact-pill" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Facebook</a>
+      </div>
 
       <p>
         🕚 <strong>Wednesday → Saturday</strong><br>

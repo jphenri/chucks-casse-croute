@@ -29,6 +29,14 @@ permalink: /en/menu.html
   </div>
 </div>
 
+<nav class="section-nav" aria-label="Menu sections">
+  <a class="section-pill" href="#fries">🥔 Fries & poutines</a>
+  <a class="section-pill" href="#bites">🍴 Bites</a>
+  <a class="section-pill" href="#burgers">🍔 Burgers</a>
+  <a class="section-pill" href="#plates">🍽️ Plates</a>
+  <a class="section-pill" href="#combos">🧃 Combos</a>
+</nav>
+
 <div class="container wrapper">
 
 <h2 id="fries">🥔 Fries & Poutines</h2>

@@ -6,27 +6,71 @@ permalink: /
 ---
 
 <div class="hero">
+  <div class="hero-grid">
+    <div>
+      <img src="{{ '/assets/images/logo.png' | relative_url }}"
+           alt="Chuck’s casse-croûte"
+           class="hero-logo"
+           width="150"
+           height="150" />
 
+      <h1>Chuck’s casse-croûte</h1>
+      <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
 
-  <img src="{{ '/assets/images/logo.png' | relative_url }}"
-       alt="Chuck’s casse-croûte"
-       class="hero-logo"
-       width="150"
-       height="150" />
+      <div class="hero-kpis">
+        <div class="hero-kpi">
+          <strong>#1</strong>
+          <span>Poutine à Gatineau</span>
+        </div>
+        <div class="hero-kpi">
+          <strong>11 h - 18 h 45</strong>
+          <span>Mercredi au samedi</span>
+        </div>
+        <div class="hero-kpi">
+          <strong>Maison</strong>
+          <span>Sauces et portions généreuses</span>
+        </div>
+      </div>
 
-  <h1>Chuck’s casse-croûte</h1>
-  <p>Poutines <strong>sa coche</strong>, burgers généreux et ambiance familiale à Gatineau.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">Voir le menu</a>
+        <a href="https://www.facebook.com/chuckscassecroute"
+           class="btn btn-outline"
+           target="_blank" rel="noopener">
+          Facebook
+        </a>
+        <a href="tel:+18195615353" class="btn btn-ghost">Appeler Chuck</a>
+      </div>
+    </div>
 
-  <div class="hero-actions">
-    <a href="#menu" class="btn btn-primary">Voir le menu</a>
-    <a href="https://www.facebook.com/chuckscassecroute"
-       class="btn btn-outline"
-       target="_blank" rel="noopener">
-      Facebook
-    </a>
-    <a href="tel:+18195615353" class="btn btn-ghost">Appeler Chuck</a>
+    <aside class="hero-panel">
+      <p class="hero-panel-eyebrow">Infos rapides</p>
+      <h2>Une vraie cantine de quartier</h2>
+      <ul class="quick-list">
+        <li>
+          <span>Adresse</span>
+          <strong>196 chemin de la Savane, Gatineau</strong>
+        </li>
+        <li>
+          <span>Service</span>
+          <strong>Sur place et pour emporter</strong>
+        </li>
+        <li>
+          <span>Téléphone</span>
+          <strong>819-561-5353</strong>
+        </li>
+      </ul>
+    </aside>
   </div>
 </div>
+
+<nav class="section-nav" aria-label="Sections principales">
+  <a class="section-pill" href="#menu">🍟 Menu</a>
+  <a class="section-pill" href="#histoire">🧑‍🍳 Histoire</a>
+  <a class="section-pill" href="#avis">⭐ Avis</a>
+  <a class="section-pill" href="#faq">❓ FAQ</a>
+  <a class="section-pill" href="#contact">📍 Contact</a>
+</nav>
 
 
 <div class="container wrapper">
@@ -168,19 +212,21 @@ permalink: /
 <!-- FAQ -->
 <h2 id="faq">❓ FAQ</h2>
 
-<div class="card">
-  <h3>Est-ce qu’on peut commander pour emporter ?</h3>
-  <p>Oui, il suffit de venir sur place pendant les heures d’ouverture.</p>
-</div>
+<div class="faq-grid">
+  <div class="card faq-item">
+    <h3>Est-ce qu’on peut commander pour emporter ?</h3>
+    <p>Oui, il suffit de venir sur place pendant les heures d’ouverture.</p>
+  </div>
 
-<div class="card">
-  <h3>Quels sont les jours d’ouverture ?</h3>
-  <p>Du mercredi au samedi · 11 h – 18 h 45.<br>Dimanche, lundi, mardi : fermé.</p>
-</div>
+  <div class="card faq-item">
+    <h3>Quels sont les jours d’ouverture ?</h3>
+    <p>Du mercredi au samedi · 11 h – 18 h 45.<br>Dimanche, lundi, mardi : fermé.</p>
+  </div>
 
-<div class="card">
-  <h3>Est-ce qu’on peut manger sur place ?</h3>
-  <p>Oui, nous avons une salle à manger familiale.</p>
+  <div class="card faq-item">
+    <h3>Est-ce qu’on peut manger sur place ?</h3>
+    <p>Oui, nous avons une salle à manger familiale.</p>
+  </div>
 </div>
 
 <!-- FACEBOOK FEED (auto update) -->
@@ -244,6 +290,12 @@ permalink: /
       </p>
 
       <p>📞 <strong><a href="tel:+18195615353">819-561-5353</a></strong></p>
+
+      <div class="contact-links">
+        <a class="contact-pill" href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3" target="_blank" rel="noopener">Itinéraire</a>
+        <a class="contact-pill" href="tel:+18195615353">Appeler</a>
+        <a class="contact-pill" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Facebook</a>
+      </div>
 
       <p>
         🕚 <strong>Mercredi → Samedi</strong><br>

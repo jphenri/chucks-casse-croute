@@ -28,6 +28,14 @@ permalink: /menu.html
   </div>
 </div>
 
+<nav class="section-nav" aria-label="Sections du menu">
+  <a class="section-pill" href="#frites">🥔 Frites & poutines</a>
+  <a class="section-pill" href="#bouchees">🍴 Bouchées</a>
+  <a class="section-pill" href="#burgers">🍔 Burgers</a>
+  <a class="section-pill" href="#assiettes">🍽️ Assiettes</a>
+  <a class="section-pill" href="#trios">🧃 Trios</a>
+</nav>
+
 
 <div class="container wrapper">
 
