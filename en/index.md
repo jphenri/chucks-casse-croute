@@ -95,7 +95,7 @@ permalink: /en/
       </p>
 
       <p>
-        <a href="{{ '/en/menu.html' | relative_url }}" class="btn btn-primary">
+        <a href="{{ '/en/menu/' | relative_url }}" class="btn btn-primary">
           View full menu
         </a>
       </p>

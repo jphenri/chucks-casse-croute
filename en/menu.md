@@ -2,7 +2,7 @@
 layout: page
 title: "Menu"
 description: "Full Chuck’s casse-croûte menu: poutines, burgers, sides, plates and combos in Gatineau."
-permalink: /en/menu.html
+permalink: /en/menu/
 ---
 
 <div class="hero">

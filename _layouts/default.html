@@ -5,7 +5,7 @@
 {% assign canonical_url = page.url | absolute_url %}
 {% if is_en %}
   {% assign home_url = '/en/' %}
-  {% assign menu_url = '/en/menu.html' %}
+  {% assign menu_url = '/en/menu/' %}
   {% assign home_label = 'Home' %}
   {% assign menu_label = 'Menu' %}
   {% assign cta_fb_label = 'Facebook' %}
@@ -15,7 +15,7 @@
   {% assign og_alt_locale = 'fr_CA' %}
 {% else %}
   {% assign home_url = '/' %}
-  {% assign menu_url = '/menu.html' %}
+  {% assign menu_url = '/menu/' %}
   {% assign home_label = 'Accueil' %}
   {% assign menu_label = 'Menu' %}
   {% assign cta_fb_label = 'Facebook' %}
@@ -23,6 +23,13 @@
   {% assign footer_text = 'Site par' %}
   {% assign og_locale = 'fr_CA' %}
   {% assign og_alt_locale = 'en_CA' %}
+{% endif %}
+{% if page.url == menu_url %}
+  {% assign fr_lang_url = '/menu/' %}
+  {% assign en_lang_url = '/en/menu/' %}
+{% else %}
+  {% assign fr_lang_url = '/' %}
+  {% assign en_lang_url = '/en/' %}
 {% endif %}
 <html lang="{{ current_lang }}">
   <head>
@@ -33,9 +40,9 @@
     <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
 
     <link rel="canonical" href="{{ canonical_url }}">
-    <link rel="alternate" hreflang="fr-ca" href="{{ '/' | absolute_url }}">
-    <link rel="alternate" hreflang="en-ca" href="{{ '/en/' | absolute_url }}">
-    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="fr-ca" href="{{ fr_lang_url | absolute_url }}">
+    <link rel="alternate" hreflang="en-ca" href="{{ en_lang_url | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ fr_lang_url | absolute_url }}">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -79,13 +86,13 @@
 
         <div class="lang-switch-hero" aria-label="Language switcher">
           {% if is_en %}
-            <a href="{{ '/' | relative_url }}">FR</a>
+            <a href="{{ fr_lang_url | relative_url }}">FR</a>
             <span class="divider">·</span>
             <span class="active">EN</span>
           {% else %}
             <span class="active">FR</span>
             <span class="divider">·</span>
-            <a href="{{ '/en/' | relative_url }}">EN</a>
+            <a href="{{ en_lang_url | relative_url }}">EN</a>
           {% endif %}
         </div>
       </div>

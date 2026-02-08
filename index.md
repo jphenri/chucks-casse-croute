@@ -95,7 +95,7 @@ permalink: /
         Que tu sois team sauce brune ou sauce blanche, tu vas être servi en portion généreuse.
       </p>
       <p>
-        <a href="{{ '/menu.html' | relative_url }}" class="btn btn-primary">
+        <a href="{{ '/menu/' | relative_url }}" class="btn btn-primary">
           Voir le menu complet
         </a>
       </p>
