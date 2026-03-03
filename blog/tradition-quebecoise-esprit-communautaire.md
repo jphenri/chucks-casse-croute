@@ -8,39 +8,33 @@ fr_url: /blog/tradition-quebecoise-esprit-communautaire/
 en_url: /en/blog/tradition-quebecoise-esprit-communautaire/
 ---
 
-Le casse-croute quebecois, c’est une tradition.
-Mais aujourd’hui, il faut plus que de bonnes frites pour se demarquer.
+<div class="hero">
+  <span class="badge">Blog</span>
+  <h1>Chuck’s : tradition québécoise et esprit communautaire</h1>
+  <p>Une cantine locale qui combine tradition, qualité et implication.</p>
+</div>
 
-Il faut une identite. Et Chuck’s en a une.
-
-## Une poutine signature
-
-La sauce maison est devenue une veritable carte de visite.
-Elle donne une personnalite unique a la poutine et cree une fidelite durable.
-
-## Le club sandwich, pilier du menu
-
-Un bon casse-croute quebecois doit maitriser le club sandwich.
-Chez Chuck’s, il est copieux, equilibre, bien grille et reconfortant.
-
-C’est le genre de plat qui devient un classique pour les habitues.
-
-## Un engagement local concret
-
-Ce qui rend Chuck’s special, c’est aussi son implication:
-
-- Concours Facebook pour soutenir les PME locales
-- Mise en valeur d’autres commerces
-- Presence dans des evenements comme la GPW
-- Interaction active avec la communaute
-
-Cela transforme un simple restaurant en acteur local engage.
-
-## Pourquoi ca compte
-
-Aujourd’hui, les gens veulent bien manger, encourager local, et faire partie de quelque chose.
-
-Chuck’s offre les trois:
-une sauce signature, un club sandwich solide, et une implication communautaire reelle.
-
-[Retour au blog]({{ '/blog/' | relative_url }})
+<div class="container wrapper">
+  <div class="card">
+    <p>
+      Le casse-croûte québécois est une tradition. Aujourd’hui, il faut une identité claire pour se démarquer,
+      et Chuck’s en a une.
+    </p>
+    <p>
+      La poutine signature se distingue par sa sauce maison, devenue une vraie carte de visite.
+      Elle est au coeur de la fidélité des clients.
+    </p>
+    <p>
+      Le club sandwich est aussi un pilier du menu: copieux, bien grillé, équilibré et réconfortant.
+      Un classique pour les habitués.
+    </p>
+    <p>
+      Chuck’s joue aussi un rôle communautaire concret avec ses concours Facebook, son soutien aux PME locales
+      et sa présence dans des événements comme la GPW.
+    </p>
+    <p>
+      <a class="btn btn-primary" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Voir notre Facebook</a>
+      <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Retour au blog</a>
+    </p>
+  </div>
+</div>

@@ -8,39 +8,33 @@ fr_url: /blog/sauce-signature-club-sandwich-communaute/
 en_url: /en/blog/sauce-signature-club-sandwich-communaute/
 ---
 
-Quand on parle de Chuck’s Casse-Croute a Gatineau, beaucoup pensent immediatement a la poutine.
-Et ils ont raison.
+<div class="hero">
+  <span class="badge">Blog</span>
+  <h1>Plus qu’une poutine : la signature Chuck’s à Gatineau</h1>
+  <p>Sauce maison, club sandwich et implication locale: la signature Chuck’s.</p>
+</div>
 
-Mais ce qui distingue vraiment Chuck’s, c’est sa sauce maison unique.
-
-## Une sauce qui a une identite
-
-Ce n’est pas une sauce standard.
-Ce n’est pas une sauce industrielle.
-
-C’est une sauce riche, epaisse, savoureuse, avec une vraie personnalite.
-
-Plusieurs clients disent que c’est ce qui rend la poutine differente des autres casse-croutes a Gatineau.
-La sauce ne fait pas juste napper les frites. Elle donne une signature.
-
-## Le club sandwich : un classique qui merite sa place
-
-On parle souvent de la poutine, mais les habitues savent que le club sandwich de Chuck’s est un incontournable.
-
-Pain grille dore, poulet genereux, bacon croustillant, laitue croquante, tomates fraiches.
-Un vrai club sandwich quebecois : simple, satisfaisant, efficace.
-
-Et avec une petite poutine a la sauce maison, on comprend vite pourquoi les clients reviennent.
-
-## Un casse-croute enracine dans sa communaute
-
-Chuck’s, ce n’est pas juste de la bouffe. C’est un commerce local qui s’implique:
-
-- Concours Facebook pour faire gagner des certificats cadeaux de PME locales
-- Mise en valeur d’autres entreprises d’ici
-- Participation et visibilite dans des evenements comme la GPW (Gatineau Pro Wrestling)
-
-On ne va pas juste chez Chuck’s pour manger.
-On y va aussi parce qu’on aime encourager un commerce qui encourage les autres.
-
-[Retour au blog]({{ '/blog/' | relative_url }})
+<div class="container wrapper">
+  <div class="card">
+    <p>
+      Quand on parle de Chuck’s Casse-Croute à Gatineau, beaucoup pensent immédiatement à la poutine.
+      Et ils ont raison.
+    </p>
+    <p>
+      Ce qui distingue vraiment Chuck’s, c’est sa sauce maison unique: riche, épaisse, savoureuse
+      et pleine de personnalité.
+    </p>
+    <p>
+      Les habitués soulignent aussi le club sandwich: pain grillé doré, poulet généreux, bacon croustillant,
+      laitue croquante et tomates fraîches.
+    </p>
+    <p>
+      Chuck’s s’implique aussi dans sa communauté avec des concours Facebook pour faire gagner des certificats
+      cadeaux de PME locales, ainsi qu’une présence dans des événements comme la GPW (Gatineau Pro Wrestling).
+    </p>
+    <p>
+      <a class="btn btn-primary" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Voir notre Facebook</a>
+      <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Retour au blog</a>
+    </p>
+  </div>
+</div>

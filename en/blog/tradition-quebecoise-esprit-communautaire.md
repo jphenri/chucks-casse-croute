@@ -8,39 +8,32 @@ fr_url: /blog/tradition-quebecoise-esprit-communautaire/
 en_url: /en/blog/tradition-quebecoise-esprit-communautaire/
 ---
 
-Quebec snack-bar culture is a tradition.
-But today, great fries alone are not enough to stand out.
+<div class="hero">
+  <span class="badge">Blog</span>
+  <h1>Chuck’s: Quebec Tradition with a Community Spirit</h1>
+  <p>A local snack bar that combines tradition, quality, and community engagement.</p>
+</div>
 
-You need identity. Chuck’s has it.
-
-## A signature poutine
-
-The house gravy has become a true calling card.
-It gives the poutine a unique personality and builds strong customer loyalty.
-
-## The club sandwich, a menu staple
-
-A great Quebec snack bar needs a great club sandwich.
-At Chuck’s, it is hearty, balanced, well-toasted, and comforting.
-
-It is the kind of dish that becomes a regular’s favorite.
-
-## Real local engagement
-
-What makes Chuck’s special is also how involved it is:
-
-- Facebook contests supporting local small businesses
-- Promotion of other local shops
-- Presence at events like GPW
-- Active interaction with the community
-
-That turns a simple restaurant into a truly engaged local player.
-
-## Why it matters
-
-Today, people want to eat well, support local, and belong to something meaningful.
-
-Chuck’s delivers all three:
-signature gravy, a strong club sandwich, and genuine community involvement.
-
-[Back to blog]({{ '/en/blog/' | relative_url }})
+<div class="container wrapper">
+  <div class="card">
+    <p>
+      Quebec snack-bar culture is a tradition. Today, standing out takes a clear identity, and Chuck’s has one.
+    </p>
+    <p>
+      Its signature poutine stands out thanks to the house gravy, now a true calling card and a major reason
+      customers keep coming back.
+    </p>
+    <p>
+      The club sandwich is another menu pillar: hearty, balanced, well-toasted, and comforting.
+      It is a favorite among regulars.
+    </p>
+    <p>
+      Chuck’s also plays a real community role through Facebook contests, support for local small businesses,
+      and visibility in events such as GPW.
+    </p>
+    <p>
+      <a class="btn btn-primary" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">View our Facebook</a>
+      <a class="btn btn-outline" href="{{ '/en/blog/' | relative_url }}">Back to blog</a>
+    </p>
+  </div>
+</div>

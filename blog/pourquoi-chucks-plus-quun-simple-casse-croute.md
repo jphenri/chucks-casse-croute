@@ -8,38 +8,32 @@ fr_url: /blog/pourquoi-chucks-plus-quun-simple-casse-croute/
 en_url: /en/blog/pourquoi-chucks-plus-quun-simple-casse-croute/
 ---
 
-A Gatineau, les casse-croutes ne manquent pas.
-Mais Chuck’s a quelque chose de different.
+<div class="hero">
+  <span class="badge">Blog</span>
+  <h1>Pourquoi Chuck’s est plus qu’un simple casse-croûte</h1>
+  <p>Ce qui fait revenir les clients: saveur, constance et engagement local.</p>
+</div>
 
-## 1. Une sauce signature qui fidelise
-
-Beaucoup de clients reviennent principalement pour ca: la sauce maison.
-Une sauce qui a du caractere et qui transforme une poutine ordinaire en poutine memorable.
-
-## 2. Le club sandwich qui surprend
-
-Ceux qui l’essaient realisent vite qu’il merite sa reputation.
-
-Ce n’est pas un club mince et sec.
-C’est un sandwich genereux, bien monte, savoureux et reconfortant.
-
-## 3. Un commerce qui redonne
-
-Chuck’s organise regulierement des concours sur Facebook.
-Pas juste pour donner des rabais, mais pour faire gagner des certificats cadeaux d’autres PME locales.
-
-Le message est clair: reussir ensemble.
-
-## 4. Presence dans la GPW
-
-La GPW (Gatineau Pro Wrestling) fait partie de la culture locale.
-Chuck’s s’implique dans cet univers par sa presence et son soutien.
-
-C’est le genre d’engagement qui cree un lien reel avec les gens.
-
-## 5. Une vraie ambiance de quartier
-
-On reconnait les clients. On jase. On rit.
-Ce n’est pas une chaine impersonnelle: c’est un commerce local avec une presence humaine.
-
-[Retour au blog]({{ '/blog/' | relative_url }})
+<div class="container wrapper">
+  <div class="card">
+    <p>
+      À Gatineau, les casse-croûtes ne manquent pas. Mais Chuck’s a quelque chose de différent.
+    </p>
+    <p>
+      D’abord, sa sauce signature: une sauce maison avec du caractère qui transforme une poutine ordinaire
+      en poutine mémorable.
+    </p>
+    <p>
+      Ensuite, le club sandwich: généreux, bien monté, savoureux et réconfortant, comme un vrai classique
+      québécois.
+    </p>
+    <p>
+      Enfin, l’engagement local: concours Facebook pour faire gagner des certificats cadeaux de PME locales,
+      présence dans la GPW et ambiance de quartier où les clients se sentent chez eux.
+    </p>
+    <p>
+      <a class="btn btn-primary" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Voir notre Facebook</a>
+      <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Retour au blog</a>
+    </p>
+  </div>
+</div>
