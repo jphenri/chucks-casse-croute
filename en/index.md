@@ -34,6 +34,7 @@ permalink: /en/
 
       <div class="hero-actions">
         <a href="#menu" class="btn btn-primary">View the menu</a>
+        <a href="{{ '/en/faq/' | relative_url }}" class="btn btn-outline">View FAQ page</a>
         <a href="https://www.facebook.com/chuckscassecroute"
            class="btn btn-outline"
            target="_blank" rel="noopener">
