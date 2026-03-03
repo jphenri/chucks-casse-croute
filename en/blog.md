@@ -14,18 +14,10 @@ lang: en
 
 <div class="container wrapper">
   <div class="card">
-    <p><strong>Reopening on February 18, 2026.</strong></p>
-    <p>We officially reopen on February 18, 2026.</p>
+    <p><strong>Chuck’s: Quebec Tradition with a Community Spirit.</strong></p>
+    <p>A committed local snack bar that supports other local businesses and its community.</p>
     <p>
-      <a href="{{ '/en/blog/reouverture-18-fevrier/' | relative_url }}" class="btn btn-primary">Read the article</a>
-    </p>
-  </div>
-
-  <div class="card">
-    <p><strong>More Than Poutine: Chuck’s Signature in Gatineau.</strong></p>
-    <p>House gravy, club sandwich, and local involvement with small businesses and GPW.</p>
-    <p>
-      <a href="{{ '/en/blog/sauce-signature-club-sandwich-communaute/' | relative_url }}" class="btn btn-primary">Read the article</a>
+      <a href="{{ '/en/blog/tradition-quebecoise-esprit-communautaire/' | relative_url }}" class="btn btn-primary">Read the article</a>
     </p>
   </div>
 
@@ -38,10 +30,18 @@ lang: en
   </div>
 
   <div class="card">
-    <p><strong>Chuck’s: Quebec Tradition with a Community Spirit.</strong></p>
-    <p>A committed local snack bar that supports other local businesses and its community.</p>
+    <p><strong>More Than Poutine: Chuck’s Signature in Gatineau.</strong></p>
+    <p>House gravy, club sandwich, and local involvement with small businesses and GPW.</p>
     <p>
-      <a href="{{ '/en/blog/tradition-quebecoise-esprit-communautaire/' | relative_url }}" class="btn btn-primary">Read the article</a>
+      <a href="{{ '/en/blog/sauce-signature-club-sandwich-communaute/' | relative_url }}" class="btn btn-primary">Read the article</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <p><strong>Reopening on February 18, 2026.</strong></p>
+    <p>We officially reopen on February 18, 2026.</p>
+    <p>
+      <a href="{{ '/en/blog/reouverture-18-fevrier/' | relative_url }}" class="btn btn-primary">Read the article</a>
     </p>
   </div>
 </div>
