@@ -77,40 +77,6 @@ permalink: /
 
 <div class="container wrapper">
 
-<!-- BLOG -->
-<h2 id="blog">📰 Blog</h2>
-
-<div class="card">
-  <p><strong>Plus qu’une poutine : la signature Chuck’s à Gatineau.</strong></p>
-  <p>
-    Sauce maison, club sandwich et implication locale avec les PME et la GPW.
-  </p>
-  <p>
-    <a href="{{ '/blog/sauce-signature-club-sandwich-communaute/' | relative_url }}" class="btn btn-primary">Lire l'article</a>
-  </p>
-</div>
-
-<div class="card">
-  <p><strong>Pourquoi Chuck’s est plus qu’un simple casse-croûte.</strong></p>
-  <p>
-    Une sauce signature, un club sandwich solide et une vraie ambiance de quartier.
-  </p>
-  <p>
-    <a href="{{ '/blog/pourquoi-chucks-plus-quun-simple-casse-croute/' | relative_url }}" class="btn btn-primary">Lire l'article</a>
-  </p>
-</div>
-
-<div class="card">
-  <p><strong>Chuck’s : tradition québécoise et esprit communautaire.</strong></p>
-  <p>
-    Un casse-croûte engagé qui soutient les entreprises locales et sa communauté.
-  </p>
-  <p>
-    <a href="{{ '/blog/tradition-quebecoise-esprit-communautaire/' | relative_url }}" class="btn btn-primary">Lire l'article</a>
-    <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">Voir le blog</a>
-  </p>
-</div>
-
 <!-- MENU -->
 <h2 id="menu">🍟 Notre menu</h2>
 
@@ -301,6 +267,40 @@ permalink: /
   </div>
 
 </section>
+
+<!-- BLOG -->
+<h2 id="blog">📰 Blog</h2>
+
+<div class="card">
+  <p><strong>Plus qu’une poutine : la signature Chuck’s à Gatineau.</strong></p>
+  <p>
+    Sauce maison, club sandwich et implication locale avec les PME et la GPW.
+  </p>
+  <p>
+    <a href="{{ '/blog/sauce-signature-club-sandwich-communaute/' | relative_url }}" class="btn btn-primary">Lire l'article</a>
+  </p>
+</div>
+
+<div class="card">
+  <p><strong>Pourquoi Chuck’s est plus qu’un simple casse-croûte.</strong></p>
+  <p>
+    Une sauce signature, un club sandwich solide et une vraie ambiance de quartier.
+  </p>
+  <p>
+    <a href="{{ '/blog/pourquoi-chucks-plus-quun-simple-casse-croute/' | relative_url }}" class="btn btn-primary">Lire l'article</a>
+  </p>
+</div>
+
+<div class="card">
+  <p><strong>Chuck’s : tradition québécoise et esprit communautaire.</strong></p>
+  <p>
+    Un casse-croûte engagé qui soutient les entreprises locales et sa communauté.
+  </p>
+  <p>
+    <a href="{{ '/blog/tradition-quebecoise-esprit-communautaire/' | relative_url }}" class="btn btn-primary">Lire l'article</a>
+    <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">Voir le blog</a>
+  </p>
+</div>
 
 
 <!-- CONTACT -->
