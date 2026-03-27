@@ -39,6 +39,8 @@ permalink: /en/
            class="btn btn-outline"
            target="_blank" rel="noopener">
           Facebook
+        </a>
+        <a href="tel:+18195615353" class="btn btn-ghost">Call Chuck</a>
       </div>
     </div>
 
@@ -53,6 +55,9 @@ permalink: /en/
         <li>
           <span>Service</span>
           <strong>Dine-in and takeout</strong>
+        </li>
+        <li>
+          
         </li>
       </ul>
     </aside>
@@ -276,9 +281,11 @@ permalink: /en/
         </strong>
       </p>
 
+      
+
       <div class="contact-links">
         <a class="contact-pill" href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3" target="_blank" rel="noopener">Directions</a>
-
+        
         <a class="contact-pill" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Facebook</a>
       </div>
 
