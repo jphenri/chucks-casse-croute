@@ -55,6 +55,8 @@ permalink: /
           <span>Service</span>
           <strong>Sur place et pour emporter</strong>
         </li>
+        <li>
+        </li>
       </ul>
     </aside>
   </div>
@@ -320,11 +322,11 @@ permalink: /
         </strong>
       </p>
 
-      <p>📞 <strong><a href="tel:+18195615353">819-561-5353</a></strong></p>
+      
 
       <div class="contact-links">
         <a class="contact-pill" href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3" target="_blank" rel="noopener">Itinéraire</a>
-        
+
         <a class="contact-pill" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Facebook</a>
       </div>
 
@@ -355,7 +357,6 @@ permalink: /
   "image": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
   "@id": "{{ site.url }}{{ site.baseurl }}/",
   "url": "{{ site.url }}{{ site.baseurl }}/",
-  "telephone": "+1-819-561-5353",
   "priceRange": "$",
   "address": {
     "@type": "PostalAddress",
