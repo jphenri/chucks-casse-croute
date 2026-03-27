@@ -40,7 +40,6 @@ permalink: /
            target="_blank" rel="noopener">
           Facebook
         </a>
-        <a href="tel:+18195615353" class="btn btn-ghost">Appeler Chuck</a>
       </div>
     </div>
 
