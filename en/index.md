@@ -54,10 +54,6 @@ permalink: /en/
           <span>Service</span>
           <strong>Dine-in and takeout</strong>
         </li>
-        <li>
-          <span>Phone</span>
-          <strong>819-561-5353</strong>
-        </li>
       </ul>
     </aside>
   </div>
@@ -279,8 +275,6 @@ permalink: /en/
           </a>
         </strong>
       </p>
-
-      <p>📞 <strong><a href="tel:+18195615353">819-561-5353</a></strong></p>
 
       <div class="contact-links">
         <a class="contact-pill" href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3" target="_blank" rel="noopener">Directions</a>
