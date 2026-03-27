@@ -39,8 +39,6 @@ permalink: /en/
            class="btn btn-outline"
            target="_blank" rel="noopener">
           Facebook
-        </a>
-        <a href="tel:+18195615353" class="btn btn-ghost">Call Chuck</a>
       </div>
     </div>
 
