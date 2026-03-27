@@ -324,7 +324,7 @@ permalink: /
 
       <div class="contact-links">
         <a class="contact-pill" href="https://www.google.com/maps/search/?api=1&query=196+Chemin+de+la+Savane+Gatineau+QC+J8T+1R3" target="_blank" rel="noopener">Itinéraire</a>
-        <a class="contact-pill" href="tel:+18195615353">Appeler</a>
+        
         <a class="contact-pill" href="https://www.facebook.com/chuckscassecroute" target="_blank" rel="noopener">Facebook</a>
       </div>
 
