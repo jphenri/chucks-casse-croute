@@ -56,10 +56,6 @@ permalink: /
           <span>Service</span>
           <strong>Sur place et pour emporter</strong>
         </li>
-        <li>
-          <span>Téléphone</span>
-          <strong>819-561-5353</strong>
-        </li>
       </ul>
     </aside>
   </div>
